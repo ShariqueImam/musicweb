@@ -1,0 +1,136 @@
+.bg1 {
+  background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/assets/home/homebg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  height: 100vh;
+  width: 100vw;
+}
+.wedrobe1 {
+  background: url("/assets/swags/grey-short1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  border-radius: 14px;
+}
+.wedrobe2 {
+  background: url("/assets/swags/polof.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  border-radius: 14px;
+}
+.wedrobe3 {
+  background: url("/assets/swags/shirt-design2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  border-radius: 14px;
+}
+
+.bg2 {
+  background: url("/assets/music/featured.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  height: 30vh;
+  margin: 5rem;
+  width: 100vw;
+  transform: scale(0.5);
+}
+.moreMusic1 {
+  background: url("/assets/music/featured1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  border-radius: 30px;
+  height: 55vh;
+}
+.moreMusic2 {
+  background: url("/assets/music/featured2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  border-radius: 30px;
+  height: 55vh;
+}
+.moreMusic3 {
+  background: url("/assets/music/featured3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  border-radius: 30px;
+  height: 55vh;
+}
+.musicTitle {
+  background: url("/assets/music/title.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  height: 40vh;
+  margin: 6rem;
+  width: 100vw;
+  transform: scale(0.5);
+}
+
+.upcomingTitle {
+  background: url("/assets/music/upcoming.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  height: 40vh;
+  width: 100vw;
+  margin: 5rem;
+  transform: scale(0.5);
+}
+.upcomingBg1 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.85),
+      rgba(0, 0, 0, 0.85)
+    ),
+    url('/assets/music/featured1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  border-radius: 70px;
+  transform: scale(0.9);
+  width: 25vw;
+  height: 60vh;
+  &:hover {
+    scale: 0.9;
+  }
+  transition: all 0.3s;
+}
+.upcomingBg2 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.85),
+      rgba(0, 0, 0, 0.85)
+    ),
+    url('/assets/music/featured2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  border-radius: 70px;
+  transform: scale(0.9);
+  width: 25vw;
+  height: 60vh;
+  &:hover {
+    scale: 0.9;
+  }
+  transition: all 0.3s;
+}

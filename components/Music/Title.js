@@ -1,0 +1,26 @@
+import React from "react";
+const Title = () => {
+  return (
+    <div className="flex items-center justify-center flex-col w-[100%] md:w-[70%]">
+      {" "}
+      <div className="musicTitle flex items-center justify-center mt-24 md:mt-32">
+        <p className="text-6xl md:text-8xl text-white">My Music</p>
+      </div>
+      <div className="flex items-center flex-col md:flex-row">
+        <section>
+          <h2 className="text-7xl md:text-7xl text-white font-semibold w-[70%]">
+            LISTEN IT ON SOUND CLOUD{" "}
+          </h2>
+          <a href="https://soundcloud.com/tmjuelz">
+            <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-16">
+              Listen Now
+            </button>
+          </a>
+        </section>
+        <img src='/assets/music/homeimg.png' alt="" className="scale-[0.7]" />
+      </div>
+    </div>
+  );
+};
+
+export default Title;

@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(./background.css);
+@font-face {
+  font-family: "Clash Display";
+  src: local("Clash Display"),
+    url("../fonts//ClashDisplay-Medium.ttf") format("truetype");
+}
+body{
+  width: 100vw;
+  overflow-x: hidden;
+}
+:root {
+  --swiper-pagination-color: #4259ec;
+  --swiper-pagination-bullet-size: 12px;
+  --swiper-pagination-bullet-width: 15px;
+  --swiper-pagination-bullet-height: 15px;
+  --swiper-pagination-bullet-inactive-color: #f33c9a;
+  --swiper-pagination-bullet-inactive-opacity: 0.2;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+  --swiper-pagination-bullet-vertical-gap: 6px;
+}
+
+.border-move-animation::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #ea2587;
+  transition: width 0.3s;
+}
+
+.border-move-animation:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+.contactNow {
+  border-radius: 0.38006rem;
+  border-image-slice: 1;
+  background: linear-gradient(
+    145deg,
+    rgba(242, 137, 189, 0.11) 0%,
+    rgba(173, 183, 234, 0.11) 100%
+  );
+  backdrop-filter: blur(2.0077219009399414px);
+}
+.contactNow:hover {
+  background: linear-gradient(99deg, #f33c9a 0%, #4259ec 100%);
+  border: 2px solid none;
+}
+.border-gradient-purple {
+  /* border-radius: 0.38006rem;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
+  border-color: #d53a9d;
+}
+.homeTextColor {
+  background: linear-gradient(
+    166deg,
+    #d9448e 0%,
+    #b138dc 25.35%,
+    rgba(195, 41, 234, 0.97) 51%,
+    rgba(75, 96, 234, 0.93) 74.93%,
+    #2e3a76 94.91%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Studio Feixen Sans;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 102%;
+  text-transform: capitalize;
+}
+.homeTextWhite {
+  background: white;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Studio Feixen Sans;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 102%;
+  text-transform: capitalize;
+}
+.exploreBtn {
+  border-radius: 0.9375rem;
+  background: linear-gradient(99deg, #f33c9a 0%, #4259ec 100%);
+}
+.imgHoverText {
+  border-radius: 0.9375rem;
+  background: linear-gradient(99deg, #f33c9a 0%, #4259ec 100%);
+}
+.exploreBtn:hover {
+  background: transparent;
+  border: 1px solid #d53a9d;
+}
+.horo {
+  background: linear-gradient(99deg, #f33c9a 0%, #4259ec 100%);
+}
+
+.shopNow {
+  border-radius: 0.625rem;
+  background: linear-gradient(167deg, #de5197 0%, #4b269a 100%);
+}
+
+.newsletter {
+  border-radius: 1.25rem 8.0625rem 1.25rem 1.25rem;
+  background: rgba(255, 255, 255, 0.05);
+  opacity: 1;
+}
+.newsletterButton {
+  border-radius: 0.625rem;
+  background: linear-gradient(167deg, #de5197 0%, #4b269a 100%);
+}
+.underlineColor {
+  background: linear-gradient(90deg, #de5197 0%, #667ffc 100%);
+}
+.borderColor {
+  /* border-image: 2px solid linear-gradient(90deg, #de5197 0%, #667ffc 100%); */
+  border-image: linear-gradient(45deg, #de5197, #667ffc) 1;
+  border-radius: 50px;
+}
+.swagsItem {
+  background: rgba(50, 1, 25, 0.75);
+  backdrop-filter: blur(0.5px);
+}
+.crop {
+  clip-path: polygon(1% 0, 99% 30%, 100% 74%, 0% 100%);
+}
+.crop1 {
+  clip-path: polygon(0 31%, 100% 0, 100% 100%, 0 74%);
+}
+
+.live {
+  border-radius: 1.25rem;
+  border: 1px solid #fb2b92;
+  background: rgba(217, 217, 217, 0.1);
+}
+.bg1 {
+  background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/assets/home/homebg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  height: 100vh;
+  width: 100vw;
+}
