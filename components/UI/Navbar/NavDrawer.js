@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
 import Link from "next/link";
+import client from "../../../pages/api/client";
 import useWindowSize from "../../../hooks/useWindowSize";
 const NavDrawer = (props) => {
   const { width } = useWindowSize();
@@ -21,9 +22,20 @@ const NavDrawer = (props) => {
   };
   const style = {
     list: "list-none cursor-pointer  text-neutral-400 my-3  mx-auto md:mx-4 hover:opacity-[0.8] text-sm font-normal",
-    list1: "flex list-none cursor-pointer  text-neutral-400 my-3  mx-auto md:mx-4 hover:opacity-[0.8] text-sm font-normal",
+    list1:
+      "flex list-none cursor-pointer  text-neutral-400 my-3  mx-auto md:mx-4 hover:opacity-[0.8] text-sm font-normal",
     input: "bg-transparent mx-4",
   };
+  const [Live, setLive] = useState(Boolean);
+  useEffect(() => {
+    const getProduct = async () => {
+      const youtubeLink = await client.fetch(`*[_type=='youtube']`);
+      if (youtubeLink && youtubeLink.length > 0) {
+        setLive(youtubeLink[0].live);
+      }
+    };
+    getProduct();
+  }, []);
   const list = (anchor) => (
     <Box
       sx={{
@@ -47,14 +59,14 @@ const NavDrawer = (props) => {
     >
       <List>
         <div className="h-[40vh] font flex flex-col my-8  bg-[#0b0b0b] items-center">
-          <img src='/assets/home/logo.png' />
+          <img src="/assets/home/logo.png" />
 
           {/* adding the navs */}
           <ul className="flex  flex-col  bg-[#0b0b0b] mt-12">
-            <Link to={"/"}>
+            <Link href={"/"}>
               <li className={style.list}>Home</li>
             </Link>
-            <Link to={"/music"}>
+            <Link href={"/music"}>
               <li
                 className={style.list}
                 onClick={() => props.onScroll("services")}
@@ -62,7 +74,7 @@ const NavDrawer = (props) => {
                 Music
               </li>
             </Link>
-            <Link to={"/swags"}>
+            <Link href={"/swags"}>
               <li
                 className={style.list}
                 onClick={() => props.onScroll("about")}
@@ -70,7 +82,7 @@ const NavDrawer = (props) => {
                 Swags
               </li>
             </Link>
-            <Link to={"/horoscope"}>
+            <Link href={"/horoscope"}>
               <li
                 className={style.list}
                 onClick={() => props.onScroll("email")}
@@ -78,13 +90,17 @@ const NavDrawer = (props) => {
                 Horoscope
               </li>
             </Link>
-            <Link to={"/live"}>
+            <Link href={"/live"}>
               <li
                 className={style.list1}
                 onClick={() => props.onScroll("email")}
               >
                 Live
-                <p className="w-2 h-2 bg-red-600 rounded-full"></p>
+                <p
+                  className={`w-2 h-2 ${
+                    Live ? "bg-red-700" : "bg-red-400"
+                  } rounded-full`}
+                ></p>
               </li>
             </Link>
           </ul>
@@ -107,7 +123,7 @@ const NavDrawer = (props) => {
       {["right"].map((anchor) => (
         <React.Fragment key={anchor}>
           <button className=" bg-[#0b0b0b] px-2 py-4 flex items-center justify-between w-[100vw] border-b-[1px]">
-            <img src='/assets/home/logo.png' />
+            <img src="/assets/home/logo.png" />
 
             <section className="flex">
               <div className="" onClick={toggleDrawer(anchor, true)}>

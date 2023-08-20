@@ -253,7 +253,7 @@ const SwagDetails = ({ match }) => {
       <Slide
         direction="up"
         triggerOnce
-        className="flex items-center justify-center "
+        className="flex items-center justify-center mt-24"
       >
         <div className="flex flex-col md:flex-row">
           {/* <img src={blue} alt="" className="absolute z-0 ml-[20rem] mt-[-40rem]" /> */}
@@ -269,7 +269,7 @@ const SwagDetails = ({ match }) => {
             className="rounded-2xl w-64 mx-auto md:w-[24rem]"
           />
           <section className="text-white mx-12 md:mx-24 flex flex-col items-center md:items-start">
-            <h2 className="text-5xl md:text-4xl font-thin my-3">{item.name}</h2>
+            <h2 className="text-4xl md:text-4xl font-thin my-7 md:my-3 text-center md:text-left">{item.name}</h2>
             <h2 className="font-thin my-4">{item.description}</h2>
             <h2 className="font-semibold text-5xl md:text-6xl my-4">
               $ {item.price}

@@ -12,7 +12,7 @@ const MainPage = () => {
       <div className="horoscopeMainImg flex items-center justify-center flex-col py-24">
         {" "}
         <div className="horoscopeBg flex items-center justify-center mt-24 md:mt-32">
-          <p className="text-6xl md:text-8xl text-white">Horoscope</p>
+          <p className="text-4xl md:text-8xl text-white">Horoscope</p>
         </div>
         <img
           src="/assets/pink.png"
@@ -28,9 +28,9 @@ const MainPage = () => {
           <p className="text-4xl md:text-5xl text-white my-4 text-center md:text-center">
             To Know About Your Daily Horoscope
           </p>
-          <p className="underlineColor w-[15vw] h-[0.3vh]"></p>
+          <p className="underlineColor w-[45vw] md:w-[15vw] h-[0.3vh]"></p>
         </div>
-        <div className="flex flex-wrap w-[95%] md:w-[80%] mx-auto items-center justify-center">
+        <div className="flex flex-wrap w-[90%] md:w-[80%] mx-auto items-center justify-around">
           <a
             href="https://www.elle.com/horoscopes/daily/a107/aquarius-daily-horoscope/"
             className="rounded-full"
@@ -40,7 +40,7 @@ const MainPage = () => {
               onMouseLeave={() => setSign("0")}
               className={`${
                 Sign == "1" && "horo  rounded-full"
-              } bg-gray-500 bg-opacity-[0.3] p-12 rounded-full  mx-8 md:mx-12 my-8 `}
+              } bg-gray-500 bg-opacity-[0.3] p-6 md:p-12 rounded-full mx-4 md:mx-8 md:mx-12 my-8 `}
             >
               <img
                 src="/assets/horoscope/aquarius-svgrepo-com.svg"
@@ -56,7 +56,7 @@ const MainPage = () => {
               onMouseLeave={() => setSign("0")}
               className={`${
                 Sign == "2" && "horo  rounded-full"
-              } bg-gray-500 bg-opacity-[0.3] p-12 rounded-full  mx-8 md:mx-12 my-8 `}
+              } bg-gray-500 bg-opacity-[0.3] p-6 md:p-12 rounded-full mx-4 md:mx-8 md:mx-12 my-8 `}
             >
               <img
                 src="/assets/horoscope/aries-svgrepo-com.svg"
@@ -72,7 +72,7 @@ const MainPage = () => {
               onMouseLeave={() => setSign("0")}
               className={`${
                 Sign == "3" && "horo  rounded-full"
-              } bg-gray-500 bg-opacity-[0.3] p-12 rounded-full  mx-8 md:mx-12 my-8 `}
+              } bg-gray-500 bg-opacity-[0.3] p-6 md:p-12 rounded-full mx-4 md:mx-8 md:mx-12 my-8 `}
             >
               <img
                 src="/assets/horoscope/cancer-svgrepo-com.svg"
@@ -88,7 +88,7 @@ const MainPage = () => {
               onMouseLeave={() => setSign("0")}
               className={`${
                 Sign == "4" && "horo  rounded-full"
-              } bg-gray-500 bg-opacity-[0.3] p-12 rounded-full  mx-8 md:mx-12 my-8 `}
+              } bg-gray-500 bg-opacity-[0.3] p-6 md:p-12 rounded-full mx-4 md:mx-8 md:mx-12 my-8 `}
             >
               <img
                 src="/assets/horoscope/capricorn-svgrepo-com.svg"
@@ -104,7 +104,7 @@ const MainPage = () => {
               onMouseLeave={() => setSign("0")}
               className={`${
                 Sign == "5" && "horo  rounded-full"
-              } bg-gray-500 bg-opacity-[0.3] p-12 rounded-full  mx-8 md:mx-12 my-8 `}
+              } bg-gray-500 bg-opacity-[0.3] p-6 md:p-12 rounded-full mx-4 md:mx-8 md:mx-12 my-8 `}
             >
               <img
                 src="/assets/horoscope/horoscope-gemini-svgrepo-com.svg"
@@ -120,7 +120,7 @@ const MainPage = () => {
               onMouseLeave={() => setSign("0")}
               className={`${
                 Sign == "6" && "horo  rounded-full"
-              } bg-gray-500 bg-opacity-[0.3] p-12 rounded-full  mx-8 md:mx-12 my-8 `}
+              } bg-gray-500 bg-opacity-[0.3] p-6 md:p-12 rounded-full mx-4 md:mx-8 md:mx-12 my-8 `}
             >
               <img
                 src="/assets/horoscope/leo-svgrepo-com.svg"
@@ -136,7 +136,7 @@ const MainPage = () => {
               onMouseLeave={() => setSign("0")}
               className={`${
                 Sign == "7" && "horo  rounded-full"
-              } bg-gray-500 bg-opacity-[0.3] p-12 rounded-full  mx-8 md:mx-12 my-8 `}
+              } bg-gray-500 bg-opacity-[0.3] p-6 md:p-12 rounded-full mx-4 md:mx-8 md:mx-12 my-8 `}
             >
               <img
                 src="/assets/horoscope/libra-svgrepo-com.svg"
@@ -152,7 +152,7 @@ const MainPage = () => {
               onMouseLeave={() => setSign("0")}
               className={`${
                 Sign == "8" && "horo  rounded-full"
-              } bg-gray-500 bg-opacity-[0.3] p-12 rounded-full  mx-8 md:mx-12 my-8 `}
+              } bg-gray-500 bg-opacity-[0.3] p-6 md:p-12 rounded-full mx-4 md:mx-8 md:mx-12 my-8 `}
             >
               <img
                 src="/assets/horoscope/pisces-svgrepo-com.svg"
@@ -166,7 +166,7 @@ const MainPage = () => {
             <div
               className={`${
                 Sign == "9" && "horo  rounded-full"
-              } bg-gray-500 bg-opacity-[0.3] p-12 rounded-full  mx-8 md:mx-12 my-8 `}
+              } bg-gray-500 bg-opacity-[0.3] p-6 md:p-12 rounded-full mx-4 md:mx-8 md:mx-12 my-8 `}
               onMouseEnter={() => setSign("9")}
               onMouseLeave={() => setSign("0")}
             >
@@ -182,7 +182,7 @@ const MainPage = () => {
             <div
               className={`${
                 Sign == "10" && "horo  rounded-full"
-              } bg-gray-500 bg-opacity-[0.3]  p-12 rounded-full mx-8 md:mx-12 my-8 `}
+              } bg-gray-500 bg-opacity-[0.3]  p-6 md:p-12 rounded-full mx-4 md:mx-8 md:mx-12 my-8 `}
               onMouseEnter={() => setSign("10")}
               onMouseLeave={() => setSign("0")}
             >
@@ -198,7 +198,7 @@ const MainPage = () => {
             <div
               className={`${
                 Sign == "11" && "horo  rounded-full"
-              } bg-gray-500 bg-opacity-[0.3]  p-12 rounded-full mx-8 md:mx-12 my-8 `}
+              } bg-gray-500 bg-opacity-[0.3]  p-6 md:p-12 rounded-full mx-4 md:mx-8 md:mx-12 my-8 `}
               onMouseEnter={() => setSign("11")}
               onMouseLeave={() => setSign("0")}
             >
@@ -214,7 +214,7 @@ const MainPage = () => {
             <div
               className={`${
                 Sign == "12" && "horo  rounded-full"
-              } bg-gray-500 bg-opacity-[0.3]  p-12 rounded-full mx-8 md:mx-12 my-8 `}
+              } bg-gray-500 bg-opacity-[0.3]  p-6 md:p-12 rounded-full mx-4 md:mx-8 md:mx-12 my-8 `}
               onMouseEnter={() => setSign("12")}
               onMouseLeave={() => setSign("0")}
             >

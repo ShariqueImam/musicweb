@@ -11,6 +11,7 @@
 body{
   width: 100vw;
   overflow-x: hidden;
+  font-family: 'Clash Display', sans-serif;
 }
 :root {
   --swiper-pagination-color: #4259ec;

@@ -23,7 +23,6 @@ const Live = () => {
 console.log(Link)
   return (
     <Animator>
-      <div></div>
       <div className="flex flex-col items-center bg-[#0b0b0b] z-10">
         <Navbar onScroll={onScroll} />
         <img
@@ -36,15 +35,15 @@ console.log(Link)
           alt=""
           className="absolute z-0 ml-[70rem] mt-[-40rem]"
         />{" "}
-        <div className="liveHeading flex items-center justify-center mt-24 md:mt-32">
-          <p className="text-6xl md:text-8xl text-white">Live Lobby</p>
+        <div className="liveHeading flex items-center justify-center mt-44 md:mt-32">
+          <p className="text-4xl md:text-8xl text-white">Live Lobby</p>
         </div>
         <Slide
           direction="up"
           triggerOnce
           className="flex items-center justify-center "
         >
-          <div className="live w-[80vw] h-[80vh] flex items-center justify-center text-white text-5xl md:text-6xl">
+          <div className="live w-[95vw] md:w-[80vw] h-[60vh] md:h-[80vh] flex items-center justify-center text-white text-5xl md:text-6xl">
             {Live ? (
               <iframe
                 id="stream"
@@ -56,7 +55,7 @@ console.log(Link)
                 className="rounded-xl live"
               ></iframe>
             ) : (
-              <p className="text-center">Will be Live Soon....</p>
+              <p className="text-center text-3xl md:text-7xl">Will be Live Soon....</p>
             )}
           </div>
         </Slide>

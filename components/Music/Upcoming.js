@@ -7,15 +7,15 @@ const Upcoming = () => {
   return (
     <div>
       <div className="upcomingTitle flex items-center justify-center">
-        <p className="text-6xl md:text-8xl text-white">Upcoming Music</p>
+        <p className="text-4xl md:text-8xl text-white">Upcoming Music</p>
       </div>{" "}
-      <div className="flex items-center justify-center ">
+      <div className="flex items-center justify-center flex items-center justify-center flex-col md:flex-row">
         <div
           onMouseEnter={() => setUp1(true)}
           onMouseLeave={() => setUp1(false)}
-          className="upcomingBg1  flex items-center justify-center flex flex-col hover:scale-[0.9]"
+          className="upcomingBg1  flex items-center justify-center flex flex-col hover:scale-[0.9] w-[80vw] md:w-[25vw]"
         >
-          <p className=" borderColor border-2 w-[15vw] h-[50vh] rounded-full "></p>
+          <p className=" borderColor border-2 w-[60vw] md:w-[15vw] h-[50vh] rounded-full "></p>
           <img src='/assets/music/lock.png' alt="" className="scale-[8] w-2" />
           {Up1 && (
             <p className="text-white fixed text-xl bg-gray-300 rounded-xl p-2 imgHoverText">
@@ -26,10 +26,10 @@ const Upcoming = () => {
         <div 
           onMouseEnter={() => setUp2(true)}
           onMouseLeave={() => setUp2(false)}
-          className="upcomingBg2  flex items-center justify-center flex flex-col hover:scale-[0.9]"
+          className="upcomingBg2  flex items-center justify-center flex flex-col hover:scale-[0.9] w-[80vw] md:w-[25vw]"
         >
           {" "}
-          <p className=" borderColor border-2 w-[15vw] h-[50vh] rounded-full "></p>{" "}
+          <p className=" borderColor border-2 w-[60vw] md:w-[15vw] h-[50vh] rounded-full "></p>{" "}
           {Up2 && (
             <p className="text-white fixed text-xl bg-gray-300 rounded-xl p-2 imgHoverText">
               Available Soon

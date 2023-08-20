@@ -51,7 +51,6 @@
   background-position: center;
   background-attachment: auto;
   border-radius: 30px;
-  height: 55vh;
 }
 .moreMusic2 {
   background: url("/assets/music/featured2.png");
@@ -60,7 +59,6 @@
   background-position: center;
   background-attachment: auto;
   border-radius: 30px;
-  height: 55vh;
 }
 .moreMusic3 {
   background: url("/assets/music/featured3.png");
@@ -69,7 +67,6 @@
   background-position: center;
   background-attachment: auto;
   border-radius: 30px;
-  height: 55vh;
 }
 .musicTitle {
   background: url("/assets/music/title.png");
@@ -107,7 +104,7 @@
   background-attachment: auto;
   border-radius: 70px;
   transform: scale(0.9);
-  width: 25vw;
+
   height: 60vh;
   &:hover {
     scale: 0.9;
@@ -127,7 +124,7 @@
   background-attachment: auto;
   border-radius: 70px;
   transform: scale(0.9);
-  width: 25vw;
+
   height: 60vh;
   &:hover {
     scale: 0.9;
@@ -165,12 +162,46 @@
   width: 100vw;
 }
 .liveHeading {
-  background: url('/assets/liveheading.png');
+  background: url("/assets/liveheading.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: auto;
   height: 30vh;
   width: 100vw;
+  margin: 6rem;
   transform: scale(0.5);
+}
+@media (width<500px) {
+  .musicTitle {
+    height: 10vh;
+    width: 100vw;
+    transform: scale(0.8);
+  }
+
+  .bg2 {
+    height: 8vh;
+    width: 100vw;
+    transform: scale(0.9);
+  }
+  .upcomingTitle {
+    height: 8vh;
+    width: 100vw;
+    transform: scale(0.9);
+  }
+  .swagsHeading {
+    height: 8vh;
+    width: 100vw;
+    transform: scale(0.9);
+  }
+  .horoscopeBg {
+    height: 9vh;
+    width: 100vw;
+    transform: scale(0.9);
+  }
+  .liveHeading {
+    height: 9vh;
+    width: 100vw;
+    transform: scale(0.9);
+  }
 }

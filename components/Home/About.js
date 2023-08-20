@@ -35,7 +35,7 @@ const About = () => {
           <section className="md:w-[50%] flex flex-col items-center md:items-start">
             <p className="homeTextColor text-5xl md:text-6xl text-center md:text-auto">TM Juelz</p>
             <p className="text-white my-4 text-2xl  text-center md:text-auto">Rapper, musician</p>
-            <p className="text-white my-4 w-[95%] md:w-[70%]  text-center md:text-auto text-sm">
+            <p className="text-white my-4 w-[95%] md:w-[70%]  text-center md:text-left text-sm">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of

@@ -3,7 +3,6 @@ import { Slide } from "react-awesome-reveal";
 import { BsArrowUpRight } from "react-icons/bs";
 const FeaturedMusic = () => {
 
-
   return (
     <div>
       {" "}
@@ -13,7 +12,7 @@ const FeaturedMusic = () => {
         triggerOnce={false}
       >
         <div className="bg2 flex items-center justify-center mt-12 md:mt-12 z-10">
-          <p className="text-6xl md:text-8xl text-white">Featured Music</p>
+          <p className="text-5xl md:text-8xl text-white text-center ">Featured Music</p>
         </div>
       </Slide>
       <Slide
@@ -22,7 +21,7 @@ const FeaturedMusic = () => {
         triggerOnce={true}
       >
         <div className="flex items-center justify-around flex-col md:flex-row  w-[100%] md:w-[70%] mx-auto">
-          <img src='/assets/music/featured1.png' alt="" className="scale-[0.8]" />
+          <img src='/assets/music/featured1.png' alt="" className="scale-[0.6] md:scale-[0.8]" />
           <div className="flex flex-col items-start ">
             <img
               src='/assets/circle.png'
@@ -62,7 +61,7 @@ const FeaturedMusic = () => {
       </Slide>
       <Slide
         direction="left"
-        className="flex items-center justify-center "
+        className="flex items-center justify-center my-32 md:my-0"
         triggerOnce={true}
       >
         <div className="flex items-center justify-around flex-col md:flex-row  w-[100%] md:w-[70%] mx-auto">
@@ -95,7 +94,7 @@ const FeaturedMusic = () => {
               </a>
             </div>
           </div>
-          <img src='/assets/music/featured2.png' alt="" className="scale-[0.8]" />
+          <img src='/assets/music/featured2.png' alt="" className="scale-[0.6] md:scale-[0.8]" />
         </div>
       </Slide>
       <Slide
@@ -104,7 +103,7 @@ const FeaturedMusic = () => {
         triggerOnce={true}
       >
         <div className="flex items-center justify-around flex-col md:flex-row w-[100%] md:w-[70%] mx-auto">
-          <img src='/assets/music/featured3.png' alt="" className="scale-[0.8]" />
+          <img src='/assets/music/featured3.png' alt="" className="scale-[0.6]  md:scale-[0.8]" />
           <div className="flex flex-col items-start ">
             <section>
               <h2 className="homeTextColor m-1 text-5xl md:text-7xl font-bold">
