@@ -195,17 +195,17 @@ const Swags = () => {
         <img
           src="/assets/pink.png"
           alt=""
-          className="absolute z-0 ml-[-70rem]"
+          className="absolute z-0 md:ml-[-70rem]"
         />
         <img
           src="/assets/pink.png"
           alt=""
-          className="absolute z-0 ml-[-70rem] mt-[180rem]"
+          className="absolute z-0 md:ml-[-70rem] mt-[180rem]"
         />
         <img
           src="/assets/blue.png"
           alt=""
-          className="absolute z-0 ml-[50rem] mt-[60rem]"
+          className="absolute z-0 md:ml-[50rem] mt-[60rem]"
         />{" "}
         <Navbar onScroll={onScroll} />
         <Slide

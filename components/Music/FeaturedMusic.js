@@ -64,7 +64,7 @@ const FeaturedMusic = () => {
         className="flex items-center justify-center my-32 md:my-0"
         triggerOnce={true}
       >
-        <div className="flex items-center justify-around flex-col md:flex-row  w-[100%] md:w-[70%] mx-auto">
+        <div className="flex items-center justify-around flex-col md:flex-row flex-col-reverse  w-[100%] md:w-[70%] mx-auto">
           <div className="flex flex-col items-end ">
             <section>
               <h2 className="homeTextColor m-1 text-5xl md:text-7xl font-bold">

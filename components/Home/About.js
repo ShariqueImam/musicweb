@@ -55,7 +55,7 @@ const About = () => {
             </Link>
           </section>
           <section className="w-[70%] md:w-[40%] my-8 md:my-2">
-            <img src='/assets/home/about.png' alt="" />
+            <img src='/assets/home/logo.png' alt="" className="mx-auto scale-[1.3]"/>
           </section>
         </div>
       </Slide>

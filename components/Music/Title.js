@@ -6,7 +6,7 @@ const Title = () => {
       <div className="musicTitle flex items-center justify-center mt-44 md:mt-32">
         <p className="text-5xl md:text-8xl text-white">My Music</p>
       </div>
-      <div className="flex items-center flex-col md:flex-row ">
+      <div className="flex items-center flex-col md:flex-row flex-col-reverse">
         <section className="flex items-center flex-col md:items-start">
           <h2 className="text-5xl md:text-7xl text-white font-semibold w-[70%] text-center md:text-left mx-auto md:mx-0">
             LISTEN IT ON SOUND CLOUD{" "}
