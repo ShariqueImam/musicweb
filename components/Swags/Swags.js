@@ -5,10 +5,7 @@ import Footer from "../UI/Footer/Footer";
 import { Slide } from "react-awesome-reveal";
 import SwagsList from "./SwagsList";
 import Animator from "../UI/Animator";
-import swagImg1 from "../../assets/swags/swags.png";
-import pink from "../../assets/pink.png";
-import blue from "../../assets/blue.png";
-import circle from "../../assets/circle.png";
+
 const Swags = () => {
   const onScroll = () => {};
   const swagData = [
@@ -189,17 +186,27 @@ const Swags = () => {
       info: "This is the great product and we like it.",
     },
   ];
-  window.scrollTo(0, 0);
+  if (typeof window !== "undefined") {
+    window.scrollTo(0, 0);
+  }
   return (
     <Animator>
       <div className="bg-[#0b0b0b] flex flex-col items-center z-10">
-        <img src={pink} alt="" className="absolute z-0 ml-[-70rem]" />
         <img
-          src={pink}
+          src="/assets/pink.png"
+          alt=""
+          className="absolute z-0 ml-[-70rem]"
+        />
+        <img
+          src="/assets/pink.png"
           alt=""
           className="absolute z-0 ml-[-70rem] mt-[180rem]"
         />
-        <img src={blue} alt="" className="absolute z-0 ml-[50rem] mt-[60rem]" />{" "}
+        <img
+          src="/assets/blue.png"
+          alt=""
+          className="absolute z-0 ml-[50rem] mt-[60rem]"
+        />{" "}
         <Navbar onScroll={onScroll} />
         <Slide
           direction="up"

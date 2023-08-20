@@ -1,28 +1,15 @@
 import React, { useEffect, useState } from "react";
-import client from "../../client";
+import client from "../../pages/api/client";
 import Footer from "../UI/Footer/Footer";
 import Navbar from "../UI/Navbar/Navbar";
-import styled from "styled-components";
 import Animator from "../UI/Animator";
 import { Slide } from "react-awesome-reveal";
-import liveImg from "../../assets/liveheading.png";
-import pink from "../../assets/pink.png";
-import blue from "../../assets/blue.png";
+
 const Live = () => {
   const onScroll = () => {};
   const [Link, setLink] = useState("");
   const [Live, setLive] = useState("");
-  const AboutHeading = styled.div`
-    background: url(${liveImg});
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: auto;
-    height: 30vh;
-    // margin: 6rem;
-    width: 100vw;
-    transform: scale(0.5);
-  `;
+
   useEffect(() => {
     const getProduct = async () => {
       const youtubeLink = await client.fetch(`*[_type=='youtube']`);
@@ -33,25 +20,25 @@ const Live = () => {
     };
     getProduct();
   }, []);
-
+console.log(Link)
   return (
     <Animator>
       <div></div>
       <div className="flex flex-col items-center bg-[#0b0b0b] z-10">
         <Navbar onScroll={onScroll} />
         <img
-          src={pink}
+          src="/assets/pink.png"
           alt=""
           className="absolute z-0 ml-[-70rem] mt-[-40rem]"
         />
         <img
-          src={blue}
+          src="/assets/blue.png"
           alt=""
           className="absolute z-0 ml-[70rem] mt-[-40rem]"
         />{" "}
-        <AboutHeading className="flex items-center justify-center mt-24 md:mt-32">
+        <div className="liveHeading flex items-center justify-center mt-24 md:mt-32">
           <p className="text-6xl md:text-8xl text-white">Live Lobby</p>
-        </AboutHeading>
+        </div>
         <Slide
           direction="up"
           triggerOnce

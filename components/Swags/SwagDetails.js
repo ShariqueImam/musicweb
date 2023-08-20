@@ -2,17 +2,12 @@ import React, { useState } from "react";
 import Navbar from "../../components/UI/Navbar/Navbar";
 import Footer from "../UI/Footer/Footer";
 import { Slide } from "react-awesome-reveal";
-import Newsletter from "../UI/Newsletter/Newsletter";
-// import '/assets/swags/swags.png' from "../../assets/swags/swags.png";
+import { useRouter } from "next/router";
 import axios from "axios";
 import ReactStars from "react-stars";
-import pink from "../../assets/pink.png";
-import { useParams } from "react-router-dom";
 import { loadStripe } from "@stripe/stripe-js";
-
 import Title from "./Title";
 const SwagDetails = ({ match }) => {
-  const params = useParams();
   const [Size, setSize] = useState("S");
   const onScroll = () => {};
 
@@ -203,7 +198,6 @@ const SwagDetails = ({ match }) => {
     quantity: 1,
     price: 100,
   });
-  const product = swagData.find((item) => item.id === parseInt(params.id));
   const checkoutStripe = () => {
     const publishableKey = process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY;
     const stripePromise = loadStripe(`${publishableKey}`);
@@ -221,6 +215,12 @@ const SwagDetails = ({ match }) => {
     };
     createCheckOutSession();
   };
+  const router = useRouter();
+  const { id: params } = router.query;
+  let product = swagData[0];
+  if (params) {
+    product = swagData.find((item) => item.id === parseInt(params));
+  }
   return (
     <div className="bg-[#0b0b0b] flex flex-col items-center">
       <Navbar onScroll={onScroll} />
@@ -233,9 +233,9 @@ const SwagDetails = ({ match }) => {
         <div className="flex flex-col md:flex-row">
           {/* <img src={blue} alt="" className="absolute z-0 ml-[20rem] mt-[-40rem]" /> */}
           <img
-            src={pink}
+            src="/assets/pink.png"
             alt=""
-            className="absolute z-0 ml-[-30rem] mt-[-60rem]"
+            className="absolute z-0 ml-[-50rem] mt-[-60rem]"
           />
 
           <img
@@ -295,7 +295,6 @@ const SwagDetails = ({ match }) => {
           </section>
         </div>
       </Slide>
-      <Newsletter />
       <Footer />
     </div>
   );

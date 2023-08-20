@@ -100,7 +100,7 @@
       rgba(0, 0, 0, 0.85),
       rgba(0, 0, 0, 0.85)
     ),
-    url('/assets/music/featured1.png');
+    url("/assets/music/featured1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -120,7 +120,7 @@
       rgba(0, 0, 0, 0.85),
       rgba(0, 0, 0, 0.85)
     ),
-    url('/assets/music/featured2.png');
+    url("/assets/music/featured2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -133,4 +133,44 @@
     scale: 0.9;
   }
   transition: all 0.3s;
+}
+
+.swagsHeading {
+  background: url("/assets/swags/heading.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  height: 40vh;
+  width: 70vw;
+  transform: scale(0.5);
+}
+.horoscopeBg {
+  background: url("/assets/horoscope/horoscope.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  height: 30vh;
+  width: 100vw;
+  transform: scale(0.5);
+  margin: 5rem;
+}
+.horoscopeMainImg {
+  background: url("/assets/horoscope/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  width: 100vw;
+}
+.liveHeading {
+  background: url('/assets/liveheading.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  height: 30vh;
+  width: 100vw;
+  transform: scale(0.5);
 }
