@@ -14,7 +14,7 @@ const Title = () => {
           triggerOnce
           className="flex items-center justify-center"
         >
-          <div className="flex-wrap w-[80%] md:w-[60%] flex items-center justify-center">
+          <div className="flex-wrap w-[80%] md:w-[60%] flex items-center justify-center my-5">
             <p
               className={style.white}
               style={{ fontFamily: "Clash Display, sans-serif" }}
@@ -54,7 +54,7 @@ const Title = () => {
           </div>
           <Link href="/music">
             <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-12">
-              Explore No
+              Explore Now
             </button>
           </Link>
         </Slide>
