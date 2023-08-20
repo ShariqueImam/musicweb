@@ -54,7 +54,7 @@ const Title = () => {
           </div>
           <Link href="/music">
             <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-12">
-              Explore Now
+              Explore No
             </button>
           </Link>
         </Slide>
