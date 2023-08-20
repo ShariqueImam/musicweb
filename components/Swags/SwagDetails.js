@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "../../components/UI/Navbar/Navbar";
 import Footer from "../UI/Footer/Footer";
 import { Slide } from "react-awesome-reveal";
@@ -17,179 +17,204 @@ const SwagDetails = ({ match }) => {
       id: 1,
       img: "/assets/swags/bag.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 2,
       img: "/assets/swags/bag2.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 3,
       img: "/assets/swags/bag3.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 4,
       img: "/assets/swags/bag4.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 5,
       img: "/assets/swags/black-shorts-1.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 6,
       img: "/assets/swags/black-shorts-2.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 7,
       img: "/assets/swags/black-shorts-3.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 8,
       img: "/assets/swags/black-shorts-4.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 9,
       img: "/assets/swags/grey-short.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 10,
       img: "/assets/swags/grey-short1.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 11,
       img: "/assets/swags/grey-short2.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 12,
       img: "/assets/swags/grey-short3.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 13,
       img: "/assets/swags/Hoodie_Mockup.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 14,
       img: "/assets/swags/Hoodie_Mockup1.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 15,
       img: "/assets/swags/Hoodie_Mockup2.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 16,
       img: "/assets/swags/Hoodie_Mockup4.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 17,
       img: "/assets/swags/polof.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 18,
       img: "/assets/swags/shirt-design-4f.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 19,
       img: "/assets/swags/shirt-design.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 20,
       img: "/assets/swags/shirt-design2.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 21,
       img: "/assets/swags/shirt-design3.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 80,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 22,
       img: "/assets/swags/umbrella-final.jpg",
       name: "Green Hoodie",
-      price: "$70",
+      price: 120,
+      quantity: 1,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
   ];
+  const router = useRouter();
+  const { id: params } = router.query;
+  let product = swagData[0];
   const [item, setItem] = useState({
     name: "Swags Purchase",
     description: "This is checkout page for Swags",
@@ -198,12 +223,18 @@ const SwagDetails = ({ match }) => {
     quantity: 1,
     price: 100,
   });
+  useEffect(() => {
+    if (params) {
+      product = swagData.find((item) => item.id === parseInt(params));
+      setItem(product);
+    }
+  }, [params]);
   const checkoutStripe = () => {
     const publishableKey = process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY;
     const stripePromise = loadStripe(`${publishableKey}`);
     const createCheckOutSession = async () => {
       const stripe = await stripePromise;
-      const checkoutSession = await axios.post("./create-stripe-session", {
+      const checkoutSession = await axios.post("/api/create-stripe-session", {
         item: item,
       });
       const result = await stripe.redirectToCheckout({
@@ -215,12 +246,6 @@ const SwagDetails = ({ match }) => {
     };
     createCheckOutSession();
   };
-  const router = useRouter();
-  const { id: params } = router.query;
-  let product = swagData[0];
-  if (params) {
-    product = swagData.find((item) => item.id === parseInt(params));
-  }
   return (
     <div className="bg-[#0b0b0b] flex flex-col items-center">
       <Navbar onScroll={onScroll} />
@@ -239,17 +264,15 @@ const SwagDetails = ({ match }) => {
           />
 
           <img
-            src={product.img}
+            src={item.img}
             alt=""
             className="rounded-2xl w-64 mx-auto md:w-[24rem]"
           />
           <section className="text-white mx-12 md:mx-24 flex flex-col items-center md:items-start">
-            <h2 className="text-5xl md:text-4xl font-thin my-3">
-              {product.name}
-            </h2>
-            <h2 className="font-thin my-4">{product.info}</h2>
+            <h2 className="text-5xl md:text-4xl font-thin my-3">{item.name}</h2>
+            <h2 className="font-thin my-4">{item.description}</h2>
             <h2 className="font-semibold text-5xl md:text-6xl my-4">
-              {product.price}
+              $ {item.price}
             </h2>{" "}
             <ReactStars count={5} size={24} color1={"#4E88FA"} edit={false} />
             <section className="flex my-4 ">

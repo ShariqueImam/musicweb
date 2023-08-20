@@ -5,13 +5,13 @@ async function CreateStripeSession(req, res) {
   const redirectURL =
     process.env.NODE_ENV === "development"
       ? "http://localhost:3000"
-      : "https://mymodelcar.com";
+      : "https://www.mysteriousmusic.co.uk";
 
   const transformedItem = {
     price_data: {
-      currency: "bgn",
+      currency: "usd",
       product_data: {
-        images: [item.image],
+        // images: [item.image],
         name: item.name,
         description: item.description,
       },
@@ -25,10 +25,10 @@ async function CreateStripeSession(req, res) {
     payment_method_types: ["card"],
     line_items: [transformedItem],
     mode: "payment",
-    success_url: redirectURL + "/thank-you",
+    success_url: redirectURL + "/",
     cancel_url: redirectURL,
     metadata: {
-      images: item.image,
+      // images: item.image,
     },
   });
 
@@ -36,5 +36,3 @@ async function CreateStripeSession(req, res) {
 }
 
 export default CreateStripeSession;
-
-
