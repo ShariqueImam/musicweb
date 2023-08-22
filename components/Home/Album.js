@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
+import Link from "next/link";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css";
@@ -50,7 +51,7 @@ const Album = () => {
             // centeredSlides={true}
             // coverflowEffect={{ rotate: 0, stretch: 0, depth: 0, modifier: 2.5 }}
             spaceBetween={0}
-            slidesPerView={width < 500 ? 1 : 5}
+            slidesPerView={width < 500 ? 1 : 3}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
             // navigation
@@ -85,26 +86,13 @@ const Album = () => {
                 />
               </div>
             </SwiperSlide>
-            <SwiperSlide className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms] ">
-              <div className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms] ">
-                <img
-                  src="/assets/music/featured2.png"
-                  alt=""
-                  className=" scale-[0.9] w-[25rem] h-[28rem] md:h-[28rem] rounded-xl"
-                />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms]">
-              <div className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms] ">
-                <img
-                  src="/assets/music/featured1.png"
-                  alt=""
-                  className=" scale-[0.9] w-[25rem] h-[28rem] md:h-[28rem] rounded-xl"
-                />
-              </div>
-            </SwiperSlide>
           </Swiper>
         </section>
+        <Link href="/music">
+            <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-12">
+              Explore Now
+            </button>
+          </Link>
       </Slide>
     </div>
   );

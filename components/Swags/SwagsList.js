@@ -52,7 +52,7 @@ const SwagsList = ({ swagData }) => {
           );
         })}
         <div className="swagsHeadingBags flex items-center justify-center mt-44 md:mt-32">
-          <p className="text-4xl md:text-8xl text-white">Bags</p>
+          <p className="text-4xl md:text-8xl text-white">Bags and Umbrella</p>
         </div>
         {bags.map((singleItem) => {
           return (

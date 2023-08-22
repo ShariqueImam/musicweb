@@ -30,7 +30,7 @@ const Music = () => {
         triggerOnce
         className="flex items-center justify-center w-[100%] h-[100%]"
       >
-        <MoreMusic />
+        {/* <MoreMusic /> */}
       </Slide>
       <Slide
         direction="up"

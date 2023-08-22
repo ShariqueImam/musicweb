@@ -7,6 +7,7 @@ import Navbar from "../UI/Navbar/Navbar";
 import Animator from "../../components/UI/Animator";
 import Footer from "../UI/Footer/Footer";
 import axios from "axios";
+import MainPage from '../Horoscope/MainPage'
 const Home = () => {
   const onScroll = (value) => {};
 
@@ -18,6 +19,7 @@ const Home = () => {
         <About />
         <Album />
         <Wedrobe />
+        <MainPage />
         <Footer />
       </div>
     </Animator>
