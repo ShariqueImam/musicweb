@@ -10,14 +10,13 @@ async function CreateStripeSession(req, res) {
   const transformedItem = {
     price_data: {
       currency: "usd",
+      unit_amount: item.price,
       product_data: {
         // images: [item.image],
         name: item.name,
         description: item.description,
       },
-      unit_amount: item.price * 100,
     },
-
     quantity: item.quantity,
   };
 

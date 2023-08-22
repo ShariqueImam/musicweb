@@ -132,16 +132,6 @@
   transition: all 0.3s;
 }
 
-.swagsHeading {
-  background: url("/assets/swags/heading.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: auto;
-  height: 40vh;
-  width: 70vw;
-  transform: scale(0.5);
-}
 .horoscopeBg {
   background: url("/assets/horoscope/horoscope.png");
   background-repeat: no-repeat;
@@ -172,13 +162,63 @@
   margin: 6rem;
   transform: scale(0.5);
 }
+.swagsHeading {
+  background: url("/assets/swags/heading.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  height: 40vh;
+  width: 70vw;
+  transform: scale(0.5);
+}
+.swagsHeadingShirts {
+  background: url("/assets/swags/shirts.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  height: 40vh;
+  width: 70vw;
+  transform: scale(0.5);
+}
+.swagsHeadingHoodies {
+  background: url("/assets/swags/hoodies.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  height: 30vh;
+  width: 70vw;
+  transform: scale(0.5);
+}
+.swagsHeadingShorts {
+  background: url("/assets/swags/shorts.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  height: 30vh;
+  width: 70vw;
+  transform: scale(0.5);
+}
+.swagsHeadingBags {
+  background: url("/assets/swags/bags.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  height: 30vh;
+  width: 70vw;
+  transform: scale(0.5);
+}
 @media (width<500px) {
   .musicTitle {
     height: 10vh;
     width: 100vw;
     transform: scale(0.8);
   }
-
+  
   .bg2 {
     height: 8vh;
     width: 100vw;
@@ -190,6 +230,26 @@
     transform: scale(0.9);
   }
   .swagsHeading {
+    height: 8vh;
+    width: 100vw;
+    transform: scale(0.9);
+  }
+  .swagsHeadingShirts {
+    height: 8vh;
+    width: 100vw;
+    transform: scale(0.9);
+  }
+  .swagsHeadingHoodies {
+    height: 8vh;
+    width: 100vw;
+    transform: scale(0.9);
+  }
+  .swagsHeadingShorts {
+    height: 8vh;
+    width: 100vw;
+    transform: scale(0.9);
+  }
+  .swagsHeadingBags {
     height: 8vh;
     width: 100vw;
     transform: scale(0.9);

@@ -63,7 +63,7 @@ const Album = () => {
                 <img
                   src="/assets/music/featured1.png"
                   alt=""
-                  className=" scale-[0.9] w-[25rem] h-[28rem] md:h-[33rem] rounded-xl"
+                  className=" scale-[0.9] w-[25rem] h-[28rem] md:h-[28rem] rounded-xl"
                 />
               </div>
             </SwiperSlide>
@@ -72,7 +72,7 @@ const Album = () => {
                 <img
                   src="/assets/music/featured2.png"
                   alt=""
-                  className=" scale-[0.9] w-[25rem] h-[28rem] md:h-[33rem] rounded-xl"
+                  className=" scale-[0.9] w-[25rem] h-[28rem] md:h-[28rem] rounded-xl"
                 />
               </div>
             </SwiperSlide>
@@ -81,7 +81,7 @@ const Album = () => {
                 <img
                   src="/assets/music/featured1.png"
                   alt=""
-                  className=" scale-[0.9] w-[25rem] h-[28rem] md:h-[33rem] rounded-xl"
+                  className=" scale-[0.9] w-[25rem] h-[28rem] md:h-[28rem] rounded-xl"
                 />
               </div>
             </SwiperSlide>
@@ -90,7 +90,7 @@ const Album = () => {
                 <img
                   src="/assets/music/featured2.png"
                   alt=""
-                  className=" scale-[0.9] w-[25rem] h-[28rem] md:h-[33rem] rounded-xl"
+                  className=" scale-[0.9] w-[25rem] h-[28rem] md:h-[28rem] rounded-xl"
                 />
               </div>
             </SwiperSlide>
@@ -99,7 +99,7 @@ const Album = () => {
                 <img
                   src="/assets/music/featured1.png"
                   alt=""
-                  className=" scale-[0.9] w-[25rem] h-[28rem] md:h-[33rem] rounded-xl"
+                  className=" scale-[0.9] w-[25rem] h-[28rem] md:h-[28rem] rounded-xl"
                 />
               </div>
             </SwiperSlide>

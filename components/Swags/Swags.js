@@ -15,7 +15,7 @@ const Swags = () => {
       name: "Eye Illustration  T-shirt",
       price: 30,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 19,
@@ -23,7 +23,7 @@ const Swags = () => {
       name: "Madam And Steve T Shirt",
       price: 30,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 20,
@@ -31,7 +31,7 @@ const Swags = () => {
       name: "Sacred Heart T Shirt",
       price: 30,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 21,
@@ -39,7 +39,15 @@ const Swags = () => {
       name: "The Light T Shirt",
       price: 30,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
+    },
+    {
+      id: 17,
+      img: "/assets/swags/polof.jpg",
+      name: "Eye Illustration Blue Polo Shirt",
+      price: 50,
+      rating: "5",
+      description: "This is the great product and we like it.",
     },
     {
       id: 13,
@@ -47,7 +55,7 @@ const Swags = () => {
       name: "Sacred Heart Hoodie",
       price: 65,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 14,
@@ -55,7 +63,7 @@ const Swags = () => {
       name: "The Light Hoodie",
       price: 65,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 15,
@@ -63,7 +71,7 @@ const Swags = () => {
       name: "Madam And Steve Hoodie",
       price: 65,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 16,
@@ -71,7 +79,7 @@ const Swags = () => {
       name: "Eye Illustration Hoodie",
       price: 65,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
 
     {
@@ -80,7 +88,7 @@ const Swags = () => {
       name: "Eye Illustration Grey Shorts",
       price: 50,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 10,
@@ -88,7 +96,7 @@ const Swags = () => {
       name: "The Light Grey Shorts",
       price: 50,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 11,
@@ -96,7 +104,7 @@ const Swags = () => {
       name: "Sacred Heart Grey Shorts",
       price: 50,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 12,
@@ -104,7 +112,7 @@ const Swags = () => {
       name: "Madam And Steve Grey Shorts",
       price: 50,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 5,
@@ -112,7 +120,7 @@ const Swags = () => {
       name: "Madam And Steve Black Shorts",
       price: 50,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 6,
@@ -120,7 +128,7 @@ const Swags = () => {
       name: "Sacred Heart Black Shorts",
       price: 50,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 7,
@@ -128,7 +136,7 @@ const Swags = () => {
       name: "The Light Black Shorts",
       price: 50,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 8,
@@ -136,7 +144,7 @@ const Swags = () => {
       name: "Eye Illustration Black Shorts",
       price: 50,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 1,
@@ -144,7 +152,7 @@ const Swags = () => {
       name: "Madam And Steve Bag",
       price: 20,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 2,
@@ -152,7 +160,7 @@ const Swags = () => {
       name: "Sacred Heart Bag",
       price: 20,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 3,
@@ -160,7 +168,7 @@ const Swags = () => {
       name: "The Light Bag",
       price: 20,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
     {
       id: 4,
@@ -168,15 +176,7 @@ const Swags = () => {
       name: "Eye Illustration Bag",
       price: 20,
       rating: "5",
-      info: "This is the great product and we like it.",
-    },
-    {
-      id: 17,
-      img: "/assets/swags/polof.jpg",
-      name: "Eye Illustration Blue Polo Shirt",
-      price: 50,
-      rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
 
     {
@@ -185,7 +185,7 @@ const Swags = () => {
       name: "Eye Illustration Umbrella",
       price: 70,
       rating: "5",
-      info: "This is the great product and we like it.",
+      description: "This is the great product and we like it.",
     },
   ];
   if (typeof window !== "undefined") {
