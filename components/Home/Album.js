@@ -51,7 +51,7 @@ const Album = () => {
             // centeredSlides={true}
             // coverflowEffect={{ rotate: 0, stretch: 0, depth: 0, modifier: 2.5 }}
             spaceBetween={0}
-            slidesPerView={width < 500 ? 1 : 3}
+            slidesPerView={width < 500 ? 1 : 4}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
             // navigation
@@ -86,6 +86,17 @@ const Album = () => {
                 <div className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms] ">
                   <img
                     src="/assets/home/album2.png"
+                    alt=""
+                    className=" scale-[0.8] md:scale-[0.9] w-[25rem] h-[28rem] md:h-[28rem] rounded-xl"
+                  />
+                </div>
+              </a>
+            </SwiperSlide>
+            <SwiperSlide className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms]">
+              <a href="/music">
+                <div className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms] ">
+                  <img
+                    src="/assets/home/album4.png"
                     alt=""
                     className=" scale-[0.8] md:scale-[0.9] w-[25rem] h-[28rem] md:h-[28rem] rounded-xl"
                   />

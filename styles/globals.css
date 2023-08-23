@@ -17,6 +17,9 @@ body {
   overflow-x: hidden;
   font-family: "Clash Display", sans-serif;
 }
+.sample-slider .swiper-pagination-bullet{
+  background-color: yellow;
+}
 :root {
   --swiper-pagination-color: #4259ec;
   --swiper-pagination-bullet-size: 12px;

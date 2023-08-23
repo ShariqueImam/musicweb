@@ -41,7 +41,7 @@ const FeaturedMusic = () => {
               </p>
             </section>
             <div>
-              <a href="https://soundcloud.com/tmjuelz">
+              <a href="https://music.apple.com/gb/artist/tmjuelz/1234991292">
                 <section className="flex items-center justify-start my-3 md:my-5  ">
                   <img src='/assets/music/icon.png' alt="" />{" "}
                   <p className="mx-3 text-white ">Listen On Apple Music</p>{" "}
@@ -66,7 +66,7 @@ const FeaturedMusic = () => {
       >
         <div className="flex items-center justify-around flex-col md:flex-row flex-col-reverse  w-[100%] md:w-[70%] mx-auto">
           <div className="flex flex-col items-end ">
-            <section>
+            <section className="flex flex-col items-end">
               <h2 className="homeTextColor m-1 text-5xl md:text-7xl font-bold">
                Rhea  Ripley (Sacred Heart)
               </h2>
@@ -78,7 +78,7 @@ const FeaturedMusic = () => {
               </p>
             </section>
             <div>
-              <a href="https://soundcloud.com/tmjuelz">
+              <a href="https://music.apple.com/gb/artist/tmjuelz/1234991292">
                 <section className="flex items-center justify-start my-3 md:my-5  ">
                   <img src='/assets/music/icon.png' alt="" />{" "}
                   <p className="mx-3 text-white ">Listen On Apple Music</p>{" "}
@@ -117,7 +117,7 @@ const FeaturedMusic = () => {
               </p>
             </section>
             <div>
-              <a href="https://soundcloud.com/tmjuelz">
+              <a href="https://music.apple.com/gb/artist/tmjuelz/1234991292">
                 <section className="flex items-center justify-start my-3 md:my-5  ">
                   <img src='/assets/music/icon.png' alt="" />{" "}
                   <p className="mx-3 text-white ">Listen On Apple Music</p>{" "}
