@@ -24,7 +24,7 @@ const FeaturedMusic = () => {
         triggerOnce={true}
       >
         <div className="flex items-center justify-around flex-col md:flex-row  w-[100%] md:w-[70%] mx-auto">
-          <img src='/assets/music/featured1.png' alt="" className="scale-[0.6] md:scale-[0.8]" />
+          <img src='/assets/music/featured1.png' alt="" className="scale-x-[0.65] scale-y-[0.75] md:scale-[0.8]" />
           <div className="flex flex-col items-start ">
             <img
               src='/assets/circle.png'
@@ -33,7 +33,7 @@ const FeaturedMusic = () => {
             />
             <section>
               <img src='/assets/blue.png' alt="" className="absolute z-0 ml-[0rem]" />{" "}
-              <h2 className="homeTextColor m-1 text-4xl md:text-5xl font-bold">
+              <h2 className="homeTextColor m-1 text-xl md:text-5xl font-bold">
                The Light
               </h2>
               <p className="text-white text-xl font-thin my-4 md:my-5">
@@ -70,7 +70,7 @@ const FeaturedMusic = () => {
         <div className="flex items-center justify-around flex-col md:flex-row flex-col-reverse  w-[100%] md:w-[70%] mx-auto">
           <div className="flex flex-col items-start ">
             <section className="flex flex-col items-start">
-              <h2 className="homeTextColor m-1 text-4xl md:text-5xl font-bold ">
+              <h2 className="homeTextColor m-1 text-xl md:text-5xl font-bold ">
                Rhea  Ripley (Sacred Heart)
               </h2>
               <p className="text-white text-xl font-thin my-4 md:my-5 text-end">
@@ -97,7 +97,7 @@ const FeaturedMusic = () => {
               </a>
             </div>
           </div>
-          <img src='/assets/music/featured2.png' alt="" className="scale-[0.6] md:scale-[0.8]" />
+          <img src='/assets/music/featured2.png' alt="" className="scale-x-[0.65] scale-y-[0.75] md:scale-[0.8]" />
         </div>
       </Slide>
       <Slide
@@ -110,10 +110,10 @@ const FeaturedMusic = () => {
       <img src='/assets/circle2.png' alt="" className="absolute z-0 md:hidden md:ml-[-80rem] mt-[-10rem]" />
       <img src='/assets/pink.png' alt="" className="absolute z-0 md:hidden md:ml-[-70rem]" />
         <div className="flex items-center justify-around flex-col md:flex-row w-[100%] md:w-[70%] mx-auto">
-          <img src='/assets/home/album2.png' alt="" className="scale-[0.6]  md:scale-[0.8]" />
+          <img src='/assets/home/album2.png' alt="" className="scale-x-[0.65] scale-y-[0.75]  md:scale-[0.8]" />
           <div className="flex flex-col items-start ">
             <section>
-              <h2 className="homeTextColor m-1 text-4xl md:text-5xl font-bold">
+              <h2 className="homeTextColor m-1 text-xl md:text-5xl font-bold">
                Jagiello
               </h2>
               <p className="text-white text-xl font-thin my-4 md:my-5">
