@@ -17,7 +17,9 @@ const Home = () => {
         <Navbar onScroll={onScroll} />
         <Title />
         <About />
-        <Album />
+        <div className="z-0">
+          <Album />
+        </div>
         <div className="z-20">
           <Wedrobe />
         </div>
