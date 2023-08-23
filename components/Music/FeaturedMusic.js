@@ -30,7 +30,7 @@ const FeaturedMusic = () => {
             />
             <section>
               <img src='/assets/blue.png' alt="" className="absolute z-0 ml-[0rem]" />{" "}
-              <h2 className="homeTextColor m-1 text-5xl md:text-7xl font-bold">
+              <h2 className="homeTextColor m-1 text-4xl md:text-5xl font-bold">
                The Light
               </h2>
               <p className="text-white text-xl font-thin my-4 md:my-5">
@@ -65,9 +65,9 @@ const FeaturedMusic = () => {
         triggerOnce={true}
       >
         <div className="flex items-center justify-around flex-col md:flex-row flex-col-reverse  w-[100%] md:w-[70%] mx-auto">
-          <div className="flex flex-col items-end ">
-            <section className="flex flex-col items-end">
-              <h2 className="homeTextColor m-1 text-5xl md:text-7xl font-bold">
+          <div className="flex flex-col items-start ">
+            <section className="flex flex-col items-start">
+              <h2 className="homeTextColor m-1 text-4xl md:text-5xl font-bold">
                Rhea  Ripley (Sacred Heart)
               </h2>
               <p className="text-white text-xl font-thin my-4 md:my-5 text-end">
@@ -106,7 +106,7 @@ const FeaturedMusic = () => {
           <img src='/assets/home/album2.png' alt="" className="scale-[0.6]  md:scale-[0.8]" />
           <div className="flex flex-col items-start ">
             <section>
-              <h2 className="homeTextColor m-1 text-5xl md:text-7xl font-bold">
+              <h2 className="homeTextColor m-1 text-4xl md:text-5xl font-bold">
                Jagiello
               </h2>
               <p className="text-white text-xl font-thin my-4 md:my-5">
