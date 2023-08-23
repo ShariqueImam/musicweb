@@ -4,7 +4,7 @@ import styled from "styled-components";
 const style = {
   wrapper:
     "w-[42vw] md:w-[22vw] h-[35vh] md:h-[55vh] rounded-xl z-30 mx-2 md:mx-3 my-16  flex flex-col items-start justify-end hover:scale-[0.95] transition duration-[300ms]",
-  heading: "font-thin text-lg md:text-lg text-white w-[100%] md:w-[80%]",
+  heading: "font-thin text-md md:text-md text-white w-[100%] md:w-[80%]",
   para: " text-sm md:text-lg mt-0 text-white font-semibold",
   line: "underline cursor-pointer",
 };

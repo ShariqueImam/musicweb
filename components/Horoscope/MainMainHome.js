@@ -88,7 +88,7 @@ const MainPage = () => {
               onMouseLeave={() => setSign("0")}
               className={`${
                 Sign == "4" && "horo  rounded-full"
-              } bg-gray-500 bg-opacity-[0.3] p-6 md:p-12 rounded-full mx-4 md:mx-8 md:mx-12 my-8 `}
+              } bg-gray-500 bg-opacity-[0.3] p-6 md:p-12 rounded-full mx-4 md:mx-8 md:mx-12 my-8`}
             >
               <img
                 src="/assets/horoscope/capricorn-svgrepo-com.svg"

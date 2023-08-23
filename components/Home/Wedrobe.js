@@ -32,26 +32,26 @@ const Wedrobe = () => {
       <Slide
         direction="up"
         triggerOnce
-        className="flex items-center justify-center w-[100%] h-[100%] z-20"
+        className="flex items-center justify-center w-[100%] h-[100%] z-30"
       >
-        <section className="flex items-center justify-center w-[100%] flex-col md:flex-row z-20">
+        <section className="flex items-center justify-center w-[100%] flex-col md:flex-row z-30">
           <SingleCard
             img={"/assets/swags/grey-short1.jpg"}
-            name={"Green Hoodie"}
-            price={"$150"}
+            name={"The Light Gray Shorts"}
+            price={"$50"}
           />
           <SingleCard
             img={"/assets/swags/polof.jpg"}
-            name={"Green Hoodie"}
+            name={"Eye Illustration Blue Polo Shirt"}
             price={"$150"}
           />
           <SingleCard
             img={"/assets/swags/shirt-design2.jpg"}
-            name={"Green Hoodie"}
-            price={"$150"}
+            name={"Sacred Heart Hoodie"}
+            price={"$65"}
           />
         </section>
-        <button className="mx-auto  exploreBtn shopNow px-14 md:px-20 py-3 md:py-4 mt-24 text-white mx-auto self-center">
+        <button className="mx-auto  exploreBtn shopNow px-14 md:px-20 py-3 md:py-4 mt-20 text-white mx-auto self-center">
           <Link href="/swags">Shop Now</Link>
         </button>
       </Slide>
