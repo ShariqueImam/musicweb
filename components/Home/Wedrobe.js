@@ -7,7 +7,7 @@ import SingleCard from "./SingleCard";
 const Wedrobe = () => {
   const { width } = useWindowSize();
   const WedrobeHeading = styled.div`
-    background: url("/assets/home/wedrobe.png");
+    background: url("/assets/home/swagsheading.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -26,7 +26,7 @@ const Wedrobe = () => {
       />{" "}
       <WedrobeHeading className="flex items-center justify-center">
         <p className="text-4xl md:text-8xl text-white text-center md:text-start">
-          Wedrobe
+          Swags
         </p>
       </WedrobeHeading>
       <Slide
@@ -43,7 +43,7 @@ const Wedrobe = () => {
           <SingleCard
             img={"/assets/swags/polof.jpg"}
             name={"Eye Illustration Blue Polo Shirt"}
-            price={"$150"}
+            price={"$50"}
           />
           <SingleCard
             img={"/assets/swags/shirt-design2.jpg"}

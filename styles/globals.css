@@ -62,6 +62,9 @@ body {
   border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
   border-color: #d53a9d;
 }
+.edgy {
+  font-family: "Studio Feixen Sans";
+}
 .homeTextColor {
   background: linear-gradient(
     166deg,

@@ -11,7 +11,7 @@ const FeaturedMusic = () => {
         className="flex items-center justify-center "
         triggerOnce={false}
       >
-        <div className="bg2 flex items-center justify-center mt-12 md:mt-12 z-10">
+        <div className="bg2 flex items-center justify-center md:mt-12 z-10">
           <p className="text-5xl md:text-8xl text-white text-center ">Featured Music</p>
         </div>
       </Slide>
@@ -31,20 +31,20 @@ const FeaturedMusic = () => {
             <section>
               <img src='/assets/blue.png' alt="" className="absolute z-0 ml-[0rem]" />{" "}
               <h2 className="homeTextColor m-1 text-5xl md:text-7xl font-bold">
-                Falling In Love
+               The Light
               </h2>
               <p className="text-white text-xl font-thin my-4 md:my-5">
-                Song Type
+                Song Type- EP 
               </p>
-              <p className="text-white text-xl font-thin my-4 md:my-5">
-                Singer Name
+              <p className="text-white text-xl font-thin my-4 md:my-5 edgy">
+                TM Juelz
               </p>
             </section>
             <div>
               <a href="https://soundcloud.com/tmjuelz">
                 <section className="flex items-center justify-start my-3 md:my-5  ">
                   <img src='/assets/music/icon.png' alt="" />{" "}
-                  <p className="mx-3 text-white ">Listen on Sound Cloud</p>{" "}
+                  <p className="mx-3 text-white ">Listen On Apple Music</p>{" "}
                   <BsArrowUpRight className="text-white " />
                 </section>
               </a>
@@ -68,20 +68,20 @@ const FeaturedMusic = () => {
           <div className="flex flex-col items-end ">
             <section>
               <h2 className="homeTextColor m-1 text-5xl md:text-7xl font-bold">
-                Falling In Love
+               Rhea  Ripley (Sacred Heart)
               </h2>
               <p className="text-white text-xl font-thin my-4 md:my-5 text-end">
-                Song Type
+                Song Type - Single
               </p>
-              <p className="text-white text-xl font-thin my-4 md:my-5 text-end">
-                Singer Name
+              <p className="text-white text-xl font-thin my-4 md:my-5 edgy">
+                TM Juelz
               </p>
             </section>
             <div>
               <a href="https://soundcloud.com/tmjuelz">
                 <section className="flex items-center justify-start my-3 md:my-5  ">
                   <img src='/assets/music/icon.png' alt="" />{" "}
-                  <p className="mx-3 text-white ">Listen on Sound Cloud</p>{" "}
+                  <p className="mx-3 text-white ">Listen On Apple Music</p>{" "}
                   <BsArrowUpRight className="text-white " />
                 </section>
               </a>
@@ -103,24 +103,24 @@ const FeaturedMusic = () => {
         triggerOnce={true}
       >
         <div className="flex items-center justify-around flex-col md:flex-row w-[100%] md:w-[70%] mx-auto">
-          <img src='/assets/music/featured3.png' alt="" className="scale-[0.6]  md:scale-[0.8]" />
+          <img src='/assets/home/album2.png' alt="" className="scale-[0.6]  md:scale-[0.8]" />
           <div className="flex flex-col items-start ">
             <section>
               <h2 className="homeTextColor m-1 text-5xl md:text-7xl font-bold">
-                Falling In Love
+               Jagiello
               </h2>
               <p className="text-white text-xl font-thin my-4 md:my-5">
-                Song Type
+                Song Type - Single
               </p>
-              <p className="text-white text-xl font-thin my-4 md:my-5">
-                Singer Name
+              <p className="text-white text-xl font-thin my-4 md:my-5 edgy">
+                TM Juelz
               </p>
             </section>
             <div>
               <a href="https://soundcloud.com/tmjuelz">
                 <section className="flex items-center justify-start my-3 md:my-5  ">
                   <img src='/assets/music/icon.png' alt="" />{" "}
-                  <p className="mx-3 text-white ">Listen on Sound Cloud</p>{" "}
+                  <p className="mx-3 text-white ">Listen On Apple Music</p>{" "}
                   <BsArrowUpRight className="text-white " />
                 </section>
               </a>

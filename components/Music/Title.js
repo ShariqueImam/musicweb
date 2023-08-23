@@ -9,9 +9,9 @@ const Title = () => {
       <div className="flex items-center flex-col md:flex-row flex-col-reverse">
         <section className="flex items-center flex-col md:items-start">
           <h2 className="text-5xl md:text-7xl text-white font-semibold w-[70%] text-center md:text-left mx-auto md:mx-0">
-            LISTEN IT ON SOUND CLOUD{" "}
+            LISTEN IT ON SPOTIFY
           </h2>
-          <a href="https://soundcloud.com/tmjuelz">
+          <a href="https://open.spotify.com/artist/0UFMrFPIyckNR4h3WefoJh?si=aCn4WdvFRzaFVwNXEKfQzg&nd=1">
             <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-12 md:my-16 mx-auto ">
               Listen Now
             </button>

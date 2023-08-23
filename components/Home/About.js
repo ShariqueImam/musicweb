@@ -43,11 +43,11 @@ const About = () => {
             <p className="text-white my-4 text-2xl  text-center md:text-auto">
               Rapper, musician
             </p>
-            <section className="w-[70%] md:w-[40%] my-8 md:my-2">
+            <section className="w-[70%] md:w-[40%] my-8 md:my-14">
               <img
                 src="/assets/white.svg"
                 alt=""
-                className="mx-auto scale-[1] md:scale-[1.6] my-5 md:my-24"
+                className="mx-auto scale-[1.3] md:scale-[2.2] my-5 md:my-24"
               />
             </section>
             <Link href="/music">
