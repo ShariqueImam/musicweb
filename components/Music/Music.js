@@ -12,10 +12,11 @@ const Music = () => {
   const onScroll = () => {};
   return (
     // <Animator>
-    <div className="flex flex-col items-center bg-[#0b0b0b] z-10">
+    <div className="flex flex-col items-center bg-[#0b0b0b] z-20">
       <Navbar onScroll={onScroll} />
-      <img src='/assets/circle2.png' alt="" className="absolute z-0 ml-[-80rem] mt-[-10rem]" />
-      <img src='/assets/pink.png' alt="" className="absolute z-0 ml-[-70rem]" />
+      <img src='/assets/blue.png' alt="" className="absolute z-0 md:ml-[50rem]" />{" "}
+      <img src='/assets/circle2.png' alt="" className="absolute z-0 md:ml-[-80rem] mt-[-10rem]" />
+      <img src='/assets/pink.png' alt="" className="absolute z-0 md:ml-[-70rem]" />
       <Slide
         direction="up"
         triggerOnce
@@ -35,7 +36,7 @@ const Music = () => {
       <Slide
         direction="up"
         triggerOnce
-        className="flex items-center justify-center "
+        className="flex items-center justify-center z-20"
       >
         <Upcoming />
       </Slide>

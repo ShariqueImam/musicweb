@@ -6,6 +6,9 @@ const FeaturedMusic = () => {
   return (
     <div>
       {" "}
+      <img src='/assets/blue.png' alt="" className="absolute z-0 md:hidden ml-[10rem] md:ml-[50rem]" />{" "}
+      <img src='/assets/circle2.png' alt="" className="absolute z-0 md:hidden md:ml-[-80rem] mt-[-10rem]" />
+      <img src='/assets/pink.png' alt="" className="absolute z-0 md:hidden md:ml-[-70rem]" />
       <Slide
         direction="up"
         className="flex items-center justify-center "
@@ -67,7 +70,7 @@ const FeaturedMusic = () => {
         <div className="flex items-center justify-around flex-col md:flex-row flex-col-reverse  w-[100%] md:w-[70%] mx-auto">
           <div className="flex flex-col items-start ">
             <section className="flex flex-col items-start">
-              <h2 className="homeTextColor m-1 text-4xl md:text-5xl font-bold">
+              <h2 className="homeTextColor m-1 text-4xl md:text-5xl font-bold ">
                Rhea  Ripley (Sacred Heart)
               </h2>
               <p className="text-white text-xl font-thin my-4 md:my-5 text-end">
@@ -102,6 +105,10 @@ const FeaturedMusic = () => {
         className="flex items-center justify-center "
         triggerOnce={true}
       >
+         {" "}
+      <img src='/assets/blue.png' alt="" className="absolute z-0 md:hidden ml-[10rem] md:ml-[50rem]" />{" "}
+      <img src='/assets/circle2.png' alt="" className="absolute z-0 md:hidden md:ml-[-80rem] mt-[-10rem]" />
+      <img src='/assets/pink.png' alt="" className="absolute z-0 md:hidden md:ml-[-70rem]" />
         <div className="flex items-center justify-around flex-col md:flex-row w-[100%] md:w-[70%] mx-auto">
           <img src='/assets/home/album2.png' alt="" className="scale-[0.6]  md:scale-[0.8]" />
           <div className="flex flex-col items-start ">

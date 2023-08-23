@@ -15,6 +15,7 @@ const Footer = (props) => {
 
   return (
     <div className={style.wrapper}>
+      
       <div className="flex items-start justify-between w-[100%] flex-col md:flex-row items-center md:items-start">
         <section className="flex flex-col items-start justify-center mb-16 md:my-0">
           <img src='/assets/home/logo.png' alt="" />
