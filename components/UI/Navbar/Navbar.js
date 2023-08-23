@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { AiOutlinePhone } from "react-icons/ai";
-import client from '../../../pages/api/client'
+import client from "../../../pages/api/client";
 import NavDrawer from "./NavDrawer";
 import Link from "next/link";
-import { usePathname } from 'next/navigation'
+import { usePathname } from "next/navigation";
 
 import "animate.css";
 const Navbar = (props) => {
@@ -18,7 +18,7 @@ const Navbar = (props) => {
     navContainer: "flex items-center justify-center",
     cartButton:
       "contactHover contactNow border-gradient-purple  border w-[15%] font-light rounded-lg text-white tracking-wider flex items-center justify-center mx-5 px-3 py-2 text-md",
-    img: "cursor-pointer w-[15%] md:w-auto",
+    img: "cursor-pointer w-[15%] md:w-[25%]",
     input: "bg-transparent text-white cursor-pointer",
   };
   const [Item, setItem] = useState("home");
@@ -36,14 +36,18 @@ const Navbar = (props) => {
   const handleScroll = (val) => {
     setItem(val);
   };
-  const pathname = usePathname()
+  const pathname = usePathname();
 
   return (
     // install the mui first for the Navdrawer
     <div className={style.wrapper}>
       <nav className={style.mainNav}>
         <div className={style.img}>
-          <img src='/assets/home/logo.png' alt="logo for website" className={style.img} />
+          <img
+            src="/assets/white.svg"
+            alt="logo for website"
+            className={style.img}
+          />
         </div>
         <div className={style.navList}>
           <ul className={style.navContainer}>
@@ -59,9 +63,7 @@ const Navbar = (props) => {
             <Link href="/music">
               <li
                 className={`${
-                  pathname == "/music"
-                    ? "text-[#EA2587]"
-                    : "text-white"
+                  pathname == "/music" ? "text-[#EA2587]" : "text-white"
                 } font-light border-move-animation list-none cursor-pointer mx-4 md:mx-4  text-md tracking-wide`}
                 onClick={() => setItem("services")}
               >
@@ -71,9 +73,7 @@ const Navbar = (props) => {
             <Link href="/swags">
               <li
                 className={`${
-                  pathname == "/swags"
-                    ? "text-[#EA2587]"
-                    : "text-white"
+                  pathname == "/swags" ? "text-[#EA2587]" : "text-white"
                 } font-light border-move-animation list-none cursor-pointer mx-4 md:mx-4  text-md tracking-wide`}
                 onClick={() => setItem("about")}
               >
@@ -83,9 +83,7 @@ const Navbar = (props) => {
             <Link href="/horoscope">
               <li
                 className={`${
-                  pathname == "/horoscope"
-                    ? "text-[#EA2587]"
-                    : "text-white"
+                  pathname == "/horoscope" ? "text-[#EA2587]" : "text-white"
                 } font-light border-move-animation list-none cursor-pointer mx-4 md:mx-4  text-md tracking-wide`}
                 onClick={() => setItem("email")}
               >
@@ -100,7 +98,11 @@ const Navbar = (props) => {
                 onClick={() => setItem("email")}
               >
                 Live
-                <p className={`w-2 h-2 ${Live?'bg-red-700':'bg-red-400'} rounded-full`}></p>
+                <p
+                  className={`w-2 h-2 ${
+                    Live ? "bg-red-700" : "bg-red-400"
+                  } rounded-full`}
+                ></p>
               </li>
             </Link>
           </ul>

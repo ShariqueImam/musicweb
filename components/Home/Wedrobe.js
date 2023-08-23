@@ -3,6 +3,7 @@ import { Slide } from "react-awesome-reveal";
 import Link from "next/link";
 import useWindowSize from "../../hooks/useWindowSize";
 import styled from "styled-components";
+import SingleCard from "./SingleCard";
 const Wedrobe = () => {
   const { width } = useWindowSize();
   const WedrobeHeading = styled.div`
@@ -16,7 +17,7 @@ const Wedrobe = () => {
     width: 70vw;
   `;
   return (
-    <div className="flex flex-col  justify-center z-10 items-center my-8">
+    <div className="flex flex-col  justify-center z-20 items-center my-8">
       {" "}
       <img
         src="/assets/pink.png"
@@ -31,22 +32,22 @@ const Wedrobe = () => {
       <Slide
         direction="up"
         triggerOnce
-        className="flex items-center justify-center w-[100%] h-[100%] "
+        className="flex items-center justify-center w-[100%] h-[100%] z-20"
       >
-        <section className="flex items-center justify-center w-[100%] flex-col md:flex-row">
-          <SingleCard1
-            image={"/assets/swags/grey-short1.jpg"}
-            heading={"Green Hoodie"}
+        <section className="flex items-center justify-center w-[100%] flex-col md:flex-row z-20">
+          <SingleCard
+            img={"/assets/swags/grey-short1.jpg"}
+            name={"Green Hoodie"}
             price={"$150"}
           />
-          <SingleCard2
-            image={"/assets/swags/polof.jpg"}
-            heading={"Green Hoodie"}
+          <SingleCard
+            img={"/assets/swags/polof.jpg"}
+            name={"Green Hoodie"}
             price={"$150"}
           />
-          <SingleCard3
-            image={"/assets/swags/shirt-design2.jpg"}
-            heading={"Green Hoodie"}
+          <SingleCard
+            img={"/assets/swags/shirt-design2.jpg"}
+            name={"Green Hoodie"}
             price={"$150"}
           />
         </section>
@@ -62,7 +63,7 @@ export default Wedrobe;
 
 const style1 = {
   wrapper:
-    "wedrobe1 h-[45vh] md:h-[55vh] w-[105%] md:w-[23%] mx-5 md:mx-3 my-4 p-6 md:p-12 flex flex-col items-start justify-end hover:scale-[0.9] transition duration-[300ms]",
+    "wedrobe1 h-[45vh] md:h-[55vh] w-[105%] md:w-[26%] mx-5 md:mx-3 my-4 p-6 md:p-12 flex flex-col items-start justify-end hover:scale-[0.9] transition duration-[300ms]",
   heading: "font-thin text-2xl md:text-2xl text-white w-[100%] md:w-[80%]",
   para: " text-sm md:text-xl mt-2 text-white font-semibold",
   line: "underline cursor-pointer",
@@ -80,7 +81,7 @@ const SingleCard1 = ({ price, heading, image }) => {
 };
 const style2 = {
   wrapper:
-    "wedrobe2 h-[45vh] md:h-[55vh] w-[105%] md:w-[23%] mx-5 md:mx-3 my-4 p-6 md:p-12 flex flex-col items-start justify-end hover:scale-[0.9] transition duration-[300ms]",
+    "wedrobe2 h-[45vh] md:h-[55vh] w-[105%] md:w-[26%] mx-5 md:mx-3 my-4 p-6 md:p-12 flex flex-col items-start justify-end hover:scale-[0.9] transition duration-[300ms]",
   heading: "font-thin text-2xl md:text-2xl text-white w-[100%] md:w-[80%]",
   para: " text-sm md:text-xl mt-2 text-white font-semibold",
   line: "underline cursor-pointer",
@@ -98,7 +99,7 @@ const SingleCard2 = ({ price, heading, image }) => {
 };
 const style3 = {
   wrapper:
-    "wedrobe3 h-[45vh] md:h-[55vh] w-[105%] md:w-[23%] mx-5 md:mx-3 my-4 p-6 md:p-12 flex flex-col items-start justify-end hover:scale-[0.9] transition duration-[300ms]",
+    "wedrobe3 h-[45vh] md:h-[55vh] w-[105%] md:w-[26%] mx-5 md:mx-3 my-4 p-6 md:p-12 flex flex-col items-start justify-end hover:scale-[0.9] transition duration-[300ms]",
   heading: "font-thin text-2xl md:text-2xl text-white w-[100%] md:w-[80%]",
   para: " text-sm md:text-xl mt-2 text-white font-semibold",
   line: "underline cursor-pointer",

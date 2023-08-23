@@ -57,42 +57,48 @@ const Album = () => {
             // navigation
             pagination={{ clickable: true }}
             // scrollbar={{ draggable: true }}
-            className="flex items-center justify-center py-14 md:py-24"
+            className="flex items-center justify-center py-12 md:py-24"
           >
-            <SwiperSlide className="flex items-center justify- center">
-              <div className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms] ">
-                <img
-                  src="/assets/music/featured1.png"
-                  alt=""
-                  className=" scale-[0.9] w-[25rem] h-[28rem] md:h-[28rem] rounded-xl"
-                />
-              </div>
+            <SwiperSlide className="flex items-center justify-center">
+              <a href="/music">
+                <div className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms] ">
+                  <img
+                    src="/assets/music/featured1.png"
+                    alt=""
+                    className=" scale-[0.8] md:scale-[0.9] w-[25rem] h-[28rem] md:h-[28rem] rounded-xl"
+                  />
+                </div>
+              </a>
             </SwiperSlide>
             <SwiperSlide className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms] ">
-              <div className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms] ">
-                <img
-                  src="/assets/music/featured2.png"
-                  alt=""
-                  className=" scale-[0.9] w-[25rem] h-[28rem] md:h-[28rem] rounded-xl"
-                />
-              </div>
+              <a href="/music">
+                <div className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms] ">
+                  <img
+                    src="/assets/music/featured2.png"
+                    alt=""
+                    className=" scale-[0.8] md:scale-[0.9] w-[25rem] h-[28rem] md:h-[28rem] rounded-xl"
+                  />
+                </div>
+              </a>
             </SwiperSlide>
             <SwiperSlide className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms]">
-              <div className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms] ">
-                <img
-                  src="/assets/music/featured1.png"
-                  alt=""
-                  className=" scale-[0.9] w-[25rem] h-[28rem] md:h-[28rem] rounded-xl"
-                />
-              </div>
+              <a href="/music">
+                <div className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms] ">
+                  <img
+                    src="/assets/home/album2.png"
+                    alt=""
+                    className=" scale-[0.8] md:scale-[0.9] w-[25rem] h-[28rem] md:h-[28rem] rounded-xl"
+                  />
+                </div>
+              </a>
             </SwiperSlide>
           </Swiper>
         </section>
         <Link href="/music">
-            <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-12">
-              Explore Now
-            </button>
-          </Link>
+          <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-12">
+            Explore Now
+          </button>
+        </Link>
       </Slide>
     </div>
   );

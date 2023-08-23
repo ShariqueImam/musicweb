@@ -7,13 +7,13 @@ import Navbar from "../UI/Navbar/Navbar";
 import Animator from "../../components/UI/Animator";
 import Footer from "../UI/Footer/Footer";
 import axios from "axios";
-import MainPage from '../Horoscope/MainPage'
+import MainPage from '../Horoscope/MainMainHome'
 const Home = () => {
   const onScroll = (value) => {};
 
   return (
     <Animator>
-      <div className="flex flex-col items-center bg-[#0b0b0b] z-10">
+      <div className="flex flex-col items-center bg-[#0b0b0b] z-20">
         <Navbar onScroll={onScroll} />
         <Title />
         <About />

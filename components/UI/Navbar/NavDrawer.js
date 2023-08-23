@@ -59,7 +59,7 @@ const NavDrawer = (props) => {
     >
       <List>
         <div className="h-[40vh] font flex flex-col my-8  bg-[#0b0b0b] items-center">
-          <img src="/assets/home/logo.png" />
+          <img src="/assets/white.svg" className="w-[45%]"/>
 
           {/* adding the navs */}
           <ul className="flex  flex-col  bg-[#0b0b0b] mt-12">
@@ -123,7 +123,7 @@ const NavDrawer = (props) => {
       {["right"].map((anchor) => (
         <React.Fragment key={anchor}>
           <button className=" bg-[#0b0b0b] px-2 py-4 flex items-center justify-between w-[100vw] border-b-[1px]">
-            <img src="/assets/home/logo.png" />
+            <img src="/assets/white.svg" className="w-[20%]"/>
 
             <section className="flex">
               <div className="" onClick={toggleDrawer(anchor, true)}>

@@ -213,7 +213,7 @@ const MainPage = () => {
           <a href="https://www.elle.com/horoscopes/daily/a108/virgo-daily-horoscope/">
             <div
               className={`${
-                Sign == "12" && "horo  rounded-full"
+                Sign == "11" && "horo  rounded-full"
               } bg-gray-500 bg-opacity-[0.3]  p-6 md:p-12 rounded-full mx-4 md:mx-8 md:mx-12 my-8 `}
               onMouseEnter={() => setSign("12")}
               onMouseLeave={() => setSign("0")}

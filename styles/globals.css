@@ -5,13 +5,17 @@
 @import url(./background.css);
 @font-face {
   font-family: "Clash Display";
-  src: local("Clash Display"),
-    url("../fonts//ClashDisplay-Medium.ttf") format("truetype");
+  src: url("../fonts/clashdisplay/ClashDisplay-Medium.otf") format("opentype");
 }
-body{
+@font-face {
+  font-family: "Studio Feixen Sans";
+  src: url("../fonts/studiofixen/StudioFeixenSansEdgyVariable.ttf")
+    format("truetype");
+}
+body {
   width: 100vw;
   overflow-x: hidden;
-  font-family: 'Clash Display', sans-serif;
+  font-family: "Clash Display", sans-serif;
 }
 :root {
   --swiper-pagination-color: #4259ec;
@@ -70,7 +74,7 @@ body{
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Studio Feixen Sans;
+  font-family: "Studio Feixen Sans";
   font-style: normal;
   font-weight: 350;
   line-height: 102%;

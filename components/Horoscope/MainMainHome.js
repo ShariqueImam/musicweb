@@ -17,13 +17,13 @@ const MainPage = () => {
         <img
           src="/assets/pink.png"
           alt=""
-          className="absolute z-0 ml-[-70rem]"
+          className="absolute z-0 ml-[-70rem] mb-[30rem]"
         />
-        <img
+        {/* <img
           src="/assets/blue.png"
           alt=""
           className="absolute z-0 ml-[70rem] mt-[60rem]"
-        />{" "}
+        />{" "} */}
         <div className="flex items-center justify-center flex-col my-8">
           <p className="text-4xl md:text-5xl text-white my-4 text-center md:text-center">
             To Know About Your Daily Horoscope
@@ -98,11 +98,12 @@ const MainPage = () => {
               {Sign == "4" && <p className={style.iconText}>Capricon</p>}
             </div>
           </a>
-         
         </div>
-        <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-12">
-          Explore Now
-        </button>
+        <a href="/horoscope">
+          <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-12">
+            Explore Now
+          </button>
+        </a>
       </div>
     </div>
   );
