@@ -12,7 +12,7 @@ const Music = () => {
   const onScroll = () => {};
   return (
     // <Animator>
-    <div className="flex flex-col items-center bg-[#0b0b0b] z-20">
+    <div className="flex flex-col items-center bg-[#0b0b0b] z-20 overflow-x-hidden w-[100vw]">
       <Navbar onScroll={onScroll} />
       <img src='/assets/blue.png' alt="" className="absolute z-0 md:ml-[50rem]" />{" "}
       <img src='/assets/circle2.png' alt="" className="absolute z-0 md:ml-[-80rem] mt-[-10rem]" />

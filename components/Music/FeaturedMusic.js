@@ -4,11 +4,11 @@ import { BsArrowUpRight } from "react-icons/bs";
 const FeaturedMusic = () => {
 
   return (
-    <div>
+    <div className="w-[100vw] overflow-x-hidden">
       {" "}
-      <img src='/assets/blue.png' alt="" className="absolute z-0 md:hidden ml-[10rem] md:ml-[50rem]" />{" "}
-      <img src='/assets/circle2.png' alt="" className="absolute z-0 md:hidden md:ml-[-80rem] mt-[-10rem]" />
-      <img src='/assets/pink.png' alt="" className="absolute z-0 md:hidden md:ml-[-70rem]" />
+      <img src='/assets/blue.png' alt="" className="w-[100vw] overflow-hidden absolute z-0 md:hidden  md:ml-[50rem]" />{" "}
+      <img src='/assets/circle2.png' alt="" className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-80rem] mt-[-10rem]" />
+      <img src='/assets/pink.png' alt="" className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-70rem]" />
       <Slide
         direction="up"
         className="flex items-center justify-center "
@@ -29,10 +29,10 @@ const FeaturedMusic = () => {
             <img
               src='/assets/circle.png'
               alt=""
-              className="scale-[0.8] absolute ml-[-30rem] z-0"
+              className="scale-[0.8] w-[100vw] overflow-hidden absolute ml-[-30rem] z-0"
             />
             <section>
-              <img src='/assets/blue.png' alt="" className="absolute z-0 ml-[0rem]" />{" "}
+              {/* <img src='/assets/blue.png' alt="" className="w-[100vw] overflow-hidden absolute z-0 ml-[0rem]" />{" "} */}
               <h2 className="homeTextColor m-1 text-xl md:text-5xl font-bold">
                The Light
               </h2>
@@ -106,9 +106,9 @@ const FeaturedMusic = () => {
         triggerOnce={true}
       >
          {" "}
-      <img src='/assets/blue.png' alt="" className="absolute z-0 md:hidden ml-[10rem] md:ml-[50rem]" />{" "}
-      <img src='/assets/circle2.png' alt="" className="absolute z-0 md:hidden md:ml-[-80rem] mt-[-10rem]" />
-      <img src='/assets/pink.png' alt="" className="absolute z-0 md:hidden md:ml-[-70rem]" />
+      <img src='/assets/blue.png' alt="" className="w-[100vw] overflow-hidden absolute z-0 md:hidden  md:ml-[50rem]" />{" "}
+      <img src='/assets/circle2.png' alt="" className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-80rem] mt-[-10rem]" />
+      <img src='/assets/pink.png' alt="" className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-70rem]" />
         <div className="flex items-center justify-around flex-col md:flex-row w-[100%] md:w-[70%] mx-auto">
           <img src='/assets/home/album2.png' alt="" className="scale-x-[0.65] scale-y-[0.75]  md:scale-[0.8]" />
           <div className="flex flex-col items-start ">
