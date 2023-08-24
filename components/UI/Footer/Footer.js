@@ -9,16 +9,25 @@ import { BsTiktok } from "react-icons/bs";
 const Footer = (props) => {
   const style = {
     wrapper:
-      "font text-neutral-100 flex flex-col w-[100%] md:w-[80%] mx-auto items-center justify-between py-6 md:py-12 mt-44",
+      "font text-neutral-100 flex flex-col w-[100%] md:w-[80%] mx-auto items-center justify-between py-6 md:py-12 mt-44 ",
     para: "font-light border-move-animation list-none cursor-pointer text-white mx-2 md:mx-3  text-md tracking-wide",
   };
 
   return (
     <div className={style.wrapper}>
-      
+      <img
+        src="/assets/blue.png"
+        alt=""
+        className="w-[100vw] overflow-hidden absolute z-0 md:h-[80vh]  ml-[10rem] mt-[-30rem]"
+      />{" "}
+      <img
+        src="/assets/pink.png"
+        alt=""
+        className="w-[100vw] overflow-hidden absolute z-0 md:h-[80vh]  ml-[-10rem] mt-[-30rem]"
+      />
       <div className="flex items-start justify-between w-[100%] flex-col md:flex-row items-center md:items-start">
         <section className="flex flex-col items-start justify-center mb-16 md:my-0">
-          <img src='/assets/home/logo.png' alt="" />
+          <img src="/assets/home/logo.png" alt="" />
         </section>
         <div className="flex text-xs md:text-lg w-full md:w-[80%] items-around justify-around">
           <section>

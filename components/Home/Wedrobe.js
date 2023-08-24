@@ -34,6 +34,16 @@ const Wedrobe = () => {
           Swags
         </p>
       </WedrobeHeading>
+      <img
+        src="/assets/blue.png"
+        alt=""
+        className="w-[100vw] overflow-hidden absolute z-0 md:hidden  md:ml-[50rem]"
+      />{" "}
+      <img
+        src="/assets/pink.png"
+        alt=""
+        className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-70rem]"
+      />
       <Slide
         direction="up"
         triggerOnce
@@ -55,10 +65,20 @@ const Wedrobe = () => {
             name={"Sacred Heart Hoodie"}
             price={"$65"}
           />
-        </section>
+        </section>{" "}
         <button className="mx-auto  exploreBtn shopNow px-14 md:px-20 py-3 md:py-4 mt-20 text-white mx-auto self-center">
           <Link href="/shop">Shop Now</Link>
         </button>
+        <img
+          src="/assets/blue.png"
+          alt=""
+          className="w-[100vw] overflow-hidden absolute z-0 md:hidden  ml-[10rem]"
+        />{" "}
+        <img
+          src="/assets/pink.png"
+          alt=""
+          className="w-[100vw] overflow-hidden absolute z-0 md:hidden  ml-[-10rem]"
+        />
       </Slide>
     </div>
   );

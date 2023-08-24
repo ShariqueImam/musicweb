@@ -29,7 +29,10 @@ const About = () => {
         <p className="text-4xl md:text-8xl text-white text-center md:text-auto">
           About Me
         </p>
+        
       </AboutHeading>
+      <img src='/assets/blue.png' alt="" className="w-[100vw] overflow-hidden absolute z-0 md:hidden  md:ml-[50rem]" />{" "}
+      <img src='/assets/pink.png' alt="" className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-70rem]" />
       <Slide
         direction="up"
         triggerOnce

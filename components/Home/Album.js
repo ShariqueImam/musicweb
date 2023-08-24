@@ -24,7 +24,6 @@ const Album = () => {
   `;
   return (
     <div className="z-20 flex flex-col items-center justify-center z-30">
-      
       <img
         src="/assets/blue.png"
         alt=""
@@ -104,7 +103,17 @@ const Album = () => {
         <Link href="/music">
           <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-12">
             Explore Now
-          </button>
+          </button>{" "}
+          <img
+            src="/assets/blue.png"
+            alt=""
+            className="w-[100vw] overflow-hidden absolute z-0 md:hidden  ml-[10rem]"
+          />{" "}
+          <img
+            src="/assets/pink.png"
+            alt=""
+            className="w-[100vw] overflow-hidden absolute z-0 md:hidden  ml-[-10rem]"
+          />
         </Link>
       </Slide>
     </div>
