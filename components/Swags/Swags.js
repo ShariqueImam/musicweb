@@ -193,7 +193,7 @@ const Swags = () => {
   }
   return (
     <Animator>
-      <div className="bg-[#0b0b0b] flex flex-col items-center z-10">
+      <div className="bg-[#0b0b0b] flex flex-col items-center z-30">
         <img
           src="/assets/pink.png"
           alt=""
@@ -209,7 +209,9 @@ const Swags = () => {
           alt=""
           className="absolute z-0 md:ml-[50rem] mt-[60rem]"
         />{" "}
-        <Navbar onScroll={onScroll} />
+        <div className="z-20 w-[100%]">
+          <Navbar onScroll={onScroll} />
+        </div>
         <Slide
           direction="up"
           triggerOnce
@@ -224,9 +226,21 @@ const Swags = () => {
         >
           <SwagsList swagData={swagData} />
         </Slide>
-        <img src='/assets/blue.png' alt="" className="w-[100vw] overflow-hidden absolute z-0 md:hidden  md:ml-[50rem]" />{" "}
-      <img src='/assets/circle2.png' alt="" className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-80rem] mt-[-10rem]" />
-      <img src='/assets/pink.png' alt="" className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-70rem]" />
+        <img
+          src="/assets/blue.png"
+          alt=""
+          className="w-[100vw] overflow-hidden absolute z-0 md:hidden  md:ml-[50rem]"
+        />{" "}
+        <img
+          src="/assets/circle2.png"
+          alt=""
+          className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-80rem] mt-[-10rem]"
+        />
+        <img
+          src="/assets/pink.png"
+          alt=""
+          className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-70rem]"
+        />
         <Footer />
       </div>
     </Animator>
