@@ -19,7 +19,7 @@ export default function Main() {
 
   return (
     <Animator>
-      <div className="bg-[#0b0b0b]">
+      <div className="">
         <Home />
       </div>
     </Animator>

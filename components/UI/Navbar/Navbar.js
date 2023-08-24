@@ -8,9 +8,9 @@ import { usePathname } from "next/navigation";
 import "animate.css";
 const Navbar = (props) => {
   const style = {
-    navDrawer: "flex sm:hidden items-center text-white ",
     wrapper:
-      "text-gray-900  md:py-6 z-10 w-[100%] md:w-[85%] bg-opacity-[0.9] mx-auto  font absolute ",
+      "text-gray-900  md:py-6 z-10 w-[100%] md:w-[85%] bg-opacity-[0.9] mx-auto  font absolute z-30",
+    navDrawer: "flex sm:hidden items-center text-white ",
     mainNav:
       "flex items-center justify-between py-1 md:py-1 hidden sm:flex w-[100%] md:w-[90%] mx-auto",
     navList: "w-[60%] flex items-center justify-center ",

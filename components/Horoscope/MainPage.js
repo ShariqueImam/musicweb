@@ -8,7 +8,7 @@ const MainPage = () => {
     iconTextHide: "text-white text-xl md:text-xl text-center opacity-[0]",
   };
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center z-20">
       <div className="horoscopeMainImg flex items-center justify-center flex-col py-24">
         {" "}
         <div className="horoscopeBg flex items-center justify-center mt-24 md:mt-32">
@@ -227,7 +227,7 @@ const MainPage = () => {
             </div>
           </a>
         </div>
-        <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-12">
+        <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-12 z-20">
           Explore Now
         </button>
         <img
