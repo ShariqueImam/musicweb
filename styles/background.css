@@ -208,8 +208,8 @@
   background-size: cover;
   background-position: center;
   background-attachment: auto;
-  height: 30vh;
-  width: 70vw;
+  height: 23vh;
+  width: 100vw;
   transform: scale(0.5);
 }
 @media (width<500px) {

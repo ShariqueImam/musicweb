@@ -59,7 +59,7 @@ const SwagsList = ({ swagData }) => {
         <div className="a swagsHeadingShirts flex items-center justify-center mt-44 md:mt-32">
           <p className="text-4xl md:text-8xl text-white">Shirts</p>
         </div>
-        <div className="z-30 flex flex-wrap items-center justify-center">
+        <div className="z-30 flex flex-wrap items-center justify-center w-[100%] md:w-[80%] mx-auto">
           {shirts.map((singleItem) => {
             return (
               <Link href={`/shop/${singleItem.id}`} className="">
@@ -91,7 +91,7 @@ const SwagsList = ({ swagData }) => {
           alt=""
           className="w-[100vw] overflow-hidden absolute z-0   ml-[-10rem] mt-[150rem]"
         />
-        <div className="z-30 flex flex-wrap items-center justify-center">
+        <div className="z-30 flex flex-wrap items-center justify-center w-[100%] md:w-[80%] mx-auto">
           {hoodies.map((singleItem) => {
             return (
               <Link href={`/shop/${singleItem.id}`} className="">
@@ -103,7 +103,7 @@ const SwagsList = ({ swagData }) => {
         <div className="c swagsHeadingShorts flex items-center justify-center mt-44 md:mt-32">
           <p className="text-4xl md:text-8xl text-white">Shorts</p>
         </div>
-        <div className="z-30 flex flex-wrap items-center justify-center">
+        <div className="z-30 flex flex-wrap items-center justify-center w-[100%] md:w-[80%] mx-auto">
           {shorts.map((singleItem) => {
             return (
               <Link href={`/shop/${singleItem.id}`} className="">
@@ -125,7 +125,7 @@ const SwagsList = ({ swagData }) => {
         <div className="d swagsHeadingBags flex items-center justify-center mt-44 md:mt-32">
           <p className="text-4xl md:text-8xl text-white">Bags and Umbrella</p>
         </div>
-        <div className="z-30 flex flex-wrap items-center justify-center">
+        <div className="z-30 flex flex-wrap items-center justify-center w-[100%] md:w-[80%] mx-auto">
           {bags.map((singleItem) => {
             return (
               <Link href={`/shop/${singleItem.id}`} className="">
