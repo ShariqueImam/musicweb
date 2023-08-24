@@ -4,7 +4,7 @@ const Title = () => {
     <div className="flex items-center justify-center flex-col w-[100%] md:w-[70%]">
       {" "}
       <div className="musicTitle flex items-center justify-center mt-44 md:mt-32">
-        <p className="text-5xl md:text-8xl text-white">My Music</p>
+        <p className="text-5xl md:text-8xl text-white">Discography</p>
       </div>
       <div className="flex items-center flex-col md:flex-row flex-col-reverse">
         <section className="flex items-center flex-col md:items-start">

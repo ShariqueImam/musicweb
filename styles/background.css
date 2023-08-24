@@ -69,12 +69,12 @@
   border-radius: 30px;
 }
 .musicTitle {
-  background: url("/assets/music/title.png");
+  background: url("/assets/home/discography.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: auto;
-  height: 40vh;
+  height: 30vh;
   margin: 6rem;
   width: 100vw;
   transform: scale(0.5);
@@ -163,13 +163,13 @@
   transform: scale(0.5);
 }
 .swagsHeading {
-  background: url("/assets/swags/heading.png");
+  background: url("/assets/home/shop.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: auto;
   height: 40vh;
-  width: 70vw;
+  width: 80vw;
   transform: scale(0.5);
 }
 .swagsHeadingShirts {
