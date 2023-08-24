@@ -34,14 +34,18 @@ const Home = () => {
         <div className="z-30">
           <About />
         </div>
-        <div className="z-20">
+        <div className="z-40">
           <Album />
         </div>
-        <div className="z-20">
+        <div className="z-30">
           <Wedrobe />
         </div>
-        <MainPage />
-        <Footer />
+        <div className="z-20">
+          <MainPage />
+        </div>
+        <div className="z-20 w-[100%]">
+          <Footer />
+        </div>
       </div>
     </Animator>
   );

@@ -24,11 +24,7 @@ const Album = () => {
   `;
   return (
     <div className="z-20 flex flex-col items-center justify-center z-30">
-      <img
-        src="/assets/circle.png"
-        alt=""
-        className="absolute z-0 md:ml-[30rem] "
-      />{" "}
+      
       <img
         src="/assets/blue.png"
         alt=""
@@ -61,44 +57,44 @@ const Album = () => {
           >
             <SwiperSlide className="flex items-center justify-center">
               <a href="/music">
-                <div className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms] ">
+                <div className="flex items-center justify-center hover:scale-[0.95] transition duration-[300ms] ">
                   <img
                     src="/assets/music/featured1.png"
                     alt=""
-                    className=" scale-[0.8] md:scale-[0.9] w-[25rem] h-[28rem] md:h-[28rem] rounded-xl"
+                    className=" scale-[0.8] md:scale-[0.9] w-[25rem] h-[28rem] md:h-[32rem] rounded-xl"
                   />
                 </div>
               </a>
             </SwiperSlide>
-            <SwiperSlide className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms] ">
+            <SwiperSlide className="flex items-center justify-center hover:scale-[0.95] transition duration-[300ms] ">
               <a href="/music">
-                <div className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms] ">
+                <div className="flex items-center justify-center hover:scale-[0.95] transition duration-[300ms] ">
                   <img
                     src="/assets/music/featured2.png"
                     alt=""
-                    className=" scale-[0.8] md:scale-[0.9] w-[25rem] h-[28rem] md:h-[28rem] rounded-xl"
+                    className=" scale-[0.8] md:scale-[0.9] w-[25rem] h-[28rem] md:h-[32rem] rounded-xl"
                   />
                 </div>
               </a>
             </SwiperSlide>
-            <SwiperSlide className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms]">
+            <SwiperSlide className="flex items-center justify-center hover:scale-[0.95] transition duration-[300ms]">
               <a href="/music">
-                <div className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms] ">
+                <div className="flex items-center justify-center hover:scale-[0.95] transition duration-[300ms] ">
                   <img
                     src="/assets/home/album2.png"
                     alt=""
-                    className=" scale-[0.8] md:scale-[0.9] w-[25rem] h-[28rem] md:h-[28rem] rounded-xl"
+                    className=" scale-[0.8] md:scale-[0.9] w-[25rem] h-[28rem] md:h-[32rem] rounded-xl"
                   />
                 </div>
               </a>
             </SwiperSlide>
-            <SwiperSlide className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms]">
+            <SwiperSlide className="flex items-center justify-center hover:scale-[0.95] transition duration-[300ms]">
               <a href="/music">
-                <div className="flex items-center justify-center hover:scale-[0.9] transition duration-[300ms] ">
+                <div className="flex items-center justify-center hover:scale-[0.95] transition duration-[300ms] ">
                   <img
                     src="/assets/home/album4.png"
                     alt=""
-                    className=" scale-[0.8] md:scale-[0.9] w-[25rem] h-[28rem] md:h-[28rem] rounded-xl"
+                    className=" scale-[0.8] md:scale-[0.9] w-[25rem] h-[28rem] md:h-[32rem] rounded-xl"
                   />
                 </div>
               </a>
