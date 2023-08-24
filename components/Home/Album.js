@@ -23,7 +23,7 @@ const Album = () => {
     width: 90vw;
   `;
   return (
-    <div className="flex flex-col items-center justify-center z-30">
+    <div className="z-20 flex flex-col items-center justify-center z-30">
       <img
         src="/assets/circle.png"
         alt=""
@@ -42,9 +42,9 @@ const Album = () => {
       <Slide
         direction="up"
         triggerOnce
-        className="flex items-center justify-center"
+        className="flex items-center justify-center z-20"
       >
-        <section className="w-[90vw] flex">
+        <section className="w-[90vw] flex z-20">
           <Swiper
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             // effect={"coverflow"}
@@ -57,7 +57,7 @@ const Album = () => {
             // navigation
             pagination={{ clickable: true }}
             // scrollbar={{ draggable: true }}
-            className="flex items-center justify-center py-12 md:py-24"
+            className="flex items-center justify-center py-12 md:py-24 z-20"
           >
             <SwiperSlide className="flex items-center justify-center">
               <a href="/music">

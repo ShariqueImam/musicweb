@@ -16,8 +16,24 @@ const Home = () => {
       <div className="flex flex-col items-center bg-[#0b0b0b] z-20">
         <Navbar onScroll={onScroll} />
         <Title />
+        <img
+          src="/assets/blue.png"
+          alt=""
+          className="w-[100vw] overflow-hidden absolute z-0 md:hidden  md:ml-[50rem]"
+        />{" "}
+        <img
+          src="/assets/circle2.png"
+          alt=""
+          className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-80rem] mt-[-10rem]"
+        />
+        <img
+          src="/assets/pink.png"
+          alt=""
+          className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-70rem]"
+        />
+        F
         <About />
-        <div className="z-0">
+        <div className="z-20">
           <Album />
         </div>
         <div className="z-20">

@@ -41,9 +41,9 @@ const Wedrobe = () => {
             price={"$50"}
           />
           <SingleCard
-            img={"/assets/swags/polof.jpg"}
-            name={"Eye Illustration Blue Polo Shirt"}
-            price={"$50"}
+            img={"/assets/swags/Hoodie_Mockup.jpg"}
+            name={"Sacred Heart Hoodie"}
+            price={"$65"}
           />
           <SingleCard
             img={"/assets/swags/shirt-design2.jpg"}
@@ -52,7 +52,7 @@ const Wedrobe = () => {
           />
         </section>
         <button className="mx-auto  exploreBtn shopNow px-14 md:px-20 py-3 md:py-4 mt-20 text-white mx-auto self-center">
-          <Link href="/swags">Shop Now</Link>
+          <Link href="/shop">Shop Now</Link>
         </button>
       </Slide>
     </div>

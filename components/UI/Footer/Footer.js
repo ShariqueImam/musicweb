@@ -50,8 +50,8 @@ const Footer = (props) => {
             </a>
           </section>
           <section>
-            <a href="/swags">
-              <h2 className="font-semibold">Swags</h2>
+            <a href="/shop">
+              <h2 className="font-semibold">Shop</h2>
             </a>{" "}
             <a href="/swags">
               <p className="font-thin my-4">Hoodies</p>

@@ -40,7 +40,7 @@ const FeaturedMusic = () => {
                 Song Type- EP 
               </p>
               <p className="text-white text-xl font-thin my-4 md:my-5 edgy">
-                TM Juelz
+                TMjuelz
               </p>
             </section>
             <div>
@@ -77,7 +77,7 @@ const FeaturedMusic = () => {
                 Song Type - Single
               </p>
               <p className="text-white text-xl font-thin my-4 md:my-5 edgy">
-                TM Juelz
+                TMjuelz
               </p>
             </section>
             <div>
@@ -120,7 +120,7 @@ const FeaturedMusic = () => {
                 Song Type - Single
               </p>
               <p className="text-white text-xl font-thin my-4 md:my-5 edgy">
-                TM Juelz
+                TMjuelz
               </p>
             </section>
             <div>

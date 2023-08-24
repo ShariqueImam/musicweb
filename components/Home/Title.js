@@ -3,8 +3,8 @@ import { Slide } from "react-awesome-reveal";
 import Link from "next/link";
 const Title = () => {
   const style = {
-    white: "homeTextWhite m-1 text-5xl md:text-8xl",
-    color: "homeTextColor m-1 text-5xl md:text-8xl",
+    white: "homeTextWhite m-1 text-4xl md:text-7xl",
+    color: "homeTextColor m-1 text-4xl md:text-7xl",
   };
   return (
     <div className="bg1">
@@ -19,13 +19,7 @@ const Title = () => {
               className={style.white}
               style={{ fontFamily: "Clash Display, sans-serif" }}
             >
-              Let
-            </p>
-            <p
-              className={style.white}
-              style={{ fontFamily: "Clash Display, sans-serif" }}
-            >
-              The
+              Mysterious
             </p>
             <p
               className={style.color}
@@ -37,20 +31,44 @@ const Title = () => {
               className={style.white}
               style={{ fontFamily: "Clash Display, sans-serif" }}
             >
-              Ignite
+              It's
             </p>
             <p
               className={style.white}
               style={{ fontFamily: "Clash Display, sans-serif" }}
             >
-              Your
+              Like
+            </p>
+            <p
+              className={style.white}
+              style={{ fontFamily: "Clash Display, sans-serif" }}
+            >
+              A
             </p>
             <p
               className={style.color}
               style={{ fontFamily: "Clash Display, sans-serif" }}
             >
-              Imagination
-            </p>
+              Blessing
+            </p>{" "}
+            <p
+              className={style.white}
+              style={{ fontFamily: "Clash Display, sans-serif" }}
+            >
+              And
+            </p>{" "}
+            <p
+              className={style.white}
+              style={{ fontFamily: "Clash Display, sans-serif" }}
+            >
+              A
+            </p>{" "}
+            <p
+              className={style.color}
+              style={{ fontFamily: "Clash Display, sans-serif" }}
+            >
+              Reward
+            </p>{" "}
           </div>
           <Link href="/music">
             <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-12">

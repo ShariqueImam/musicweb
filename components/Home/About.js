@@ -18,7 +18,7 @@ const About = () => {
   `;
 
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center z-20">
       {" "}
       <img
         src="/assets/pink.png"
@@ -33,17 +33,15 @@ const About = () => {
       <Slide
         direction="up"
         triggerOnce
-        className="flex items-center justify-center"
+        className="flex items-center justify-center z-20"
       >
-        <div className="my-8 md:my-16 flex flex-col md:flex-row mx-auto w-[100%] md:w-[100%] lg:w-[100%] items-center justify-center ">
-          <section className="md:w-[100%] flex flex-col items-center md:items-center">
-            <p className="homeTextColor text-5xl md:text-6xl text-center md:text-auto">
-              TM Juelz
+        <div className=" z-20 my-8 md:my-16 flex flex-col md:flex-row mx-auto w-[100%] md:w-[100%] lg:w-[100%] items-center justify-center ">
+          <section className="md:w-[100%] flex flex-col items-center md:items-center z-20">
+            <p className="homeTextColor text-5xl md:text-6xl text-center md:text-auto z-20">
+              TMjuelz
             </p>
-            <p className="text-white my-4 text-2xl  text-center md:text-auto">
-              Rapper, musician
-            </p>
-            <section className="w-[70%] md:w-[40%] my-20 md:my-14">
+            
+            <section className="w-[70%] md:w-[40%] my-20 md:my-14 z-20">
               <img
                 src="/assets/white.svg"
                 alt=""
@@ -51,7 +49,7 @@ const About = () => {
               />
             </section>
             <Link href="/music">
-              <button className="exploreBtn text-white px-10 md:px-14 py-3 py-3 md:py-3 my-4">
+              <button className="z-20 cursor-pointer exploreBtn text-white px-10 md:px-14 py-3 py-3 md:py-3 my-4">
                 Listen More{" "}
               </button>
             </Link>

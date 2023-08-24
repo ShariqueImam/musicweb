@@ -70,14 +70,14 @@ const Navbar = (props) => {
                 Music
               </li>
             </Link>
-            <Link href="/swags">
+            <Link href="/shop">
               <li
                 className={`${
                   pathname == "/swags" ? "text-[#EA2587]" : "text-white"
                 } font-light border-move-animation list-none cursor-pointer mx-4 md:mx-4  text-md tracking-wide`}
                 onClick={() => setItem("about")}
               >
-                Swags
+                Shop
               </li>
             </Link>
             <Link href="/horoscope">

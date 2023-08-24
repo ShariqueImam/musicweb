@@ -74,12 +74,12 @@ const NavDrawer = (props) => {
                 Music
               </li>
             </Link>
-            <Link href={"/swags"}>
+            <Link href={"/shop"}>
               <li
                 className={style.list}
                 onClick={() => props.onScroll("about")}
               >
-                Swags
+                Shop
               </li>
             </Link>
             <Link href={"/horoscope"}>
