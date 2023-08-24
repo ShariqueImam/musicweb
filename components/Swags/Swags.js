@@ -209,7 +209,7 @@ const Swags = () => {
           alt=""
           className="absolute z-0 md:ml-[50rem] mt-[60rem]"
         />{" "}
-        <div className="z-20 w-[100%]">
+        <div className="z-20 w-[100%] flex items-center justify-center mt-16">
           <Navbar onScroll={onScroll} />
         </div>
         <Slide

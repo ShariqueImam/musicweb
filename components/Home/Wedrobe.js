@@ -17,7 +17,7 @@ const Wedrobe = () => {
     width: 70vw;
   `;
   return (
-    <div className="flex flex-col  justify-center z-20 items-center my-8">
+    <div className="flex flex-col  justify-center z-20 items-center my-8 z-30">
       {" "}
       <img
         src="/assets/pink.png"
@@ -66,7 +66,7 @@ const Wedrobe = () => {
             price={"$65"}
           />
         </section>{" "}
-        <button className="mx-auto  exploreBtn shopNow px-14 md:px-20 py-3 md:py-4 mt-20 text-white mx-auto self-center">
+        <button className="mx-auto exploreBtn shopNow px-14 md:px-20 py-3 md:py-4 mt-20 text-white mx-auto self-center z-30">
           <Link href="/shop">Shop Now</Link>
         </button>
         <img

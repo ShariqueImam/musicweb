@@ -1,7 +1,7 @@
 import React from "react";
 import SingleCard from "./SingleCard";
 import Link from "next/link";
-import {scroller} from 'react-scroll'
+import { scroller } from "react-scroll";
 const SwagsList = ({ swagData }) => {
   let shirts = swagData.slice(0, 5);
   let hoodies = swagData.slice(5, 9);
@@ -30,22 +30,44 @@ const SwagsList = ({ swagData }) => {
         className="scale-[0.8] absolute ml-[-80rem] mt-[150rem] z-0"
       />
       <div className="flex flex-wrap w-[100vw] md:w-[95vw] items-center justify-center z-30 ">
-        <div className="flex items-center justify-center flex-wrap mt-12 md:mt-1">
-          <p className="text-2xl md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0" onClick={()=>onScroll('a')}>Shirts</p>
-          <p className="text-2xl md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0"  onClick={()=>onScroll('b')}>Hoodies</p>
-          <p className="text-2xl md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0"  onClick={()=>onScroll('c')}>Shorts</p>
-          <p className="text-2xl md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0"  onClick={()=>onScroll('d')}>Bags and Umbrella</p>
+        <div className="flex items-center justify-center flex-wrap mt-12 md:mt-1 z-30">
+          <p
+            className="text-2xl md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0"
+            onClick={() => onScroll("a")}
+          >
+            Shirts
+          </p>
+          <p
+            className="text-2xl md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0"
+            onClick={() => onScroll("b")}
+          >
+            Hoodies
+          </p>
+          <p
+            className="text-2xl md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0"
+            onClick={() => onScroll("c")}
+          >
+            Shorts
+          </p>
+          <p
+            className="text-2xl md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0"
+            onClick={() => onScroll("d")}
+          >
+            Bags and Umbrella
+          </p>
         </div>
         <div className="a swagsHeadingShirts flex items-center justify-center mt-44 md:mt-32">
           <p className="text-4xl md:text-8xl text-white">Shirts</p>
         </div>
-        {shirts.map((singleItem) => {
-          return (
-            <Link href={`/swags/${singleItem.id}`} className="">
-              <SingleCard swagData={singleItem} />
-            </Link>
-          );
-        })}
+        <div className="z-30 flex flex-wrap items-center justify-center">
+          {shirts.map((singleItem) => {
+            return (
+              <Link href={`/shop/${singleItem.id}`} className="">
+                <SingleCard swagData={singleItem} />
+              </Link>
+            );
+          })}
+        </div>
         <img
           src="/assets/blue.png"
           alt=""
@@ -69,23 +91,27 @@ const SwagsList = ({ swagData }) => {
           alt=""
           className="w-[100vw] overflow-hidden absolute z-0   ml-[-10rem] mt-[150rem]"
         />
-        {hoodies.map((singleItem) => {
-          return (
-            <Link href={`/swags/${singleItem.id}`} className="">
-              <SingleCard swagData={singleItem} />
-            </Link>
-          );
-        })}
+        <div className="z-30 flex flex-wrap items-center justify-center">
+          {hoodies.map((singleItem) => {
+            return (
+              <Link href={`/shop/${singleItem.id}`} className="">
+                <SingleCard swagData={singleItem} />
+              </Link>
+            );
+          })}
+        </div>
         <div className="c swagsHeadingShorts flex items-center justify-center mt-44 md:mt-32">
           <p className="text-4xl md:text-8xl text-white">Shorts</p>
         </div>
-        {shorts.map((singleItem) => {
-          return (
-            <Link href={`/swags/${singleItem.id}`} className="">
-              <SingleCard swagData={singleItem} />
-            </Link>
-          );
-        })}
+        <div className="z-30 flex flex-wrap items-center justify-center">
+          {shorts.map((singleItem) => {
+            return (
+              <Link href={`/shop/${singleItem.id}`} className="">
+                <SingleCard swagData={singleItem} />
+              </Link>
+            );
+          })}
+        </div>
         <img
           src="/assets/blue.png"
           alt=""
@@ -99,13 +125,15 @@ const SwagsList = ({ swagData }) => {
         <div className="d swagsHeadingBags flex items-center justify-center mt-44 md:mt-32">
           <p className="text-4xl md:text-8xl text-white">Bags and Umbrella</p>
         </div>
-        {bags.map((singleItem) => {
-          return (
-            <Link href={`/swags/${singleItem.id}`} className="">
-              <SingleCard swagData={singleItem} />
-            </Link>
-          );
-        })}
+        <div className="z-30 flex flex-wrap items-center justify-center">
+          {bags.map((singleItem) => {
+            return (
+              <Link href={`/shop/${singleItem.id}`} className="">
+                <SingleCard swagData={singleItem} />
+              </Link>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
