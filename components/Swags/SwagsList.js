@@ -31,9 +31,29 @@ const SwagsList = ({ swagData }) => {
             </Link>
           );
         })}
+            <img
+          src="/assets/blue.png"
+          alt=""
+          className="w-[100vw] overflow-hidden absolute z-0   ml-[0rem] mt-[-180rem]"
+        />
+        <img
+          src="/assets/pink.png"
+          alt=""
+          className="w-[100vw] overflow-hidden absolute z-0   ml-[-10rem] mt-[-180rem]"
+        />
         <div className="swagsHeadingHoodies flex items-center justify-center mt-44 md:mt-32">
           <p className="text-4xl md:text-8xl text-white">Hoodies</p>
         </div>
+        <img
+          src="/assets/blue.png"
+          alt=""
+          className="w-[100vw] overflow-hidden absolute z-0   ml-[0rem] mt-[150rem]"
+        />
+        <img
+          src="/assets/pink.png"
+          alt=""
+          className="w-[100vw] overflow-hidden absolute z-0   ml-[-10rem] mt-[150rem]"
+        />
         {hoodies.map((singleItem) => {
           return (
             <Link href={`/swags/${singleItem.id}`} className="">
@@ -51,6 +71,16 @@ const SwagsList = ({ swagData }) => {
             </Link>
           );
         })}
+        <img
+          src="/assets/blue.png"
+          alt=""
+          className="w-[100vw] overflow-hidden absolute z-0   ml-[0rem] mt-[400rem]"
+        />
+        <img
+          src="/assets/pink.png"
+          alt=""
+          className="w-[100vw] overflow-hidden absolute z-0   ml-[-10rem] mt-[400rem]"
+        />
         <div className="swagsHeadingBags flex items-center justify-center mt-44 md:mt-32">
           <p className="text-4xl md:text-8xl text-white">Bags and Umbrella</p>
         </div>
