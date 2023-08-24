@@ -30,7 +30,7 @@ const Home = () => {
         <div className="z-30">
           <Wedrobe />
         </div>
-        <div className="z-30">
+        <div className="z-50">
           <MainPage />
         </div>
         <div className="z-40 w-[100%]">

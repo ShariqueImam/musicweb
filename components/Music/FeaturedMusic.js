@@ -36,12 +36,14 @@ const FeaturedMusic = () => {
         className="flex items-center justify-center z-30"
         triggerOnce={true}
       >
-        <div className="flex items-center justify-around flex-col md:flex-row  w-[100%] md:w-[70%] mx-auto z-30">
-          <img
-            src="/assets/music/featured1.png"
-            alt=""
-            className="scale-x-[0.65] scale-y-[0.75] md:scale-[0.8]"
-          />
+        <div className="flex items-center justify-around flex-col md:flex-row  w-[100%] md:w-[60%] mx-auto z-30 ">
+          <div className="hover:scale-[0.95] transition duration-[300ms]">
+            <img
+              src="/assets/music/featured1.png"
+              alt=""
+              className="scale-x-[0.65] scale-y-[0.75] md:scale-[0.8] "
+            />
+          </div>
           <div className="flex flex-col items-start ">
             <img
               src="/assets/circle.png"
@@ -104,7 +106,7 @@ const FeaturedMusic = () => {
         className="flex items-center justify-center my-32 md:my-0 z-30"
         triggerOnce={true}
       >
-        <div className="flex items-center justify-around flex-col md:flex-row flex-col-reverse  w-[100%] md:w-[70%] mx-auto z-30">
+        <div className="flex items-center justify-around flex-col md:flex-row flex-col-reverse  w-[100%] md:w-[60%] mx-auto z-30">
           <div className="flex flex-col items-start z-30">
             <section className="flex flex-col items-start z-30">
               <h2 className="homeTextColor m-1 text-xl md:text-5xl font-bold ">
@@ -134,11 +136,13 @@ const FeaturedMusic = () => {
               </a>
             </div>
           </div>
-          <img
-            src="/assets/music/featured2.png"
-            alt=""
-            className="scale-x-[0.65] scale-y-[0.75] md:scale-[0.8]"
-          />
+          <div className="hover:scale-[0.95] transition duration-[300ms]">
+            <img
+              src="/assets/music/featured2.png"
+              alt=""
+              className="scale-x-[0.65] scale-y-[0.75] md:scale-[0.8]"
+            />
+          </div>
         </div>
       </Slide>
       <Slide
@@ -162,12 +166,14 @@ const FeaturedMusic = () => {
           alt=""
           className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-70rem]"
         />
-        <div className="flex items-center justify-around flex-col md:flex-row w-[100%] md:w-[70%] mx-auto z-30">
-          <img
-            src="/assets/home/album2.png"
-            alt=""
-            className="scale-x-[0.65] scale-y-[0.75]  md:scale-[0.8]"
-          />
+        <div className="flex items-center justify-around flex-col md:flex-row w-[100%] md:w-[60%] mx-auto z-30">
+          <div className="hover:scale-[0.95] transition duration-[300ms]">
+            <img
+              src="/assets/home/album2.png"
+              alt=""
+              className="scale-x-[0.65] scale-y-[0.75]  md:scale-[0.8]"
+            />
+          </div>
           <div className="flex flex-col items-start z-30">
             <section>
               <h2 className="homeTextColor m-1 text-xl md:text-5xl font-bold">

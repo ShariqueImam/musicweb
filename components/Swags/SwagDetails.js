@@ -323,7 +323,7 @@ const SwagDetails = ({ match }) => {
           </section>
         </div>
       </Slide>
-      <div className="z">
+      <div className="w-[100%] ">
         <Footer />
       </div>
     </div>
