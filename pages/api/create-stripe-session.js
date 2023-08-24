@@ -4,7 +4,7 @@ async function CreateStripeSession(req, res) {
   const { item } = req.body;
   const redirectURL =
     process.env.NODE_ENV === "development"
-      ? "http://localhost:3000"
+      ? "https://www.mysteriousmusic.co.uk"
       : "https://www.mysteriousmusic.co.uk";
 
   const transformedItem = {
