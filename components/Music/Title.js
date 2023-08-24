@@ -17,7 +17,22 @@ const Title = () => {
             </button>
           </a>
         </section>
-        <img src='/assets/music/homeimg.png' alt="" className="scale-[0.7] w-[90%]" />
+        
+        <img
+          src="/assets/music/homeimg.png"
+          alt=""
+          className="scale-[0.7] w-[90%]"
+        />
+         <img
+          src="/assets/blue.png"
+          alt=""
+          className="w-[100vw] overflow-hidden absolute z-0 md:hidden  ml-[10rem]"
+        />{" "}
+        <img
+          src="/assets/pink.png"
+          alt=""
+          className="w-[100vw] overflow-hidden absolute z-0 md:hidden  ml-[-10rem]"
+        />  
       </div>
     </div>
   );
