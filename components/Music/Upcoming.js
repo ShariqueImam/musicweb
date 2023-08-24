@@ -16,7 +16,7 @@ const Upcoming = () => {
           className="z-20 upcomingBg1  flex items-center justify-center flex flex-col hover:scale-[0.9] w-[80vw] md:w-[25vw]"
         >
           <p className=" borderColor border-2 w-[60vw] md:w-[15vw] h-[50vh] rounded-full "></p>
-          <img src="/assets/music/lock.png" alt="" className="scale-[8] w-2" />
+          <img src="/assets/white.svg" alt="" className="scale-[8] w-2" />
           {Up1 && (
             <p className="text-white fixed text-xl bg-gray-300 rounded-xl p-2 imgHoverText">
               Available Soon
@@ -39,7 +39,7 @@ const Upcoming = () => {
               Available Soon
             </p>
           )}
-          <img src="/assets/music/lock.png" alt="" className="scale-[8] w-2" />
+          <img src="/assets/white.svg" alt="" className="scale-[8] w-2" />
           
         </div>
       </div>

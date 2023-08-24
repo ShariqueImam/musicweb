@@ -4,7 +4,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 const FeaturedMusic = () => {
 
   return (
-    <div className="w-[100vw] overflow-x-hidden">
+    <div className="">
       {" "}
       <img src='/assets/blue.png' alt="" className="w-[100vw] overflow-hidden absolute z-0 md:hidden  md:ml-[50rem]" />{" "}
       <img src='/assets/circle2.png' alt="" className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-80rem] mt-[-10rem]" />
