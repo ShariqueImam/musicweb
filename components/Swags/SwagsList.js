@@ -30,11 +30,11 @@ const SwagsList = ({ swagData }) => {
         className="scale-[0.8] absolute ml-[-80rem] mt-[150rem] z-0"
       />
       <div className="flex flex-wrap w-[100vw] md:w-[95vw] items-center justify-center z-30 ">
-        <div className="flex items-center justify-center">
-          <p className="text-2xl md:text-2xl text-white mx-4 md:mx-8 cursor-pointer" onClick={()=>onScroll('a')}>Shirts</p>
-          <p className="text-2xl md:text-2xl text-white mx-4 md:mx-8 cursor-pointer"  onClick={()=>onScroll('b')}>Hoodies</p>
-          <p className="text-2xl md:text-2xl text-white mx-4 md:mx-8 cursor-pointer"  onClick={()=>onScroll('c')}>Shorts</p>
-          <p className="text-2xl md:text-2xl text-white mx-4 md:mx-8 cursor-pointer"  onClick={()=>onScroll('d')}>Bags and Umbrella</p>
+        <div className="flex items-center justify-center flex-wrap mt-12 md:mt-1">
+          <p className="text-2xl md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0" onClick={()=>onScroll('a')}>Shirts</p>
+          <p className="text-2xl md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0"  onClick={()=>onScroll('b')}>Hoodies</p>
+          <p className="text-2xl md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0"  onClick={()=>onScroll('c')}>Shorts</p>
+          <p className="text-2xl md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0"  onClick={()=>onScroll('d')}>Bags and Umbrella</p>
         </div>
         <div className="a swagsHeadingShirts flex items-center justify-center mt-44 md:mt-32">
           <p className="text-4xl md:text-8xl text-white">Shirts</p>

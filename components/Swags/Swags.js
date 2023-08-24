@@ -193,7 +193,7 @@ const Swags = () => {
   }
   return (
     <Animator>
-      <div className="bg-[#0b0b0b] flex flex-col items-center z-0">
+      <div className="bg-[#0b0b0b] flex flex-col items-center z-10">
         <img
           src="/assets/pink.png"
           alt=""
@@ -213,14 +213,14 @@ const Swags = () => {
         <Slide
           direction="up"
           triggerOnce
-          className="flex items-center justify-center w-[100%] h-[100%]"
+          className="flex items-center justify-center w-[100%] h-[100%] z-10"
         >
           <Title />
         </Slide>
         <Slide
           direction="up"
           triggerOnce
-          className="flex items-center justify-center w-[100%] h-[100%]"
+          className="flex items-center justify-center w-[100%] h-[100%] z-20"
         >
           <SwagsList swagData={swagData} />
         </Slide>
