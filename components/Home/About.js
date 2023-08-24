@@ -48,7 +48,7 @@ const About = () => {
                 className="mx-auto scale-[1.3] md:scale-[2.2] my-5 md:my-24"
               />
             </section>
-            <Link href="/music">
+            <Link href="/music" className="">
               <button className="z-20 cursor-pointer exploreBtn text-white px-10 md:px-14 py-3 py-3 md:py-3 my-4">
                 Listen More{" "}
               </button>

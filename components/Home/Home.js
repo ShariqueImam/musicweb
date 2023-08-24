@@ -31,8 +31,9 @@ const Home = () => {
           alt=""
           className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-70rem]"
         />
-        F
-        <About />
+        <div className="z-30">
+          <About />
+        </div>
         <div className="z-20">
           <Album />
         </div>
