@@ -22,7 +22,8 @@ const SingleCard = ({ img, name, price }) => {
       <FeaturedBackground1 className={style.wrapper}>
         <section className="w-full swagsItem border-t-[1px] border-t-[#F33C9A] p-2 md:px-3 rounded-tr-[20px] rounded-tl-[20px] ">
           <h2 className={style.heading}>{name}</h2>
-          <h2 className={style.para}>{price}</h2>
+          <h2 className={style.para}>SOLD OUT</h2>
+          {/* <h2 className={style.para}>{price}</h2> */}
           <ReactStars count={5} size={12} color1={"#ffff00"} edit={false} />
         </section>
       </FeaturedBackground1>
