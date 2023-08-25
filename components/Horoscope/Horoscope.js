@@ -30,12 +30,14 @@ const Horoscope = () => {
         <Slide
           direction="up"
           triggerOnce
-          className="flex items-center justify-center z-10"
+          className="flex items-center justify-center z-20"
         >
           <MainPage />
         </Slide>
         {/* <Newsletter /> */}
-        <Footer />
+        <div className="w-[100%]">
+          <Footer />
+        </div>
         <img
           src="/assets/blue.png"
           alt=""
