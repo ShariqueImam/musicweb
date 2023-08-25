@@ -29,11 +29,9 @@ const Album = () => {
         alt=""
         className="absolute z-0 md:ml-[70rem] "
       />{" "}
-      <AlbumHeading className="flex items-center justify-center">
-        <p className="text-4xl md:text-8xl text-white text-center md:text-auto">
-          Music Albums
-        </p>
-      </AlbumHeading>
+      <div className="musicTitle flex items-center justify-center mt-44 md:mt-32">
+        <p className="text-5xl md:text-8xl text-white edgy">Discography</p>
+      </div>
       <Slide
         direction="up"
         triggerOnce

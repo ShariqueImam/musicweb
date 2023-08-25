@@ -12,7 +12,7 @@ const MainPage = () => {
       <div className="horoscopeMainImg flex items-center justify-center flex-col py-24 z-50">
         {" "}
         <div className="horoscopeBg flex items-center justify-center mt-24 md:mt-32  z-50">
-          <p className="text-4xl md:text-8xl text-white">Horoscope</p>
+          <p className="text-4xl md:text-8xl text-white  edgy">Horoscope</p>
         </div>
         <img
           src="/assets/pink.png"

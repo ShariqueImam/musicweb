@@ -26,7 +26,7 @@ const FeaturedMusic = () => {
         triggerOnce={false}
       >
         <div className="bg2 flex items-center justify-center md:mt-12 z-10">
-          <p className="text-5xl md:text-8xl text-white text-center ">
+          <p className="text-5xl md:text-8xl text-white text-center  edgy">
             Featured Music
           </p>
         </div>

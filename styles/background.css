@@ -97,9 +97,8 @@
       rgba(0, 0, 0, 0.85),
       rgba(0, 0, 0, 0.85)
     ),
-    url("/assets/music/featured1.png");
+    url("/assets/white.svg");
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
   background-attachment: auto;
   border-radius: 70px;
@@ -117,9 +116,8 @@
       rgba(0, 0, 0, 0.85),
       rgba(0, 0, 0, 0.85)
     ),
-    url("/assets/music/featured2.png");
+    url("/assets/white.svg");
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
   background-attachment: auto;
   border-radius: 70px;

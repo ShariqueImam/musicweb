@@ -36,7 +36,7 @@ const Live = () => {
           className="absolute z-0 md:ml-[70rem] mt-[20rem] md:mt-[-40rem]"
         />{" "}
         <div className="liveHeading flex items-center justify-center mt-44 md:mt-32">
-          <p className="text-4xl md:text-8xl text-white">Live Lobby</p>
+          <p className="text-4xl md:text-8xl text-white edgy">Live Lobby</p>
         </div>
         <Slide
           direction="up"

@@ -55,7 +55,9 @@ const Music = () => {
       >
         <Upcoming />
       </Slide>
-      <Footer />
+      <div className="z-10 w-[100%] ">
+        <Footer />
+      </div>
     </div>
     // </Animator>
   );

@@ -30,7 +30,7 @@ const Wedrobe = () => {
         className="absolute z-0 md:ml-[30rem] w-[100vw] h-[150vh]"
       />{" "}
       <WedrobeHeading className="flex items-center justify-center">
-        <p className="text-4xl md:text-8xl text-white text-center md:text-start">
+        <p className="text-4xl md:text-8xl text-white text-center md:text-start  edgy">
           Swags
         </p>
       </WedrobeHeading>

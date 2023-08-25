@@ -57,7 +57,7 @@ const SwagsList = ({ swagData }) => {
           </p>
         </div>
         <div className="a swagsHeadingShirts flex items-center justify-center mt-12 md:mt-32">
-          <p className="text-4xl md:text-8xl text-white">Shirts</p>
+          <p className="text-4xl md:text-8xl text-white edgy">Shirts</p>
         </div>
         <div className="z-30 flex flex-wrap items-center justify-center w-[100%] md:w-[80%] mx-auto">
           {shirts.map((singleItem) => {
@@ -79,7 +79,7 @@ const SwagsList = ({ swagData }) => {
           className="w-[100vw] overflow-hidden absolute z-0   ml-[-10rem] mt-[-180rem]"
         />
         <div className="b swagsHeadingHoodies flex items-center justify-center mt-44 md:mt-32">
-          <p className="text-4xl md:text-8xl text-white">Hoodies</p>
+          <p className="text-4xl md:text-8xl text-white edgy">Hoodies</p>
         </div>
         <img
           src="/assets/blue.png"
@@ -101,7 +101,7 @@ const SwagsList = ({ swagData }) => {
           })}
         </div>
         <div className="c swagsHeadingShorts flex items-center justify-center mt-44 md:mt-32">
-          <p className="text-4xl md:text-8xl text-white">Shorts</p>
+          <p className="text-4xl md:text-8xl text-white edgy">Shorts</p>
         </div>
         <div className="z-30 flex flex-wrap items-center justify-center w-[100%] md:w-[80%] mx-auto">
           {shorts.map((singleItem) => {
@@ -123,7 +123,7 @@ const SwagsList = ({ swagData }) => {
           className="w-[100vw] overflow-hidden absolute z-0   ml-[-10rem] mt-[400rem]"
         />
         <div className="d swagsHeadingBags flex items-center justify-center mt-44 md:mt-32">
-          <p className="text-4xl md:text-8xl text-white">Bags and Umbrella</p>
+          <p className="text-4xl md:text-8xl text-white edgy">Bags and Umbrella</p>
         </div>
         <div className="z-30 flex flex-wrap items-center justify-center w-[100%] md:w-[80%] mx-auto">
           {bags.map((singleItem) => {
