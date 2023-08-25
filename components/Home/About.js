@@ -38,14 +38,14 @@ const About = () => {
             <p className="homeTextColor text-5xl md:text-6xl text-center md:text-auto z-20">
               TMjuelz
             </p>
-            <p className="text-white text-2xl md:text-3xl my-12">Artist</p>
-            {/* <section className="w-[70%] md:w-[40%] my-20 md:my-14 z-20">
+            <p className="text-white text-2xl md:text-3xl my-4">Artist</p>
+            <section className="w-[70%] md:w-[40%] my-20 md:my-14 z-20">
               <img
                 src="/assets/white.svg"
                 alt=""
-                className="mx-auto scale-[1.3] md:scale-[2.2] my-5 md:my-24"
+                className="mx-auto scale-[1.3] md:scale-[2.6] my-5 md:my-16"
               />
-            </section> */}
+            </section>
             <Link href="/music" className="">
               <button className="z-20 cursor-pointer exploreBtn text-white px-10 md:px-14 py-3 py-3 md:py-3 my-4">
                 Listen More{" "}

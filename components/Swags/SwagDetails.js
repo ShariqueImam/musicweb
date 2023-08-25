@@ -277,8 +277,11 @@ const SwagDetails = ({ match }) => {
             </h2>
             <h2 className="font-thin my-4">{item.description}</h2>
             <h2 className="font-semibold text-5xl md:text-6xl my-4">
-              $ {item.price}
+            SOLD OUT
             </h2>{" "}
+            {/* <h2 className="font-semibold text-5xl md:text-6xl my-4">
+              $ {item.price}
+            </h2>{" "} */}
             <ReactStars count={5} size={24} color1={"#4E88FA"} edit={false} />
             <section className="flex my-4  z-30">
               <p
