@@ -24,13 +24,13 @@ const Horoscope = () => {
           alt=""
           className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-70rem]"
         />
-        <div className="z-20 flex items-center justify-center mt-16 z-20">
+        <div className=" flex items-center justify-center mt-16 z-20">
           <Navbar onScroll={onScroll} />
         </div>
         <Slide
           direction="up"
           triggerOnce
-          className="flex items-center justify-center z-50"
+          className="flex items-center justify-center z-10"
         >
           <MainPage />
         </Slide>

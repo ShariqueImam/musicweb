@@ -15,12 +15,12 @@ const Home = () => {
     <Animator>
       <div className="flex flex-col items-center">
         {/* <div className="z-30 flex items-center justify-center mt-16 "> */}
-          <Navbar onScroll={onScroll} />
+        <Navbar onScroll={onScroll} />
         {/* </div> */}
-        <div className="z-2">
+        <div className="">
           <Title />
         </div>
-       
+
         <div className="z-30">
           <About />
         </div>

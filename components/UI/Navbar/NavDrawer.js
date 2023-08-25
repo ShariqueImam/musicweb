@@ -58,7 +58,7 @@ const NavDrawer = (props) => {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        <div className="h-[40vh] font flex flex-col my-8  bg-[#0b0b0b] items-center">
+        <div className="h-[40vh] font flex flex-col my-8  bg-[#0b0b0b] items-center w-[50vw]">
           <img src="/assets/white.svg" className="w-[45%]"/>
 
           {/* adding the navs */}

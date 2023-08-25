@@ -4,7 +4,7 @@ import React, { useState } from "react";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <div className="overflow-x-hidden bg-[#0b0b0b] w-[100vw]">
+      <div className="overflow-x-hidden bg-[#0b0b0b] w-[100vw] relative">
         <Component {...pageProps} />
       </div>
     </>
