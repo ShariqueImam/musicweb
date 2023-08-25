@@ -30,7 +30,7 @@ const Horoscope = () => {
         <Slide
           direction="up"
           triggerOnce
-          className="flex items-center justify-center z-20"
+          className="flex items-center justify-center z-50"
         >
           <MainPage />
         </Slide>

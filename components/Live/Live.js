@@ -23,7 +23,7 @@ const Live = () => {
   console.log(Link);
   return (
     <Animator>
-      <div className="flex flex-col items-center bg-[#0b0b0b] z-10">
+      <div className="flex flex-col items-center bg-[#0b0b0b] z-50">
         <Navbar onScroll={onScroll} />
         <img
           src="/assets/pink.png"
@@ -41,9 +41,9 @@ const Live = () => {
         <Slide
           direction="up"
           triggerOnce
-          className="flex items-center justify-center "
+          className="flex items-center justify-center z-50"
         >
-          <div className="live w-[95vw] md:w-[80vw] h-[60vh] md:h-[80vh] flex items-center justify-center text-white text-5xl md:text-6xl">
+          <div className="live w-[95vw] md:w-[80vw] h-[60vh] md:h-[80vh] flex items-center justify-center text-white text-5xl md:text-6xl z-50">
             {Live ? (
               <iframe
                 id="stream"
@@ -66,7 +66,9 @@ const Live = () => {
             </button>
           </a>
         </Slide>
-        <Footer />
+        <div className="w-[100%] z-10">
+          <Footer />
+        </div>
       </div>
     </Animator>
   );

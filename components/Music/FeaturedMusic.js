@@ -97,6 +97,13 @@ const FeaturedMusic = () => {
                   <BsArrowUpRight className="text-white " />
                 </section>
               </a>
+              <a href="https://tidal.com/artist/16021686">
+                <section className="flex items-center justify-start my-3 md:my-5  ">
+                  <img src="/assets/music/icon.png" alt="" />{" "}
+                  <p className="mx-3 text-white ">Listen on Tidal</p>{" "}
+                  <BsArrowUpRight className="text-white " />
+                </section>
+              </a>
             </div>
           </div>
         </div>
@@ -131,6 +138,13 @@ const FeaturedMusic = () => {
                 <section className="flex items-center justify-start my-3 md:my-5  ">
                   <img src="/assets/music/icon.png" alt="" />{" "}
                   <p className="mx-3 text-white ">Listen on Spotify</p>{" "}
+                  <BsArrowUpRight className="text-white " />
+                </section>
+              </a>
+              <a href="https://tidal.com/artist/16021686">
+                <section className="flex items-center justify-start my-3 md:my-5  ">
+                  <img src="/assets/music/icon.png" alt="" />{" "}
+                  <p className="mx-3 text-white ">Listen on Tidal</p>{" "}
                   <BsArrowUpRight className="text-white " />
                 </section>
               </a>
@@ -209,6 +223,13 @@ const FeaturedMusic = () => {
                 <section className="flex items-center justify-start my-3 md:my-5  ">
                   <img src="/assets/music/icon.png" alt="" />{" "}
                   <p className="mx-3 text-white ">Listen on Spotify</p>{" "}
+                  <BsArrowUpRight className="text-white " />
+                </section>
+              </a>
+              <a href="https://tidal.com/artist/16021686">
+                <section className="flex items-center justify-start my-3 md:my-5  ">
+                  <img src="/assets/music/icon.png" alt="" />{" "}
+                  <p className="mx-3 text-white ">Listen on Tidal</p>{" "}
                   <BsArrowUpRight className="text-white " />
                 </section>
               </a>
