@@ -14,19 +14,14 @@ const Title = () => {
           triggerOnce
           className="flex items-center justify-center"
         >
-          <div className="flex-wrap w-[80%] md:w-[60%] flex items-center justify-center my-5">
+          <div className="flex-wrap w-[80%] md:w-[60%] flex items-center justify-center my-5 ">
             <p
               className={style.white}
               style={{ fontFamily: "Clash Display, sans-serif" }}
             >
               Mysterious
             </p>
-            <p
-              className={style.color}
-              style={{ fontFamily: "Clash Display, sans-serif" }}
-            >
-              Music
-            </p>
+            <p className={style.color}>Music</p>
             <p
               className={style.white}
               style={{ fontFamily: "Clash Display, sans-serif" }}
@@ -45,12 +40,7 @@ const Title = () => {
             >
               A
             </p>
-            <p
-              className={style.color}
-              style={{ fontFamily: "Clash Display, sans-serif" }}
-            >
-              Blessing
-            </p>{" "}
+            <p className={style.color}>Blessing</p>{" "}
             <p
               className={style.white}
               style={{ fontFamily: "Clash Display, sans-serif" }}
@@ -63,12 +53,7 @@ const Title = () => {
             >
               A
             </p>{" "}
-            <p
-              className={style.color}
-              style={{ fontFamily: "Clash Display, sans-serif" }}
-            >
-              Reward
-            </p>{" "}
+            <p className={style.color}>Reward</p>{" "}
           </div>
           <Link href="/music">
             <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-12">
