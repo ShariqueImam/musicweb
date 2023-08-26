@@ -25,9 +25,16 @@ const About = () => {
         alt=""
         className="absolute z-0 ml-[-90rem] "
       />{" "}
-      
-      <img src='/assets/blue.png' alt="" className="w-[100vw] overflow-hidden absolute z-0 md:hidden  md:ml-[50rem]" />{" "}
-      <img src='/assets/pink.png' alt="" className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-70rem]" />
+      <img
+        src="/assets/blue.png"
+        alt=""
+        className="w-[100vw] overflow-hidden absolute z-0 md:hidden  md:ml-[50rem]"
+      />{" "}
+      <img
+        src="/assets/pink.png"
+        alt=""
+        className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-70rem]"
+      />
       <Slide
         direction="up"
         triggerOnce
@@ -48,7 +55,7 @@ const About = () => {
             </section>
             <Link href="/music" className="">
               <button className="z-20 cursor-pointer exploreBtn text-white px-10 md:px-14 py-3 py-3 md:py-3 my-4">
-                Listen More{" "}
+                Press Play&#8482;
               </button>
             </Link>
           </section>
