@@ -17,13 +17,8 @@ const MainPage = () => {
         <img
           src="/assets/pink.png"
           alt=""
-          className="absolute z-0 ml-[-70rem] mb-[30rem]"
+          className="absolute z-0 ml-[-100rem] mb-[30rem] h-[100vh]"
         />
-        {/* <img
-          src="/assets/blue.png"
-          alt=""
-          className="absolute z-0 ml-[70rem] mt-[60rem]"
-        />{" "} */}
         <div className="flex items-center justify-center flex-col my-8  z-50">
           <p className="text-4xl md:text-5xl text-white my-4 text-center md:text-center">
             To Know About Your Daily Horoscope
