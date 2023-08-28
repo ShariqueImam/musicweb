@@ -22,8 +22,9 @@ const Station = () => {
       </div>
       <div className="flex flex-col items-center justify-center z-30">
         <img src="/assets/white.svg" alt="" className="mx-auto mt-36 w-48" />
+        <img src="/assets/station.png" alt="" className="mx-auto w-[20rem] md:w-[25rem] my-20" />
         <Link href="/music">
-          <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-16 flex items-center justify-center z-50">
+          <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-8 flex items-center justify-center z-50">
             <img src="/assets/light.png" alt="" className="w-8 mr-4" />
             Explore
             <img src="/assets/light.png" alt="" className="w-8 ml-4" />

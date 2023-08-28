@@ -17,7 +17,7 @@ body {
   overflow-x: hidden;
   font-family: "Clash Display", sans-serif;
 }
-.sample-slider .swiper-pagination-bullet{
+.sample-slider .swiper-pagination-bullet {
   background-color: yellow;
 }
 :root {
@@ -84,7 +84,6 @@ body {
   font-style: normal;
   font-weight: 350;
   line-height: 102%;
-  text-transform: capitalize;
 }
 .homeTextWhite {
   background: white;
@@ -95,7 +94,6 @@ body {
   font-style: normal;
   font-weight: 350;
   line-height: 102%;
-  text-transform: capitalize;
 }
 .exploreBtn {
   border-radius: 0.9375rem;

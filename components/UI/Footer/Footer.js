@@ -8,7 +8,7 @@ const Footer = (props) => {
   const style = {
     wrapper:
       " font text-neutral-100 flex flex-col w-[100%] md:w-[80%] mx-auto items-center justify-between py-6 md:py-12 mt-44 z-30",
-    para: "font-light border-move-animation list-none cursor-pointer text-white mx-2 md:mx-3  text-md tracking-wide",
+    para: "font-light border-move-animation list-none cursor-pointer text-white mx-2 md:mx-[0.3rem] md:mx-3  text-md tracking-wide",
   };
 
   return (
@@ -100,25 +100,25 @@ const Footer = (props) => {
         </h2>
         <section className="flex items-center justify-center">
           <a href="https://open.spotify.com/artist/0UFMrFPIyckNR4h3WefoJh">
-            <BsSpotify className="text-white text-2xl mx-3" />
+            <BsSpotify className="text-white text-2xl mx-[0.3rem] md:mx-3" />
           </a>
           <a href="https://music.apple.com/gb/artist/tmjuelz/1234991292">
-            <AiFillApple className="text-white text-2xl mx-3" />
+            <AiFillApple className="text-white text-2xl mx-[0.3rem] md:mx-3" />
           </a>
           <a href="https://tidal.com/artist/16021686">
-            <PiTidalLogoFill className="text-white text-2xl mx-3" />
+            <PiTidalLogoFill className="text-white text-2xl mx-[0.3rem] md:mx-3" />
           </a>
           <a href="https://www.youtube.com/@TMJuelzAnimalSafari">
-            <AiFillYoutube className="text-white text-2xl mx-3" />
+            <AiFillYoutube className="text-white text-2xl mx-[0.3rem] md:mx-3" />
           </a>
           <a href="https://www.tiktok.com/@tmjuelz555?_t=8fBRDPznqQT&_r=1">
-            <BsTiktok className="text-white text-2xl mx-3" />
+            <BsTiktok className="text-white text-2xl mx-[0.3rem] md:mx-3" />
           </a>
           <a href="https://www.instagram.com/lordegothicyoute/?igshid=MzRlODBiNWFlZA%3D%3D">
-            <AiFillInstagram className="text-white text-2xl mx-3" />
+            <AiFillInstagram className="text-white text-2xl mx-[0.3rem] md:mx-3" />
           </a>
           <a href="https://www.snapchat.com/add/tmjuelz?share_id=eMzsauUBmSQ&locale=en-US">
-            <BiLogoSnapchat className="text-white text-2xl mx-3" />
+            <BiLogoSnapchat className="text-white text-2xl mx-[0.3rem] md:mx-3" />
           </a>
           <a href="https://twitter.com/lordeGoth">
             <img src="/assets/xx.png" alt="" className="w-12" />

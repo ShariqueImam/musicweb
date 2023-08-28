@@ -38,20 +38,20 @@ const Title = () => {
               className={style.white}
               style={{ fontFamily: "Clash Display, sans-serif" }}
             >
-              A
+              a
             </p>
             <p className={style.color}>Blessing</p>{" "}
             <p
               className={style.white}
               style={{ fontFamily: "Clash Display, sans-serif" }}
             >
-              And
+              and
             </p>{" "}
             <p
               className={style.white}
               style={{ fontFamily: "Clash Display, sans-serif" }}
             >
-              A
+              a
             </p>{" "}
             <p className={style.color}>Reward</p>{" "}
           </div>
