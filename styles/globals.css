@@ -149,7 +149,7 @@ body {
 .live {
   border-radius: 1.25rem;
   border: 1px solid #fb2b92;
-  background: rgba(217, 217, 217, 0.1);
+  background: rgba(217, 217, 217, 0.2);
 }
 .bg1 {
   background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),

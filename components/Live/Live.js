@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import client from "../../pages/api/client";
 import Footer from "../UI/Footer/Footer";
+import Station from "./Station";
 import Navbar from "../UI/Navbar/Navbar";
 import Animator from "../UI/Animator";
 import { Slide } from "react-awesome-reveal";
@@ -23,8 +24,9 @@ const Live = () => {
   console.log(Link);
   return (
     <Animator>
-      <div className="flex flex-col items-center bg-[#0b0b0b] z-50">
+      <div className="flex flex-col items-center bg-[#0b0b0b] z-50 ">
         <Navbar onScroll={onScroll} />
+        {/* <Station /> */}
         <img
           src="/assets/pink.png"
           alt=""
@@ -35,6 +37,9 @@ const Live = () => {
           alt=""
           className="absolute z-0 md:ml-[70rem] mt-[20rem] md:mt-[-40rem]"
         />{" "}
+        <div className="z-30">
+          <Station />
+        </div>
         <div className="liveHeading flex items-center justify-center mt-44 md:mt-32">
           <p className="text-4xl md:text-8xl text-white edgy">Live Lobby</p>
         </div>

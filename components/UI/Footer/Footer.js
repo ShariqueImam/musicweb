@@ -1,10 +1,8 @@
-import {
-  AiFillInstagram,
-  AiFillFacebook,
-  AiFillYoutube,
-  AiFillLinkedin,
-} from "react-icons/ai";
+import { AiFillInstagram, AiFillYoutube, AiFillApple } from "react-icons/ai";
+import { BsSpotify } from "react-icons/bs";
+import { PiTidalLogoFill } from "react-icons/pi";
 import { BsTiktok } from "react-icons/bs";
+import { BiLogoSnapchat } from "react-icons/bi";
 
 const Footer = (props) => {
   const style = {
@@ -62,19 +60,19 @@ const Footer = (props) => {
             <a href="/shop">
               <h2 className="font-semibold">Shop</h2>
             </a>{" "}
-            <a href="/swags">
+            <a href="/shop">
               <p className="font-thin my-4">Hoodies</p>
             </a>{" "}
-            <a href="/swags">
+            <a href="/shop">
               <p className="font-thin my-4">Shirts</p>
             </a>{" "}
-            <a href="/swags">
+            <a href="/shop">
               <p className="font-thin my-4">Shorts</p>
             </a>{" "}
-            <a href="/swags">
+            <a href="/shop">
               <p className="font-thin my-4">Polo</p>
             </a>{" "}
-            <a href="/swags">
+            <a href="/shop">
               <p className="font-thin my-4">Umbrella</p>
             </a>
           </section>
@@ -100,12 +98,31 @@ const Footer = (props) => {
         <h2 className="my-3 md:my-1">
           All rights reserved @mysteriousmusic.co.uk
         </h2>
-        <section className="flex">
-          <AiFillInstagram className="text-white text-2xl mx-3" />
-          <AiFillFacebook className="text-white text-2xl mx-3" />
-          <AiFillYoutube className="text-white text-2xl mx-3" />
-          <AiFillLinkedin className="text-white text-2xl mx-3" />
-          <BsTiktok className="text-white text-2xl mx-3" />
+        <section className="flex items-center justify-center">
+          <a href="https://open.spotify.com/artist/0UFMrFPIyckNR4h3WefoJh">
+            <BsSpotify className="text-white text-2xl mx-3" />
+          </a>
+          <a href="https://music.apple.com/gb/artist/tmjuelz/1234991292">
+            <AiFillApple className="text-white text-2xl mx-3" />
+          </a>
+          <a href="https://tidal.com/artist/16021686">
+            <PiTidalLogoFill className="text-white text-2xl mx-3" />
+          </a>
+          <a href="https://www.youtube.com/@TMJuelzAnimalSafari">
+            <AiFillYoutube className="text-white text-2xl mx-3" />
+          </a>
+          <a href="https://www.tiktok.com/@tmjuelz555?_t=8fBRDPznqQT&_r=1">
+            <BsTiktok className="text-white text-2xl mx-3" />
+          </a>
+          <a href="https://www.instagram.com/lordegothicyoute/?igshid=MzRlODBiNWFlZA%3D%3D">
+            <AiFillInstagram className="text-white text-2xl mx-3" />
+          </a>
+          <a href="https://www.snapchat.com/add/tmjuelz?share_id=eMzsauUBmSQ&locale=en-US">
+            <BiLogoSnapchat className="text-white text-2xl mx-3" />
+          </a>
+          <a href="https://twitter.com/lordeGoth">
+            <img src="/assets/xx.png" alt="" className="w-12" />
+          </a>
         </section>
       </div>
     </div>
