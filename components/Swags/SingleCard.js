@@ -28,17 +28,23 @@ const SingleCard = ({ swagData }) => {
       onMouseEnter={() => setEntered(true)}
       onMouseLeave={() => setEntered(false)}
     >
-      <img
-        src="/assets/blue.png"
-        alt=""
-        className="w-[100vw] overflow-hidden absolute z-0 md:hidden  ml-[5rem]"
-      />
-      <img
-        src="/assets/pink.png"
-        alt=""
-        className="w-[100vw] overflow-hidden absolute z-0 md:hidden  ml-[-10rem]"
-      />
-      <p className=" borderColor border-2 w-[60vw] md:w-[15vw] h-[50vh] rounded-full relative"></p>{" "}
+      {swagData.name != "Eye Illustration T-shirt" && (
+        <div>
+          {" "}
+          <img
+            src="/assets/blue.png"
+            alt=""
+            className="w-[100vw] overflow-hidden absolute z-0 md:hidden  ml-[5rem]"
+          />
+          <img
+            src="/assets/pink.png"
+            alt=""
+            className="w-[100vw] overflow-hidden absolute z-0 md:hidden  ml-[-20rem]"
+          />
+        </div>
+      )}
+
+      <p className=" borderColor border-2 w-[60vw] md:w-[15vw] h-[50vh] rounded-full relative"></p>
       <img src="/assets/music/lock.png" alt="" className="scale-[8] w-2 z-20" />
       {Entered && (
         <p className="text-white fixed mb-[60%] text-xl bg-gray-300 rounded-xl p-2 imgHoverText">
@@ -47,7 +53,7 @@ const SingleCard = ({ swagData }) => {
       )}
       <section className="w-full swagsItem border-t-[1px] border-t-[#F33C9A] p-2 md:px-3 rounded-tr-[20px] rounded-tl-[20px] ">
         <h2 className={style.heading}>{swagData.name}</h2>
-        {/* <h2 className={style.para}>$ {swagData.price}</h2> */}{" "}
+        {/* <h2 className={style.para}>$ {swagData.price}</h2> */}
         <h2 className={style.para}>SOLD OUT</h2>
         <ReactStars count={5} size={12} color1={"#ffff00"} edit={false} />
       </section>

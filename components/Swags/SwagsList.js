@@ -30,27 +30,27 @@ const SwagsList = ({ swagData }) => {
         className="scale-[0.8] absolute ml-[-80rem] mt-[150rem] z-0"
       />
       <div className="flex flex-wrap w-[100vw] md:w-[95vw] items-center justify-center z-30">
-        <div className="flex items-center justify-center mt-12 md:mt-1 z-30 mt-12 items-center justify-center">
+        <div className="flex items-center justify-center mt-12 md:mt-1 z-30 mt-12 items-center justify-center z-30">
           <p
-            className="border-move-animation text-xs  md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0"
+            className="border-move-animation text-xs  md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0 z-30"
             onClick={() => onScroll("a")}
           >
             Shirts
           </p>
           <p
-            className="border-move-animation text-xs  md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0"
+            className="border-move-animation text-xs  md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0 z-30"
             onClick={() => onScroll("b")}
           >
             Hoodies
           </p>
           <p
-            className="border-move-animation text-xs  md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0"
+            className="border-move-animation text-xs  md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0 z-30"
             onClick={() => onScroll("c")}
           >
             Shorts
           </p>
           <p
-            className="border-move-animation text-xs  md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0"
+            className="border-move-animation text-xs  md:text-2xl text-white mx-4 md:mx-8 cursor-pointer my-5 md:my-0 z-30"
             onClick={() => onScroll("d")}
           >
             Bags and Umbrella
@@ -62,7 +62,7 @@ const SwagsList = ({ swagData }) => {
         <div className="z-30 flex flex-wrap items-center justify-center w-[100%] md:w-[80%] mx-auto">
           {shirts.map((singleItem) => {
             return (
-              <Link href={`/shop/${singleItem.id}`} className="">
+              <Link href={`/shop/${singleItem.id}`} className="z-30">
                 <SingleCard swagData={singleItem} />
               </Link>
             );
@@ -94,7 +94,7 @@ const SwagsList = ({ swagData }) => {
         <div className="z-30 flex flex-wrap items-center justify-center w-[100%] md:w-[80%] mx-auto">
           {hoodies.map((singleItem) => {
             return (
-              <Link href={`/shop/${singleItem.id}`} className="">
+              <Link href={`/shop/${singleItem.id}`} className="z-30">
                 <SingleCard swagData={singleItem} />
               </Link>
             );
@@ -106,7 +106,7 @@ const SwagsList = ({ swagData }) => {
         <div className="z-30 flex flex-wrap items-center justify-center w-[100%] md:w-[80%] mx-auto">
           {shorts.map((singleItem) => {
             return (
-              <Link href={`/shop/${singleItem.id}`} className="">
+              <Link href={`/shop/${singleItem.id}`} className="z-30">
                 <SingleCard swagData={singleItem} />
               </Link>
             );
@@ -123,12 +123,14 @@ const SwagsList = ({ swagData }) => {
           className="w-[100vw] overflow-hidden absolute z-0   ml-[-10rem] mt-[400rem]"
         />
         <div className="d swagsHeadingBags flex items-center justify-center mt-44 md:mt-32">
-          <p className="text-4xl md:text-8xl text-white edgy">Bags and Umbrella</p>
+          <p className="text-4xl md:text-8xl text-white edgy text-center">
+            Bags and Umbrella
+          </p>
         </div>
         <div className="z-30 flex flex-wrap items-center justify-center w-[100%] md:w-[80%] mx-auto">
           {bags.map((singleItem) => {
             return (
-              <Link href={`/shop/${singleItem.id}`} className="">
+              <Link href={`/shop/${singleItem.id}`} className="z-30">
                 <SingleCard swagData={singleItem} />
               </Link>
             );

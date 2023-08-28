@@ -12,7 +12,7 @@ const Swags = () => {
     {
       id: 18,
       img: "/assets/swags/shirt-design-4f.jpg",
-      name: "Eye Illustration  T-shirt",
+      name: "Eye Illustration T-shirt",
       price: 30,
       rating: "5",
       quantity: 1,
