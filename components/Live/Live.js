@@ -24,8 +24,10 @@ const Live = () => {
   console.log(Link);
   return (
     <Animator>
-      <div className="flex flex-col items-center bg-[#0b0b0b] z-50 ">
-        <Navbar onScroll={onScroll} />
+      <div className="flex flex-col items-center bg-[#0b0b0b] z-10 ">
+        <div className="flex items-center justify-center mt-20 z-30">
+          <Navbar onScroll={onScroll} />
+        </div>
         {/* <Station /> */}
         <img
           src="/assets/pink.png"
@@ -37,7 +39,7 @@ const Live = () => {
           alt=""
           className="absolute z-0 md:ml-[70rem] mt-[20rem] md:mt-[-40rem]"
         />{" "}
-        <div className="z-0">
+        <div className="z-10">
           <Station />
         </div>
         <div className="liveHeading flex items-center justify-center mt-44 md:mt-32">
@@ -65,7 +67,7 @@ const Live = () => {
               </p>
             )}
           </div>
-          <a href="https://youtube.com">
+          <a href="https://www.youtube.com/@TMJuelzAnimalSafari">
             <button className="exploreBtn text-white px-16 md:px-20 py-3 md:py-4 md:py-3 mt-20 text-xl">
               Load More
             </button>
