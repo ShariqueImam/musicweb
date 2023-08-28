@@ -7,12 +7,12 @@ const Station = () => {
         <img
           src="/assets/circle.png"
           alt=""
-          className="absolute z-0 mt-[-48rem]  w-[50rem] ml-[30rem]"
+          className="absolute z-0 mt-[-28rem]  w-[40rem] ml-[30rem]"
         />
         <img
           src="/assets/circle2.png"
           alt=""
-          className="absolute z-0 mt-[-48rem] w-[50rem] ml-[-50rem]"
+          className="absolute z-0 mt-[-20rem] w-[40rem] ml-[-50rem]"
         />
         <img
           src="/assets/blue.png"
