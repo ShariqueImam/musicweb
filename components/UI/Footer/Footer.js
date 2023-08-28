@@ -120,8 +120,8 @@ const Footer = (props) => {
           <a href="https://www.snapchat.com/add/tmjuelz?share_id=eMzsauUBmSQ&locale=en-US">
             <BiLogoSnapchat className="text-white text-2xl mx-[0.3rem] md:mx-3" />
           </a>
-          <a href="https://twitter.com/lordeGoth">
-            <img src="/assets/xx.png" alt="" className="w-12" />
+          <a href="https://twitter.com/lordeGoth" className="flex items-center justify-start">
+            <img src="/assets/xx.png" alt="" className="w-10 flex items-center justify-start" />
           </a>
         </section>
       </div>
