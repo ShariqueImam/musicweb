@@ -37,7 +37,7 @@ const Live = () => {
           alt=""
           className="absolute z-0 md:ml-[70rem] mt-[20rem] md:mt-[-40rem]"
         />{" "}
-        <div className="z-30">
+        <div className="z-0">
           <Station />
         </div>
         <div className="liveHeading flex items-center justify-center mt-44 md:mt-32">
