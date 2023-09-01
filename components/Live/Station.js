@@ -22,18 +22,18 @@ const Station = () => {
       </div>
       <div className="flex flex-col items-center justify-center z-30 flex-col md:flex-row">
         <section className="w-[95%] md:w-[50%]">
-          <section className="">
-            <p className="homeTextWhiteStation m-1 text-4xl md:text-7xl">
+          <section className="mt-24 md:mt-2">
+            <p className="homeTextWhiteStation m-1 text-4xl md:text-7xl text-center md:text-left">
               Listen Live Music At
             </p>
-            <p className="homeTextColorStation m-1 text-4xl md:text-7xl">
+            <p className="homeTextColorStation m-1 text-4xl md:text-7xl text-center md:text-left">
               MellowMagic 105.4
             </p>
           </section>
           <Link href="https://planetradio.co.uk/mellow-magic/">
-            <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-8 flex items-center justify-center z-50 text-2xl">
+            <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-8 mx-auto md:mx-1 flex items-center justify-center z-50 md:text-2xl">
               MellowMagic 105.4
-              <img src="/assets/play.png" alt="" className="w-5 ml-4" />
+              <img src="/assets/play.png" alt="" className="w-4 md:w-5 ml-4" />
             </button>
           </Link>
         </section>
