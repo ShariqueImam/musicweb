@@ -7,7 +7,7 @@ const Station = () => {
         <img
           src="/assets/circle.png"
           alt=""
-          className="absolute z-0 mt-[-28rem]  w-[40rem] ml-[30rem] hidden md:flex"
+          className="absolute z-0 mt-[-28rem] w-[40rem] ml-[60rem] hidden md:flex"
         />
         <img
           src="/assets/circle2.png"
@@ -20,20 +20,30 @@ const Station = () => {
           className="absolute z-0 md:ml-[70rem] mt-[20rem] md:mt-[-40rem] hidden md:flex"
         />{" "}
       </div>
-      <div className="flex flex-col items-center justify-center z-30">
-        <img src="/assets/white.svg" alt="" className="mx-auto mt-36 w-48" />
-        <img
-          src="/assets/station.png"
-          alt=""
-          className="mx-auto w-[20rem] md:w-[25rem] my-20"
-        />
-        <Link href="https://youtu.be/UqmUxkRPBS0?si=sXtpbAMUPj-foVYe">
-          <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-8 flex items-center justify-center z-50 text-2xl">
-            <img src="/assets/light.png" alt="" className="w-8 mr-4" />
-            Live
-            <img src="/assets/light.png" alt="" className="w-8 ml-4" />
-          </button>
-        </Link>
+      <div className="flex flex-col items-center justify-center z-30 flex-col md:flex-row">
+        <section className="w-[95%] md:w-[50%]">
+          <section className="">
+            <p className="homeTextWhiteStation m-1 text-4xl md:text-7xl">
+              Listen Live Music At
+            </p>
+            <p className="homeTextColorStation m-1 text-4xl md:text-7xl">
+              MellowMagic 105.4
+            </p>
+          </section>
+          <Link href="https://planetradio.co.uk/mellow-magic/">
+            <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-8 flex items-center justify-center z-50 text-2xl">
+              MellowMagic 105.4
+              <img src="/assets/play.png" alt="" className="w-5 ml-4" />
+            </button>
+          </Link>
+        </section>
+        <section className="w-[95%] md:w-[50%]">
+          <img
+            src="/assets/station.png"
+            alt=""
+            className="mx-auto w-[20rem] md:w-[25rem] my-20"
+          />
+        </section>
       </div>
     </div>
   );

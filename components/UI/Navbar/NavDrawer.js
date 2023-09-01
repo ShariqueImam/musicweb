@@ -58,8 +58,8 @@ const NavDrawer = (props) => {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        <div className="h-[40vh] font flex flex-col my-8  bg-[#0b0b0b] items-center w-[50vw]">
-          <img src="/assets/white.svg" className="w-[45%]"/>
+        <div className="h-[40vh] font flex flex-col my-8  bg-[#0b0b0b] items-center w-[50vw] md:w-auto">
+          <img src="/assets/white.svg" className="w-[10%] md:w-[45%]" />
 
           {/* adding the navs */}
           <ul className="flex  flex-col  bg-[#0b0b0b] mt-12">
@@ -87,7 +87,7 @@ const NavDrawer = (props) => {
                 className={style.list}
                 onClick={() => props.onScroll("email")}
               >
-                Horoscope
+                Elle Zodiac
               </li>
             </Link>
             <Link href={"/live"}>
@@ -109,7 +109,7 @@ const NavDrawer = (props) => {
               className="mx-auto exploreBtn text-white px-12 py-2 rounded-lg mt-48 cursor-pointer hover:opacity-[0.9]"
               onClick={() => props.onScroll("contact")}
             >
-              Listen Now
+              Leave a Message
             </button>
           </a>
         </div>
@@ -122,11 +122,10 @@ const NavDrawer = (props) => {
       {/* below string will set the location of the drawer */}
       {["right"].map((anchor) => (
         <React.Fragment key={anchor}>
-          <button className=" bg-[#0b0b0b] px-2 py-4 flex items-center justify-between w-[100vw] border-b-[1px]">
-            <img src="/assets/white.svg" className="w-[20%]"/>
-
+          <button className=" px-2  flex items-center justify-between w-[90vw] ">
+            <img src="/assets/white.svg" className="w-[20%] md:w-[5%] " />
             <section className="flex">
-              <div className="" onClick={toggleDrawer(anchor, true)}>
+              <div className="z-0" onClick={toggleDrawer(anchor, true)}>
                 {
                   <svg
                     viewBox="0 0 100 80"

@@ -6,6 +6,7 @@ import About from "./About";
 import Navbar from "../UI/Navbar/Navbar";
 import Animator from "../../components/UI/Animator";
 import Footer from "../UI/Footer/Footer";
+import Newsletter from '../UI/Newsletter/Newsletter'
 import axios from "axios";
 import MainPage from "../Horoscope/MainMainHome";
 const Home = () => {
@@ -32,6 +33,9 @@ const Home = () => {
         </div>
         <div className="z-50">
           <MainPage />
+        </div>
+        <div className="z-50">
+          <Newsletter />
         </div>
         <div className="z-40 w-[100%]">
           <Footer />

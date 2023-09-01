@@ -96,7 +96,8 @@ const MainPage = () => {
         </div>
         <a href="/horoscope">
           <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-12">
-            Explore 
+          Elle Zodiac
+ 
           </button>
         </a>
       </div>

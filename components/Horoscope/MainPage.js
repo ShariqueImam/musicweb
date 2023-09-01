@@ -228,7 +228,7 @@ const MainPage = () => {
           </a>
         </div>
         <button className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-12 z-20">
-          Explore
+          Elle Zodiac
         </button>
         <img
           src="/assets/blue.png"

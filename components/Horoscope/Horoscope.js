@@ -8,7 +8,7 @@ const Horoscope = () => {
   const onScroll = () => {};
   return (
     <Animator>
-      <div className="flex flex-col items-center bg-[#0b0b0b] z-10">
+      <div className="flex flex-col items-center z-10">
         <img
           src="/assets/blue.png"
           alt=""

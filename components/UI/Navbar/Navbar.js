@@ -10,9 +10,9 @@ const Navbar = (props) => {
   const style = {
     wrapper:
       "text-gray-900  md:py-6 w-[100%] md:w-[85%] bg-opacity-[0.9] mx-auto  font absolute ",
-    navDrawer: "flex sm:hidden items-center text-white",
+    navDrawer: "flex  items-center text-white justify-center",
     mainNav:
-      "flex items-center justify-between py-1 md:py-1 hidden sm:flex w-[100%] md:w-[90%] mx-auto",
+      "flex items-center justify-between py-1 md:py-1 hidden  w-[100%] md:w-[90%] mx-auto",
     navList: "w-[60%] flex items-center justify-center ",
     list: "font-light border-move-animation list-none cursor-pointer text-white mx-4 md:mx-4  text-md tracking-wide",
     navContainer: "flex items-center justify-center",
@@ -37,7 +37,6 @@ const Navbar = (props) => {
     setItem(val);
   };
   const pathname = usePathname();
-console.log(pathname)
   return (
     // install the mui first for the Navdrawer
     <div className={style.wrapper}>
@@ -109,7 +108,7 @@ console.log(pathname)
         </div>
         <button className={style.cartButton} onClick={() => setItem("contact")}>
           <a href="https://open.spotify.com/artist/0UFMrFPIyckNR4h3WefoJh">
-            Listen Now
+            Leave a Message
           </a>
         </button>
       </nav>

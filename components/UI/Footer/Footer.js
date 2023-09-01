@@ -78,10 +78,10 @@ const Footer = (props) => {
           </section>
           <section>
             <a href="/horoscope">
-              <h2 className="font-semibold">Horoscope</h2>
+              <h2 className="font-semibold"> Elle Zodiac</h2>
             </a>{" "}
             <a href="/horoscope">
-              <p className="font-thin my-4">Horoscope</p>
+              <p className="font-thin my-4"> Elle Zodiac</p>
             </a>
           </section>
           <section>
@@ -120,8 +120,15 @@ const Footer = (props) => {
           <a href="https://www.snapchat.com/add/tmjuelz?share_id=eMzsauUBmSQ&locale=en-US">
             <BiLogoSnapchat className="text-white text-2xl mx-[0.3rem] md:mx-3" />
           </a>
-          <a href="https://twitter.com/lordeGoth" className="flex items-center justify-start">
-            <img src="/assets/xx.png" alt="" className="w-10 flex items-center justify-start" />
+          <a
+            href="https://twitter.com/lordeGoth"
+            className="flex items-center justify-start"
+          >
+            <img
+              src="/assets/xx.png"
+              alt=""
+              className="w-10 flex items-center justify-start"
+            />
           </a>
         </section>
       </div>

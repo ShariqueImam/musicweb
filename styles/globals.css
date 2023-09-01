@@ -95,6 +95,31 @@ body {
   font-weight: 350;
   line-height: 102%;
 }
+.homeTextColorStation {
+  background: linear-gradient(
+    166deg,
+    #d9448e 0%,
+    #b138dc 25.35%,
+    rgba(195, 41, 234, 0.97) 51%,
+    rgba(75, 96, 234, 0.93) 74.93%,
+    #2e3a76 94.91%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 102%;
+}
+.homeTextWhiteStation {
+  background: white;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 102%;
+}
 .exploreBtn {
   border-radius: 0.9375rem;
   background: linear-gradient(99deg, #f33c9a 0%, #4259ec 100%);

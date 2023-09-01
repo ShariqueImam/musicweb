@@ -9,6 +9,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import Title from "./Title";
 const SwagDetails = ({ match }) => {
   const [Size, setSize] = useState("S");
+  const [Color, setColor] = useState("1");
   const onScroll = () => {};
 
   // window.scrollTo(0,0)
@@ -277,7 +278,7 @@ const SwagDetails = ({ match }) => {
             </h2>
             <h2 className="font-thin my-4">{item.description}</h2>
             <h2 className="font-semibold text-5xl md:text-6xl my-4">
-            SOLD OUT
+              SOLD OUT
             </h2>{" "}
             {/* <h2 className="font-semibold text-5xl md:text-6xl my-4">
               $ {item.price}
@@ -316,6 +317,32 @@ const SwagDetails = ({ match }) => {
               >
                 XL
               </p>
+            </section>
+            <section className="flex my-4  z-30">
+              <p
+                onClick={() => setColor("1")}
+                className={`${
+                  Color == "1" && "bg-yellow-600 "
+                } mr-5 ring-2 ring-offset-2  w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
+              ></p>
+              <p
+                onClick={() => setColor("2")}
+                className={`${
+                  Color == "2" && "bg-cyan-500"
+                } mr-5  ring-2 ring-offset-2  w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
+              ></p>
+              <p
+                onClick={() => setColor("3")}
+                className={` ${
+                  Color == "3" && "bg-blue-600 "
+                } mr-5  ring-2 ring-offset-2  w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
+              ></p>
+              <p
+                onClick={() => setColor("4")}
+                className={`${
+                  Color == "4" && "bg-green-500 "
+                } mr-5  ring-2 ring-offset-2  w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
+              ></p>
             </section>
             <button
               className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-4  z-30"
