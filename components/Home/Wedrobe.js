@@ -56,7 +56,7 @@ const Wedrobe = () => {
             price={"$50"}
           />
           <SingleCard
-            img={"/assets/swags/Hoodie_Mockup.jpg"}
+            img={"/assets/swags/hoodie2.jpg"}
             name={"Sacred Heart Hoodie"}
             price={"$65"}
           />
