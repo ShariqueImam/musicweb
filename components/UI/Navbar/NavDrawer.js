@@ -104,7 +104,7 @@ const NavDrawer = (props) => {
               </li>
             </Link>
           </ul>
-          <a href="https://open.spotify.com/artist/0UFMrFPIyckNR4h3WefoJh">
+          <a href="mailto:purplesixtysix6@gmail.com">
             <button
               className="mx-auto exploreBtn text-white px-12 py-2 rounded-lg mt-48 cursor-pointer hover:opacity-[0.9]"
               onClick={() => props.onScroll("contact")}
