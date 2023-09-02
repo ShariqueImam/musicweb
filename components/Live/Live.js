@@ -42,8 +42,7 @@ const Live = () => {
         <div className="z-10">
           <Station />
         </div>
-        <div className="liveHeading flex items-center justify-center mt-44 md:mt-32">
-          <p className="text-4xl md:text-8xl text-white edgy">Live Lobby</p>
+        <div className="liveHeading flex items-center justify-center mt-44 md:mt-32 w-[100vw]">
         </div>
         <Slide
           direction="up"

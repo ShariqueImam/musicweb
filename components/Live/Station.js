@@ -23,9 +23,6 @@ const Station = () => {
       <div className="flex flex-col items-center justify-center z-30 flex-col md:flex-row">
         <section className="w-[95%] md:w-[50%]">
           <section className="mt-24 md:mt-2">
-            <p className="homeTextWhiteStation m-1 text-4xl md:text-7xl text-center md:text-left">
-              Listen Live Music At
-            </p>
             <p className="homeTextColorStation m-1 text-4xl md:text-7xl text-center md:text-left">
               MellowMagic 105.4
             </p>

@@ -11,7 +11,7 @@ const Swags = () => {
   const swagData = [
     {
       id: 18,
-      img: "/assets/swags/shirt-design-4f.jpg",
+      img: "/assets/swags/shirt-design-4.jpg",
       name: "Eye Illustration T-shirt",
       price: 30,
       rating: "5",
@@ -47,7 +47,7 @@ const Swags = () => {
     },
     {
       id: 17,
-      img: "/assets/swags/polof.jpg",
+      img: "/assets/swags/polo-final.jpg",
       name: "Eye Illustration Blue Polo Shirt",
       price: 50,
       rating: "5",
@@ -56,7 +56,7 @@ const Swags = () => {
     },
     {
       id: 13,
-      img: "/assets/swags/Hoodie_Mockup.jpg",
+      img: "/assets/swags/hoodie2.jpg",
       name: "Sacred Heart Hoodie",
       price: 65,
       rating: "5",
@@ -65,7 +65,7 @@ const Swags = () => {
     },
     {
       id: 14,
-      img: "/assets/swags/Hoodie_Mockup1.jpg",
+      img: "/assets/swags/hoodie3.jpg",
       name: "The Light Hoodie",
       price: 65,
       rating: "5",
@@ -74,7 +74,7 @@ const Swags = () => {
     },
     {
       id: 15,
-      img: "/assets/swags/Hoodie_Mockup2.jpg",
+      img: "/assets/swags/hoodie.jpg",
       name: "Madam And Steve Hoodie",
       price: 65,
       rating: "5",
@@ -128,6 +128,15 @@ const Swags = () => {
       description: "This is the great product and we like it.",
     },
     {
+      id: 23,
+      img: "/assets/swags/grey-shorts-design.jpg",
+      name: "Madam And Steve Grey Shorts",
+      price: 50,
+      rating: "5",
+      quantity: 1,
+      description: "This is the great product and we like it.",
+    },
+    {
       id: 5,
       img: "/assets/swags/black-shorts-1.jpg",
       name: "Madam And Steve Black Shorts",
@@ -158,6 +167,15 @@ const Swags = () => {
       id: 8,
       img: "/assets/swags/black-shorts-4.jpg",
       name: "Eye Illustration Black Shorts",
+      price: 50,
+      rating: "5",
+      quantity: 1,
+      description: "This is the great product and we like it.",
+    },
+    {
+      id: 24,
+      img: "/assets/swags/black-shorts-design.jpg",
+      name: "Madam And Steve Grey Shorts",
       price: 50,
       rating: "5",
       quantity: 1,
@@ -202,7 +220,7 @@ const Swags = () => {
 
     {
       id: 22,
-      img: "/assets/swags/umbrella-final.jpg",
+      img: "/assets/swags/umbrella.jpg",
       name: "Eye Illustration Umbrella",
       price: 70,
       rating: "5",

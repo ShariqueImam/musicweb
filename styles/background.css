@@ -150,7 +150,7 @@
   width: 100vw;
 }
 .liveHeading {
-  background: url("/assets/liveheading.png");
+  background: url("/lobby.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -216,7 +216,7 @@
     width: 100vw;
     transform: scale(0.8);
   }
-  
+
   .bg2 {
     height: 8vh;
     width: 100vw;
