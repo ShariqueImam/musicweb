@@ -52,9 +52,7 @@ const Footer = (props) => {
             <a href="/music">
               <p className="font-thin my-4">Upcoming</p>
             </a>{" "}
-            <a href="/music">
-              <p className="font-thin my-4">Wedrobe</p>
-            </a>
+            
           </section>
           <section>
             <a href="/shop">
