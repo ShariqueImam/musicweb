@@ -38,7 +38,7 @@ const Station = () => {
           <img
             src="/main.jpg"
             alt=""
-            className="mx-auto w-[20rem] md:w-[25rem] my-20"
+            className="mx-auto w-[20rem] md:w-[25rem] my-6 md:my-20"
           />
         </section>
       </div>
