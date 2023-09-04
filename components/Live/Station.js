@@ -24,7 +24,7 @@ const Station = () => {
         <section className="w-[95%] md:w-[50%]">
           <section className="mt-24 md:mt-2">
             <p className="homeTextColorStation m-1 text-4xl md:text-7xl text-center md:text-left">
-              MellowMagic 105.4
+            Hey Miss Mayor Carter
             </p>
           </section>
           <Link href="https://planetradio.co.uk/mellow-magic/">
@@ -36,7 +36,7 @@ const Station = () => {
         </section>
         <section className="w-[95%] md:w-[50%]">
           <img
-            src="/assets/station.png"
+            src="/main.jpg"
             alt=""
             className="mx-auto w-[20rem] md:w-[25rem] my-20"
           />
