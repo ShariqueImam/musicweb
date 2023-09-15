@@ -66,7 +66,7 @@ const MainPage = () => {
               {Sign == "2" && <p className={style.iconText}>Aries</p>}
             </div>
           </a>
-          <a href="https://www.elle.com/horoscopes/daily/a60/cancer-daily-horoscope/">
+          <a href="https://www.elle.com/horoscopes/daily/a100/cancer-daily-horoscope/">
             <div
               onMouseEnter={() => setSign("3")}
               onMouseLeave={() => setSign("0")}
@@ -82,7 +82,7 @@ const MainPage = () => {
               {Sign == "3" && <p className={style.iconText}>Cancer</p>}
             </div>
           </a>
-          <a href="https://www.elle.com/horoscopes/daily/a60/capricon-daily-horoscope/">
+          <a href="https://www.elle.com/horoscopes/daily/a106/capricon-daily-horoscope/">
             <div
               onMouseEnter={() => setSign("4")}
               onMouseLeave={() => setSign("0")}
@@ -98,7 +98,7 @@ const MainPage = () => {
               {Sign == "4" && <p className={style.iconText}>Capricon</p>}
             </div>
           </a>
-          <a href="https://www.elle.com/horoscopes/daily/a60/gemini-daily-horoscope/">
+          <a href="https://www.elle.com/horoscopes/daily/a99/gemini-daily-horoscope/">
             <div
               onMouseEnter={() => setSign("5")}
               onMouseLeave={() => setSign("0")}
@@ -114,7 +114,7 @@ const MainPage = () => {
               {Sign == "5" && <p className={style.iconText}>Gemini</p>}
             </div>
           </a>
-          <a href="https://www.elle.com/horoscopes/daily/a60/leo-daily-horoscope/">
+          <a href="https://www.elle.com/horoscopes/daily/a101/leo-daily-horoscope/">
             <div
               onMouseEnter={() => setSign("6")}
               onMouseLeave={() => setSign("0")}
@@ -130,7 +130,7 @@ const MainPage = () => {
               {Sign == "6" && <p className={style.iconText}>Leo</p>}
             </div>
           </a>
-          <a href="https://www.elle.com/horoscopes/daily/a60/libra-daily-horoscope/">
+          <a href="https://www.elle.com/horoscopes/daily/a103/libra-daily-horoscope/">
             <div
               onMouseEnter={() => setSign("7")}
               onMouseLeave={() => setSign("0")}
@@ -146,7 +146,7 @@ const MainPage = () => {
               {Sign == "7" && <p className={style.iconText}>Libra</p>}
             </div>
           </a>
-          <a href="https://www.elle.com/horoscopes/daily/a60/pisces-daily-horoscope/">
+          <a href="https://www.elle.com/horoscopes/daily/a108/pisces-daily-horoscope/">
             <div
               onMouseEnter={() => setSign("8")}
               onMouseLeave={() => setSign("0")}
@@ -162,7 +162,7 @@ const MainPage = () => {
               {Sign == "8" && <p className={style.iconText}>Pisces</p>}
             </div>
           </a>
-          <a href="https://www.elle.com/horoscopes/daily/a60/sagittarius-daily-horoscope/">
+          <a href="https://www.elle.com/horoscopes/daily/a105/sagittarius-daily-horoscope/">
             <div
               className={`${
                 Sign == "9" && "horo  rounded-full"
@@ -178,7 +178,7 @@ const MainPage = () => {
               {Sign == "9" && <p className={style.iconText}>Sagittarius</p>}
             </div>
           </a>
-          <a href="https://www.elle.com/horoscopes/daily/a108/scorpio-daily-horoscope/">
+          <a href="https://www.elle.com/horoscopes/daily/a104/scorpio-daily-horoscope/">
             <div
               className={`${
                 Sign == "10" && "horo  rounded-full"
@@ -194,7 +194,7 @@ const MainPage = () => {
               {Sign == "10" && <p className={style.iconText}>Scorpio</p>}
             </div>
           </a>
-          <a href="https://www.elle.com/horoscopes/daily/a108/taurus-daily-horoscope/">
+          <a href="https://www.elle.com/horoscopes/daily/a98/taurus-daily-horoscope/">
             <div
               className={`${
                 Sign == "11" && "horo  rounded-full"
@@ -210,7 +210,7 @@ const MainPage = () => {
               {Sign == "11" && <p className={style.iconText}>Taurus</p>}
             </div>
           </a>
-          <a href="https://www.elle.com/horoscopes/daily/a108/virgo-daily-horoscope/">
+          <a href="https://www.elle.com/horoscopes/daily/a102/virgo-daily-horoscope/">
             <div
               className={`${
                 Sign == "12" && "horo  rounded-full"
