@@ -200,6 +200,16 @@
   width: 70vw;
   transform: scale(0.5);
 }
+.swagsHeadingFeatured {
+  background: url("/assets/swags/featured/featuredHeading.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  height: 30vh;
+  width: 90vw;
+  transform: scale(0.5);
+}
 .swagsHeadingBags {
   background: url("/assets/swags/bags.png");
   background-repeat: no-repeat;
@@ -243,6 +253,11 @@
     transform: scale(0.9);
   }
   .swagsHeadingShorts {
+    height: 8vh;
+    width: 100vw;
+    transform: scale(0.9);
+  }
+  .swagsHeadingFeatured {
     height: 8vh;
     width: 100vw;
     transform: scale(0.9);

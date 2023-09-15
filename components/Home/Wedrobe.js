@@ -53,17 +53,17 @@ const Wedrobe = () => {
           <SingleCard
             img={"/assets/swags/grey-short1.jpg"}
             name={"The Light Gray Shorts"}
-            price={"$50"}
+            price={"50"}
           />
           <SingleCard
             img={"/assets/swags/hoodie2.jpg"}
             name={"Sacred Heart Hoodie"}
-            price={"$65"}
+            price={"65"}
           />
           <SingleCard
             img={"/assets/swags/shirt-design2.jpg"}
             name={"Sacred Heart Hoodie"}
-            price={"$65"}
+            price={"65"}
           />
         </section>{" "}
         <button className="mx-auto exploreBtn shopNow px-14 md:px-20 py-3 md:py-4 mt-20 text-white mx-auto self-center z-30">

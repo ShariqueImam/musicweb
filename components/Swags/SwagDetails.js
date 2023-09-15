@@ -18,7 +18,7 @@ const SwagDetails = ({ match }) => {
       id: 18,
       img: "/assets/swags/shirt-design-4.jpg",
       name: "Eye Illustration T-shirt",
-      price: 30,
+      price: 25,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -27,7 +27,7 @@ const SwagDetails = ({ match }) => {
       id: 19,
       img: "/assets/swags/shirt-design.jpg",
       name: "Madam And Steve T Shirt",
-      price: 30,
+      price: 25,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -36,7 +36,7 @@ const SwagDetails = ({ match }) => {
       id: 20,
       img: "/assets/swags/shirt-design2.jpg",
       name: "Sacred Heart T Shirt",
-      price: 30,
+      price: 25,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -45,7 +45,7 @@ const SwagDetails = ({ match }) => {
       id: 21,
       img: "/assets/swags/shirt-design3.jpg",
       name: "The Light T Shirt",
-      price: 30,
+      price: 25,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -54,7 +54,7 @@ const SwagDetails = ({ match }) => {
       id: 17,
       img: "/assets/swags/polo-final.jpg",
       name: "Eye Illustration Blue Polo Shirt",
-      price: 50,
+      price: 40,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -63,7 +63,7 @@ const SwagDetails = ({ match }) => {
       id: 13,
       img: "/assets/swags/hoodie2.jpg",
       name: "Sacred Heart Hoodie",
-      price: 65,
+      price: 45,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -72,7 +72,7 @@ const SwagDetails = ({ match }) => {
       id: 14,
       img: "/assets/swags/hoodie3.jpg",
       name: "The Light Hoodie",
-      price: 65,
+      price: 45,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -81,7 +81,7 @@ const SwagDetails = ({ match }) => {
       id: 15,
       img: "/assets/swags/hoodie.jpg",
       name: "Madam And Steve Hoodie",
-      price: 65,
+      price: 45,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -90,7 +90,7 @@ const SwagDetails = ({ match }) => {
       id: 16,
       img: "/assets/swags/Hoodie_Mockup4.jpg",
       name: "Eye Illustration Hoodie",
-      price: 65,
+      price: 45,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -100,7 +100,7 @@ const SwagDetails = ({ match }) => {
       id: 9,
       img: "/assets/swags/grey-short.jpg",
       name: "Eye Illustration Grey Shorts",
-      price: 50,
+      price: 35,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -109,7 +109,7 @@ const SwagDetails = ({ match }) => {
       id: 10,
       img: "/assets/swags/grey-short1.jpg",
       name: "The Light Grey Shorts",
-      price: 50,
+      price: 35,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -118,7 +118,7 @@ const SwagDetails = ({ match }) => {
       id: 11,
       img: "/assets/swags/grey-short2.jpg",
       name: "Sacred Heart Grey Shorts",
-      price: 50,
+      price: 35,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -127,7 +127,7 @@ const SwagDetails = ({ match }) => {
       id: 12,
       img: "/assets/swags/grey-short3.jpg",
       name: "Madam And Steve Grey Shorts",
-      price: 50,
+      price: 35,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -136,7 +136,7 @@ const SwagDetails = ({ match }) => {
       id: 23,
       img: "/assets/swags/grey-shorts-design.jpg",
       name: "Madam And Steve Grey Shorts",
-      price: 50,
+      price: 35,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -145,7 +145,7 @@ const SwagDetails = ({ match }) => {
       id: 5,
       img: "/assets/swags/black-shorts-1.jpg",
       name: "Madam And Steve Black Shorts",
-      price: 50,
+      price: 35,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -154,7 +154,7 @@ const SwagDetails = ({ match }) => {
       id: 6,
       img: "/assets/swags/black-shorts-2.jpg",
       name: "Sacred Heart Black Shorts",
-      price: 50,
+      price: 35,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -163,7 +163,7 @@ const SwagDetails = ({ match }) => {
       id: 7,
       img: "/assets/swags/black-shorts-3.jpg",
       name: "The Light Black Shorts",
-      price: 50,
+      price: 35,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -172,7 +172,7 @@ const SwagDetails = ({ match }) => {
       id: 8,
       img: "/assets/swags/black-shorts-4.jpg",
       name: "Eye Illustration Black Shorts",
-      price: 50,
+      price: 35,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -181,7 +181,7 @@ const SwagDetails = ({ match }) => {
       id: 24,
       img: "/assets/swags/black-shorts-design.jpg",
       name: "Madam And Steve Grey Shorts",
-      price: 50,
+      price: 35,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -190,7 +190,7 @@ const SwagDetails = ({ match }) => {
       id: 1,
       img: "/assets/swags/bag.jpg",
       name: "Madam And Steve Bag",
-      price: 20,
+      price: 25,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -199,7 +199,7 @@ const SwagDetails = ({ match }) => {
       id: 2,
       img: "/assets/swags/bag2.jpg",
       name: "Sacred Heart Bag",
-      price: 20,
+      price: 25,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -208,7 +208,7 @@ const SwagDetails = ({ match }) => {
       id: 3,
       img: "/assets/swags/bag3.jpg",
       name: "The Light Bag",
-      price: 20,
+      price: 25,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -217,7 +217,7 @@ const SwagDetails = ({ match }) => {
       id: 4,
       img: "/assets/swags/bag4.jpg",
       name: "Eye Illustration Bag",
-      price: 20,
+      price: 25,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -227,7 +227,34 @@ const SwagDetails = ({ match }) => {
       id: 22,
       img: "/assets/swags/umbrella.jpg",
       name: "Eye Illustration Umbrella",
-      price: 70,
+      price: 35,
+      rating: "5",
+      quantity: 1,
+      description: "This is the great product and we like it.",
+    },
+    {
+      id: 100,
+      img: "/assets/swags/featured/1.jpeg",
+      name: "PYKRETE RECORDS T-SHIRT",
+      price: 40,
+      rating: "5",
+      quantity: 1,
+      description: "This is the great product and we like it.",
+    },
+    {
+      id: 101,
+      img: "/assets/swags/featured/2.jpeg",
+      name: "F3 LOGO T-SHIRT",
+      price: 40,
+      rating: "5",
+      quantity: 1,
+      description: "This is the great product and we like it.",
+    },
+    {
+      id: 102,
+      img: "/assets/swags/featured/3.jpeg",
+      name: "F3 LOGO SHORTS",
+      price: 35,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -295,14 +322,23 @@ const SwagDetails = ({ match }) => {
               {item.name}
             </h2>
             <h2 className="font-thin my-4">{item.description}</h2>
-            <h2 className="font-semibold text-5xl md:text-6xl my-4">
-              SOLD OUT
-            </h2>{" "}
             {/* <h2 className="font-semibold text-5xl md:text-6xl my-4">
-              $ {item.price}
+              SOLD OUT
             </h2>{" "} */}
+            <h2 className="font-semibold text-5xl md:text-6xl my-4">
+              &#xa3; {item.price}
+            </h2>{" "}
             <ReactStars count={5} size={24} color1={"#4E88FA"} edit={false} />
             <section className="flex my-4  z-30">
+              {" "}
+              <p
+                onClick={() => setSize("XS")}
+                className={`${
+                  Size == "XS" && "bg-[#fb2b92] bg-opacity-[0.3]"
+                } mr-5  border-[1px] border-[#FB2B92] w-14 h-14 flex items-center justify-center text-white rounded-full text-xl`}
+              >
+                XS
+              </p>
               <p
                 onClick={() => setSize("S")}
                 className={`${
@@ -326,14 +362,6 @@ const SwagDetails = ({ match }) => {
                 } mr-5  border-[1px] border-[#FB2B92] w-14 h-14 flex items-center justify-center text-white rounded-full text-xl`}
               >
                 L
-              </p>
-              <p
-                onClick={() => setSize("XL")}
-                className={`${
-                  Size == "XL" && "bg-[#fb2b92] bg-opacity-[0.3]"
-                } mr-5  border-[1px] border-[#FB2B92] w-14 h-14 flex items-center justify-center text-white rounded-full text-xl`}
-              >
-                XL
               </p>
             </section>
             <section className="flex my-4  z-30">
