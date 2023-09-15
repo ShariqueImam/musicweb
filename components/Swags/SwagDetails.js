@@ -368,26 +368,21 @@ const SwagDetails = ({ match }) => {
               <p
                 onClick={() => setColor("1")}
                 className={`${
-                  Color == "1" && "bg-yellow-600 "
-                } mr-5 ring-2 ring-offset-2  w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
+                  Color == "1" && "bg-yellow-300"
+                } mr-5 border-[1px] w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
               ></p>
-              <p
-                onClick={() => setColor("2")}
-                className={`${
-                  Color == "2" && "bg-cyan-500"
-                } mr-5  ring-2 ring-offset-2  w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
-              ></p>
+
               <p
                 onClick={() => setColor("3")}
                 className={` ${
-                  Color == "3" && "bg-blue-600 "
-                } mr-5  ring-2 ring-offset-2  w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
+                  Color == "3" && "bg-white"
+                } mr-5 border-[1px]  w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
               ></p>
               <p
                 onClick={() => setColor("4")}
                 className={`${
-                  Color == "4" && "bg-green-500 "
-                } mr-5  ring-2 ring-offset-2  w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
+                  Color == "4" && "bg-black"
+                } mr-5 border-[1px]  w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
               ></p>
             </section>
             <button
