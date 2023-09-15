@@ -1,7 +1,16 @@
 import React from "react";
-import SingleCard from "./SingleCard";
+import SingleCard from "./FeaturedSingleCard";
 import Link from "next/link";
+import useWindowSize from "../../hooks/useWindowSize";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import "swiper/css/navigation";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import "swiper/css";
 const Featured = () => {
+  const { width } = useWindowSize();
   const featuredData = [
     {
       id: 100,
@@ -32,23 +41,40 @@ const Featured = () => {
     },
   ];
   return (
-    <div className="z-30">
+    <div className="z-30 flex flex-col items-center justify-center">
       {" "}
       <div className="c swagsHeadingFeatured flex items-center justify-center mt-44 md:mt-32">
-        <p className="text-4xl md:text-8xl text-white edgy">
+        <p className="text-2xl md:text-8xl text-white edgy text-center">
           Featured Products
         </p>
       </div>
-      <div className="flex items-center justify-center">
-        <Link href={`/shop/${featuredData[0].id}`} className="">
-          <SingleCard swagData={featuredData[0]} />
-        </Link>
-        <Link href={`/shop/${featuredData[1].id}`} className="">
-          <SingleCard swagData={featuredData[1]} />
-        </Link>
-        <Link href={`/shop/${featuredData[2].id}`} className="">
-          <SingleCard swagData={featuredData[2]} />
-        </Link>
+      <div className="flex items-center justify-center w-[80vw] md:w-auto">
+        <Swiper
+          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          spaceBetween={0}
+          slidesPerView={width < 500 ? 1 : 3}
+          onSlideChange={() => console.log("slide change")}
+          onSwiper={(swiper) => console.log(swiper)}
+          pagination={{ clickable: true }}
+          className="flex items-center justify-center py-12 md:py-24 z-20 mx-auto w-[100vw] md:w-[80vw] "
+        >
+          <SwiperSlide className="flex items-center justify-center hover:scale-[0.95] transition duration-[300ms] mx-auto">
+            <Link href={`/shop/${featuredData[0].id}`} className="mx-auto flex items-center justify-center">
+              <SingleCard swagData={featuredData[0]} />
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide className="flex items-center justify-center hover:scale-[0.95] transition duration-[300ms] ">
+            {" "}
+            <Link href={`/shop/${featuredData[1].id}`} className="mx-auto flex items-center justify-center">
+              <SingleCard swagData={featuredData[1]} />
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide className="flex items-center justify-center hover:scale-[0.95] transition duration-[300ms]">
+            <Link href={`/shop/${featuredData[2].id}`} className="mx-auto flex items-center justify-center">
+              <SingleCard swagData={featuredData[2]} />
+            </Link>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </div>
   );
