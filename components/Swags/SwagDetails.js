@@ -383,29 +383,35 @@ const SwagDetails = ({ match }) => {
               </p>
             </section>
             <section className="flex my-4  z-30">
-              <div className={`${Color=='1' && 'border-2'} border-yellow-300 rounded-full w-10 h-10  mr-5 flex items-center justify-center`}>
+              <div
+                className={`${
+                  Color == "1" && "border-2"
+                } border-pink-500 rounded-full w-10 h-10  mr-5 flex items-center justify-center`}
+              >
                 <p
                   onClick={() => setColor("1")}
-                  className={`${
-                    Color == "1" && "bg-yellow-300"
-                  } border-[1px] w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
+                  className={`bg-yellow-300 border-[1px] w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
                 ></p>
               </div>
-              <div className={`${Color=='3' && 'border-2'} border-yellow-300 rounded-full w-10 h-10  mr-5 flex items-center justify-center`}>
+              <div
+                className={`${
+                  Color == "3" && "border-2"
+                } border-pink-500 rounded-full w-10 h-10  mr-5 flex items-center justify-center`}
+              >
                 <p
                   onClick={() => setColor("3")}
-                  className={` ${
-                    Color == "3" && "bg-white"
-                  }  border-[1px]  w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
+                  className={`bg-white border-[1px]  w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
                 ></p>{" "}
               </div>
 
-              <div className={`${Color=='4' && 'border-2'} border-yellow-300 rounded-full w-10 h-10  mr-5 flex items-center justify-center`}>
+              <div
+                className={`${
+                  Color == "4" && "border-2"
+                } border-pink-500 rounded-full w-10 h-10  mr-5 flex items-center justify-center`}
+              >
                 <p
                   onClick={() => setColor("4")}
-                  className={`${
-                    Color == "4" && "bg-black"
-                  } border-[1px]  w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
+                  className={` bg-black border-[1px]  w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
                 ></p>{" "}
               </div>
             </section>
