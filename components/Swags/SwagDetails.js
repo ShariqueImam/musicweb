@@ -243,7 +243,7 @@ const SwagDetails = ({ match }) => {
     },
     {
       id: 101,
-      img: "/assets/swags/featured/2.jpeg",
+      img: "/assets/swags/featured/33.png",
       name: "F3 LOGO T-SHIRT",
       price: 40,
       rating: "5",
@@ -252,7 +252,25 @@ const SwagDetails = ({ match }) => {
     },
     {
       id: 102,
-      img: "/assets/swags/featured/3.jpeg",
+      img: "/assets/swags/featured/22.png",
+      name: "F3 LOGO SHORTS",
+      price: 35,
+      rating: "5",
+      quantity: 1,
+      description: "This is the great product and we like it.",
+    },
+    {
+      id: 103,
+      img: "/assets/swags/featured/44.png",
+      name: "F3 LOGO T-SHIRT",
+      price: 40,
+      rating: "5",
+      quantity: 1,
+      description: "This is the great product and we like it.",
+    },
+    {
+      id: 104,
+      img: "/assets/swags/featured/55.png",
       name: "F3 LOGO SHORTS",
       price: 35,
       rating: "5",
@@ -365,25 +383,31 @@ const SwagDetails = ({ match }) => {
               </p>
             </section>
             <section className="flex my-4  z-30">
-              <p
-                onClick={() => setColor("1")}
-                className={`${
-                  Color == "1" && "bg-yellow-300"
-                } mr-5 border-[1px] w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
-              ></p>
+              <div className={`${Color=='1' && 'border-2'} border-yellow-300 rounded-full w-10 h-10  mr-5 flex items-center justify-center`}>
+                <p
+                  onClick={() => setColor("1")}
+                  className={`${
+                    Color == "1" && "bg-yellow-300"
+                  } border-[1px] w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
+                ></p>
+              </div>
+              <div className={`${Color=='3' && 'border-2'} border-yellow-300 rounded-full w-10 h-10  mr-5 flex items-center justify-center`}>
+                <p
+                  onClick={() => setColor("3")}
+                  className={` ${
+                    Color == "3" && "bg-white"
+                  }  border-[1px]  w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
+                ></p>{" "}
+              </div>
 
-              <p
-                onClick={() => setColor("3")}
-                className={` ${
-                  Color == "3" && "bg-white"
-                } mr-5 border-[1px]  w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
-              ></p>
-              <p
-                onClick={() => setColor("4")}
-                className={`${
-                  Color == "4" && "bg-black"
-                } mr-5 border-[1px]  w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
-              ></p>
+              <div className={`${Color=='4' && 'border-2'} border-yellow-300 rounded-full w-10 h-10  mr-5 flex items-center justify-center`}>
+                <p
+                  onClick={() => setColor("4")}
+                  className={`${
+                    Color == "4" && "bg-black"
+                  } border-[1px]  w-8 h-8 flex items-center justify-center text-white rounded-full text-xl`}
+                ></p>{" "}
+              </div>
             </section>
             <button
               className="exploreBtn text-white px-12 md:px-16 py-3 md:py-4 my-4  z-30"

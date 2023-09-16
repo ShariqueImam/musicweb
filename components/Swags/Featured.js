@@ -23,7 +23,7 @@ const Featured = () => {
     },
     {
       id: 101,
-      img: "/assets/swags/featured/2.jpeg",
+      img: "/assets/swags/featured/33.png",
       name: "F3 LOGO T-SHIRT",
       price: 40,
       rating: "5",
@@ -32,7 +32,25 @@ const Featured = () => {
     },
     {
       id: 102,
-      img: "/assets/swags/featured/3.jpeg",
+      img: "/assets/swags/featured/22.png",
+      name: "F3 LOGO SHORTS",
+      price: 35,
+      rating: "5",
+      quantity: 1,
+      description: "This is the great product and we like it.",
+    },
+    {
+      id: 103,
+      img: "/assets/swags/featured/44.png",
+      name: "F3 LOGO T-SHIRT",
+      price: 40,
+      rating: "5",
+      quantity: 1,
+      description: "This is the great product and we like it.",
+    },
+    {
+      id: 104,
+      img: "/assets/swags/featured/55.png",
       name: "F3 LOGO SHORTS",
       price: 35,
       rating: "5",
@@ -52,7 +70,7 @@ const Featured = () => {
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={0}
-          slidesPerView={width < 500 ? 1 : 3}
+          slidesPerView={width < 500 ? 1 : 4}
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log(swiper)}
           pagination={{ clickable: true }}
@@ -72,6 +90,16 @@ const Featured = () => {
           <SwiperSlide className="flex items-center justify-center hover:scale-[0.95] transition duration-[300ms]">
             <Link href={`/shop/${featuredData[2].id}`} className="mx-auto flex items-center justify-center">
               <SingleCard swagData={featuredData[2]} />
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide className="flex items-center justify-center hover:scale-[0.95] transition duration-[300ms]">
+            <Link href={`/shop/${featuredData[3].id}`} className="mx-auto flex items-center justify-center">
+              <SingleCard swagData={featuredData[3]} />
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide className="flex items-center justify-center hover:scale-[0.95] transition duration-[300ms]">
+            <Link href={`/shop/${featuredData[4].id}`} className="mx-auto flex items-center justify-center">
+              <SingleCard swagData={featuredData[4]} />
             </Link>
           </SwiperSlide>
         </Swiper>
