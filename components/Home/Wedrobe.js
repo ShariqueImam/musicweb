@@ -51,19 +51,19 @@ const Wedrobe = () => {
       >
         <section className="flex items-center justify-center w-[100%] flex-col md:flex-row z-30">
           <SingleCard
-            img={"/assets/swags/grey-short1.jpg"}
+            img={"/assets/new/6.jpg"}
             name={"The Light Gray Shorts"}
-            price={"50"}
+            price={"35"}
           />
           <SingleCard
             img={"/assets/swags/hoodie2.jpg"}
             name={"Sacred Heart Hoodie"}
-            price={"65"}
+            price={"45"}
           />
           <SingleCard
             img={"/assets/swags/shirt-design2.jpg"}
-            name={"Sacred Heart Hoodie"}
-            price={"65"}
+            name={"Sacred Heart T Shirt"}
+            price={"25"}
           />
         </section>{" "}
         <button className="mx-auto exploreBtn shopNow px-14 md:px-20 py-3 md:py-4 mt-20 text-white mx-auto self-center z-30">

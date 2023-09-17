@@ -27,7 +27,7 @@ const SingleCard = ({ img, name, price }) => {
 
   return (
     <a
-      href="/swags"
+      href="/shop"
       className="cursor-pointer z-40 flex items-center justify-center "
     >
       <FeaturedBackground1

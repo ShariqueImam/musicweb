@@ -61,7 +61,7 @@ const MainPage = () => {
               {Sign == "2" && <p className={style.iconText}>Aries</p>}
             </div>
           </a>
-          <a href="https://www.elle.com/horoscopes/daily/a60/cancer-daily-horoscope/">
+          <a href="https://www.elle.com/horoscopes/daily/a100/cancer-daily-horoscope/">
             <div
               onMouseEnter={() => setSign("3")}
               onMouseLeave={() => setSign("0")}
@@ -77,7 +77,7 @@ const MainPage = () => {
               {Sign == "3" && <p className={style.iconText}>Cancer</p>}
             </div>
           </a>
-          <a href="https://www.elle.com/horoscopes/daily/a60/capricon-daily-horoscope/">
+          <a href="https://www.elle.com/horoscopes/daily/a106/capricon-daily-horoscope/">
             <div
               onMouseEnter={() => setSign("4")}
               onMouseLeave={() => setSign("0")}

@@ -145,6 +145,15 @@ const Swags = () => {
       quantity: 1,
       description: "This is the great product and we like it.",
     },
+    {
+      id: 51,
+      img: "/assets/swags/black-shorts-design.jpg",
+      name: "Simple Black Shorts",
+      price: 35,
+      rating: "5",
+      quantity: 1,
+      description: "This is the great product and we like it.",
+    },
 
     {
       id: 1,
@@ -298,7 +307,7 @@ const Swags = () => {
           alt=""
           className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-70rem]"
         />
-        <div className="z-0 w-[100%]">
+        <div className="z-20 w-[100%]">
           <Footer />
         </div>
       </div>
