@@ -154,6 +154,15 @@ const Swags = () => {
       quantity: 1,
       description: "This is the great product and we like it.",
     },
+    {
+      id: 51,
+      img: "/assets/swags/grey-shorts-design.jpg",
+      name: "Simple Grey Shorts",
+      price: 35,
+      rating: "5",
+      quantity: 1,
+      description: "This is the great product and we like it.",
+    },
 
     {
       id: 1,

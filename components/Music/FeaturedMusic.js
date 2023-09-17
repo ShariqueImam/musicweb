@@ -110,7 +110,7 @@ const FeaturedMusic = () => {
       </Slide>
       <Slide
         direction="left"
-        className="flex items-center justify-center my-32 md:my-0 z-30"
+        className="flex items-center justify-center my-32 md:my-0 z-40"
         triggerOnce={true}
       >
         <div className="flex items-center justify-around flex-col md:flex-row flex-col-reverse  w-[100%] md:w-[60%] mx-auto z-30">
@@ -127,21 +127,27 @@ const FeaturedMusic = () => {
               </p>
             </section>
             <div className="z-30">
-              <a href="https://music.apple.com/gb/artist/tmjuelz/1234991292">
+              <a
+                href="https://music.apple.com/gb/artist/tmjuelz/1234991292"
+                className="z-50"
+              >
                 <section className="flex items-center justify-start my-3 md:my-5  ">
                   <img src="/assets/music/icon.png" alt="" />{" "}
                   <p className="mx-3 text-white ">Listen On Apple Music</p>{" "}
                   <BsArrowUpRight className="text-white " />
                 </section>
               </a>
-              <a href="https://open.spotify.com/artist/0UFMrFPIyckNR4h3WefoJh">
+              <a
+                href="https://open.spotify.com/artist/0UFMrFPIyckNR4h3WefoJh"
+                className="z-50"
+              >
                 <section className="flex items-center justify-start my-3 md:my-5  ">
                   <img src="/assets/music/icon.png" alt="" />{" "}
                   <p className="mx-3 text-white ">Listen on Spotify</p>{" "}
                   <BsArrowUpRight className="text-white " />
                 </section>
               </a>
-              <a href="https://tidal.com/artist/16021686">
+              <a href="https://tidal.com/artist/16021686" className="z-50">
                 <section className="flex items-center justify-start my-3 md:my-5  ">
                   <img src="/assets/music/icon.png" alt="" />{" "}
                   <p className="mx-3 text-white ">Listen on Tidal</p>{" "}
@@ -150,6 +156,23 @@ const FeaturedMusic = () => {
               </a>
             </div>
           </div>
+          <section className="z-0">
+          <img
+            src="/assets/blue.png"
+            alt=""
+            className="w-[100vw] overflow-hidden absolute z-0 md:hidden mt-[5rem]"
+          />{" "}
+          <img
+            src="/assets/circle2.png"
+            alt=""
+            className="w-[100vw] overflow-hidden absolute z-0 md:hidden  mt-[-30rem] ml-[-15rem]"
+          />
+          <img
+            src="/assets/pink.png"
+            alt=""
+            className="w-[100vw] overflow-hidden absolute z-0 md:hidden mt-[5rem] ml-[-15rem] mb-[20rem]"
+          />
+        </section>
           <div className="hover:scale-[0.95] transition duration-[300ms]">
             <img
               src="/assets/music/featured2.png"
@@ -164,22 +187,7 @@ const FeaturedMusic = () => {
         className="flex items-center justify-center z-30"
         triggerOnce={true}
       >
-        {" "}
-        <img
-          src="/assets/blue.png"
-          alt=""
-          className="w-[100vw] overflow-hidden absolute z-0 md:hidden  md:ml-[50rem] "
-        />{" "}
-        <img
-          src="/assets/circle2.png"
-          alt=""
-          className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-80rem] mt-[-10rem]"
-        />
-        <img
-          src="/assets/pink.png"
-          alt=""
-          className="w-[100vw] overflow-hidden absolute z-0 md:hidden md:ml-[-70rem]"
-        />
+      
         <div className="flex items-center justify-around flex-col md:flex-row w-[100%] md:w-[60%] mx-auto z-30">
           <div className="hover:scale-[0.95] transition duration-[300ms]">
             <img

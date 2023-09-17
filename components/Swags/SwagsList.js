@@ -5,8 +5,8 @@ import { scroller } from "react-scroll";
 const SwagsList = ({ swagData }) => {
   let shirts = swagData.slice(0, 5);
   let hoodies = swagData.slice(5, 9);
-  let shorts = swagData.slice(9, 16);
-  let bags = swagData.slice(16, 21);
+  let shorts = swagData.slice(9, 17);
+  let bags = swagData.slice(17, 22);
   const onScroll = (value) => {
     if (typeof window !== "undefined") {
       scroller.scrollTo(`${value}`, {
