@@ -50,7 +50,6 @@ const SingleCard = ({ img, name, price }) => {
           <h2 className={style.heading}>{name}</h2>
           {/* <h2 className={style.para}>SOLD OUT</h2> */}
           <h2 className={style.para}> &#xa3; {price}</h2>
-          <ReactStars count={5} size={12} color1={"#ffff00"} edit={false} />
         </section>
       </FeaturedBackground1>
     </a>

@@ -329,7 +329,6 @@ const SwagDetails = ({ match }) => {
             <h2 className="font-semibold text-5xl md:text-6xl my-4">
               &#xa3; {item.price}
             </h2>{" "}
-            <ReactStars count={5} size={24} color1={"#4E88FA"} edit={false} />
             <section className="flex my-4  z-30">
               {" "}
               <p
