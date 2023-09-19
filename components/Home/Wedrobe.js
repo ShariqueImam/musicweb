@@ -52,23 +52,20 @@ const Wedrobe = () => {
         <section className="flex items-center justify-center w-[100%] flex-col md:flex-row z-30">
           <SingleCard
             img={"/assets/new/6.jpg"}
-            name={"The Light Gray Shorts"}
+            name={"S1 Gray Shorts"}
             price={"35"}
           />
           <SingleCard
             img={"/assets/swags/hoodie2.jpg"}
-            name={"Sacred Heart Hoodie"}
+            name={"Rhea Ripley Hoodie"}
             price={"45"}
           />
           <SingleCard
             img={"/assets/swags/shirt-design2.jpg"}
-            name={"Sacred Heart T Shirt"}
+            name={"Rhea Ripley T Shirt"}
             price={"25"}
           />
         </section>{" "}
-        <button className="mx-auto exploreBtn shopNow px-14 md:px-20 py-3 md:py-4 mt-20 text-white mx-auto self-center z-30">
-          <Link href="/shop">Shop Now</Link>
-        </button>
         <img
           src="/assets/blue.png"
           alt=""
@@ -79,6 +76,9 @@ const Wedrobe = () => {
           alt=""
           className="w-[100vw] overflow-hidden absolute z-0 md:hidden  ml-[-10rem]"
         />
+        <button className="mx-auto exploreBtn shopNow px-14 md:px-20 py-3 md:py-4 mt-20 text-white mx-auto self-center z-30">
+          <Link href="/shop">Shop Now</Link>
+        </button>
       </Slide>
     </div>
   );

@@ -17,7 +17,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 18,
       img: "/assets/swags/shirt-design-4.jpg",
-      name: "Eye Illustration T-shirt",
+      name: "Joehannesburg T-shirt",
       price: 25,
       rating: "5",
       quantity: 1,
@@ -26,7 +26,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 19,
       img: "/assets/swags/shirt-design.jpg",
-      name: "Madam And Steve T Shirt",
+      name: "S2 T Shirt",
       price: 25,
       rating: "5",
       quantity: 1,
@@ -35,7 +35,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 20,
       img: "/assets/swags/shirt-design2.jpg",
-      name: "Sacred Heart T Shirt",
+      name: "Rhea Ripley T Shirt",
       price: 25,
       rating: "5",
       quantity: 1,
@@ -44,7 +44,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 21,
       img: "/assets/swags/shirt-design3.jpg",
-      name: "The Light T Shirt",
+      name: "S1 T Shirt",
       price: 25,
       rating: "5",
       quantity: 1,
@@ -53,7 +53,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 17,
       img: "/assets/swags/polo-final.jpg",
-      name: "Eye Illustration Blue Polo Shirt",
+      name: "Joehannesburg Blue Polo Shirt",
       price: 40,
       rating: "5",
       quantity: 1,
@@ -62,7 +62,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 13,
       img: "/assets/swags/hoodie2.jpg",
-      name: "Sacred Heart Hoodie",
+      name: "Rhea Ripley Hoodie",
       price: 45,
       rating: "5",
       quantity: 1,
@@ -80,7 +80,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 15,
       img: "/assets/swags/hoodie.jpg",
-      name: "Madam And Steve Hoodie",
+      name: "S2 Hoodie",
       price: 45,
       rating: "5",
       quantity: 1,
@@ -89,7 +89,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 16,
       img: "/assets/swags/Hoodie_Mockup4.jpg",
-      name: "Eye Illustration Hoodie",
+      name: "Joehannesburg Hoodie",
       price: 45,
       rating: "5",
       quantity: 1,
@@ -108,7 +108,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 11,
       img: "/assets/new/2.jpg",
-      name: "Sacred Heart Black Shorts",
+      name: "Rhea Ripley Black Shorts",
       price: 35,
       rating: "5",
       quantity: 1,
@@ -117,7 +117,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 12,
       img: "/assets/new/1.jpg",
-      name: "Madam And Steve Black Shorts",
+      name: "S2 Black Shorts",
       price: 35,
       rating: "5",
       quantity: 1,
@@ -126,7 +126,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 23,
       img: "/assets/new/5.jpg",
-      name: "Madam And Steve Grey Shorts",
+      name: "S2 Grey Shorts",
       price: 35,
       rating: "5",
       quantity: 1,
@@ -144,7 +144,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 6,
       img: "/assets/new/4.jpg",
-      name: "Sacred Heart Grey Shorts",
+      name: "Rhea Ripley Grey Shorts",
       price: 35,
       rating: "5",
       quantity: 1,
@@ -172,7 +172,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 1,
       img: "/assets/swags/bag.jpg",
-      name: "Madam And Steve Bag",
+      name: "S2 Bag",
       price: 25,
       rating: "5",
       quantity: 1,
@@ -181,7 +181,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 2,
       img: "/assets/swags/bag2.jpg",
-      name: "Sacred Heart Bag",
+      name: "Rhea Ripley Bag",
       price: 25,
       rating: "5",
       quantity: 1,
@@ -199,7 +199,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 4,
       img: "/assets/swags/bag4.jpg",
-      name: "Eye Illustration Bag",
+      name: "Joehannesburg Bag",
       price: 25,
       rating: "5",
       quantity: 1,
@@ -209,7 +209,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 22,
       img: "/assets/swags/umbrella.jpg",
-      name: "Eye Illustration Umbrella",
+      name: "Joehannesburg Umbrella",
       price: 35,
       rating: "5",
       quantity: 1,
