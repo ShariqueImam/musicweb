@@ -71,7 +71,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 14,
       img: "/assets/swags/hoodie3.jpg",
-      name: "The Light Hoodie",
+      name: "S1 Hoodie",
       price: 45,
       rating: "5",
       quantity: 1,
@@ -99,7 +99,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 10,
       img: "/assets/new/3.jpg",
-      name: "The Light Black Shorts",
+      name: "S1 Black Shorts",
       price: 35,
       rating: "5",
       quantity: 1,
@@ -135,7 +135,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 5,
       img: "/assets/new/6.jpg",
-      name: "The Light Grey Shorts",
+      name: "S1 Grey Shorts",
       price: 35,
       rating: "5",
       quantity: 1,
@@ -190,7 +190,7 @@ const SwagDetails = ({ match }) => {
     {
       id: 3,
       img: "/assets/swags/bag3.jpg",
-      name: "The Light Bag",
+      name: "S1 Bag",
       price: 25,
       rating: "5",
       quantity: 1,
