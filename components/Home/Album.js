@@ -58,7 +58,7 @@ const Album = () => {
                   <img
                     src="/assets/music/featured1.png"
                     alt=""
-                    className=" scale-[0.81] md:scale-[0.9] w-[35rem] h-[28rem] md:h-[32rem] rounded-xl"
+                    className=" scale-[0.81] md:scale-[0.9] w-[35rem] h-[35rem] md:h-[32rem] rounded-xl"
                   />
                 </div>
               </a>
@@ -69,7 +69,7 @@ const Album = () => {
                   <img
                     src="/assets/music/featured2.png"
                     alt=""
-                    className=" scale-[0.81] md:scale-[0.9] w-[35rem] h-[28rem] md:h-[32rem] rounded-xl"
+                    className=" scale-[0.81] md:scale-[0.9] w-[35rem] h-[35rem] md:h-[32rem] rounded-xl"
                   />
                 </div>
               </a>
@@ -80,7 +80,7 @@ const Album = () => {
                   <img
                     src="/assets/home/album2.png"
                     alt=""
-                    className=" scale-[0.81] md:scale-[0.9] w-[35rem] h-[28rem] md:h-[32rem] rounded-xl"
+                    className=" scale-[0.81] md:scale-[0.9] w-[35rem] h-[35rem] md:h-[32rem] rounded-xl"
                   />
                 </div>
               </a>
@@ -91,7 +91,7 @@ const Album = () => {
                   <img
                     src="/assets/home/album4.png"
                     alt=""
-                    className=" scale-[0.81] md:scale-[0.9] w-[35rem] h-[28rem] md:h-[32rem] rounded-xl"
+                    className=" scale-[0.81] md:scale-[0.9] w-[35rem] h-[35rem] md:h-[32rem] rounded-xl"
                   />
                 </div>
               </a>
