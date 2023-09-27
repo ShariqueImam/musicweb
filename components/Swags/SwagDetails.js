@@ -219,7 +219,7 @@ const SwagDetails = ({ match }) => {
       id: 100,
       img: "/assets/swags/featured/1.jpeg",
       name: "PYKRETE RECORDS T-SHIRT",
-      price: 40,
+      price: 25,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -228,7 +228,7 @@ const SwagDetails = ({ match }) => {
       id: 101,
       img: "/assets/swags/featured/33.png",
       name: "F3 LOGO T-SHIRT",
-      price: 40,
+      price: 45,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -246,7 +246,7 @@ const SwagDetails = ({ match }) => {
       id: 103,
       img: "/assets/swags/featured/44.png",
       name: "F3 LOGO T-SHIRT",
-      price: 40,
+      price: 45,
       rating: "5",
       quantity: 1,
       description: "This is the great product and we like it.",
@@ -322,7 +322,7 @@ const SwagDetails = ({ match }) => {
             <h2 className="text-4xl md:text-4xl font-thin my-7 md:my-3 text-center md:text-left">
               {item.name}
             </h2>
-            <h2 className="font-thin my-4">{item.description}</h2>
+            {/* <h2 className="font-thin my-4">{item.description}</h2> */}
             {/* <h2 className="font-semibold text-5xl md:text-6xl my-4">
               SOLD OUT
             </h2>{" "} */}
