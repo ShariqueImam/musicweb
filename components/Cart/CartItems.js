@@ -13,7 +13,7 @@ const CartItems = () => {
     },
     {
       id: 19,
-      img: "/assets/swags/shirt-design.jpg",
+      img: "/assets/swags/shirt-design-4.jpg",
       name: "Joehannesburg T-shirt",
       price: 25,
       rating: "5",
@@ -22,7 +22,7 @@ const CartItems = () => {
     },
     {
       id: 20,
-      img: "/assets/swags/shirt-design2.jpg",
+      img: "/assets/swags/shirt-design-4.jpg",
       name: "Joehannesburg T-shirt",
       price: 25,
       rating: "5",
