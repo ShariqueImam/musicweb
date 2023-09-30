@@ -10,7 +10,7 @@ const Navbar = (props) => {
   const style = {
     wrapper:
       "text-gray-900  md:py-6 w-[100%] md:w-[85%] bg-opacity-[0.9] mx-auto  font absolute ",
-    navDrawer: "flex  items-center text-white justify-center",
+    navDrawer: "flex  items-center text-white justify-center ",
     mainNav:
       "flex items-center justify-between py-1 md:py-1 hidden  w-[100%] md:w-[90%] mx-auto",
     navList: "w-[60%] flex items-center justify-center ",

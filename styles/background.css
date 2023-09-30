@@ -79,6 +79,17 @@
   width: 100vw;
   transform: scale(0.5);
 }
+.cartTitle {
+  background: url("/cartheading.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: auto;
+  height: 30vh;
+  margin: 6rem;
+  width: 50vw;
+  transform: scale(0.5);
+}
 
 .upcomingTitle {
   background: url("/assets/music/upcoming.png");
@@ -223,6 +234,11 @@
 @media (width<500px) {
   .musicTitle {
     height: 10vh;
+    width: 100vw;
+    transform: scale(0.8);
+  }
+  .cartTitle {
+    height: 14vh;
     width: 100vw;
     transform: scale(0.8);
   }

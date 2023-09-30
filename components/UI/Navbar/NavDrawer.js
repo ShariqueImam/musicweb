@@ -58,8 +58,13 @@ const NavDrawer = (props) => {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        <div className="h-[40vh] font flex flex-col my-8  bg-[#0b0b0b] items-center w-[50vw] md:w-auto">
-          <img src="/assets/white.svg" className="w-[10%] md:w-[45%]" />
+        <div className="h-[40vh] font flex flex-col my-8  bg-[#0b0b0b] items-center w-[50vw]  md:w-[80%] mx-auto ">
+          <section className="flex items-center justify-around md:justify-between w-[100%]">
+            <img src="/assets/white.svg" className="w-[40%] md:w-[45%]" />
+            <Link href={"/cart"}>
+              <img src={"/cart.png"} height={35} width={35} className="mx-4" />
+            </Link>
+          </section>
 
           {/* adding the navs */}
           <ul className="flex  flex-col  bg-[#0b0b0b] mt-12">
@@ -104,9 +109,9 @@ const NavDrawer = (props) => {
               </li>
             </Link>
           </ul>
-          <a href="mailto:purplesixtysix6@gmail.com">
+          <a href="mailto:purplesixtysix6@gmail.com" className="mx-auto">
             <button
-              className="mx-auto exploreBtn text-white px-12 py-2 rounded-lg mt-48 cursor-pointer hover:opacity-[0.9]"
+              className="mx-auto exploreBtn text-white px-12 py-2 rounded-lg mt-48 cursor-pointer hover:opacity-[0.9] text-sm"
               onClick={() => props.onScroll("contact")}
             >
               Leave a Message
@@ -118,13 +123,13 @@ const NavDrawer = (props) => {
   );
 
   return (
-    <div>
+    <div className="z-0">
       {/* below string will set the location of the drawer */}
       {["right"].map((anchor) => (
         <React.Fragment key={anchor}>
           <button className=" px-2  flex items-center justify-between w-[90vw] ">
             <img src="/assets/white.svg" className="w-[20%] md:w-[5%] " />
-            <section className="flex">
+            <section className="flex items-center justify-center ">
               <div className="z-0" onClick={toggleDrawer(anchor, true)}>
                 {
                   <svg
@@ -138,7 +143,15 @@ const NavDrawer = (props) => {
                     <rect y="60" width="100" height="20"></rect>
                   </svg>
                 }
-              </div>
+              </div>{" "}
+              <Link href={"/cart"}>
+                <img
+                  src={"/cart.png"}
+                  height={25}
+                  width={25}
+                  className="mx-4"
+                />
+              </Link>
             </section>
           </button>
           <div className="">
@@ -148,7 +161,7 @@ const NavDrawer = (props) => {
               onClose={toggleDrawer(anchor, false)}
               hideBackdrop={false}
               style={{
-                zIndex: 20,
+                zIndex: 40,
               }}
             >
               {list(anchor)}
